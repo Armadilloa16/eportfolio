@@ -17,7 +17,7 @@ title: Lyron Winderbaum
 email: armadilloa16@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Teaching Portfolio
-baseurl: "eportfolio" # the subpath of your site, e.g. /blog
+baseurl: "/eportfolio" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: LyronW
 github_username:  Armadilloa16
