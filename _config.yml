@@ -16,7 +16,7 @@
 title: Lyron Winderbaum
 email: armadilloa16@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  e-portfolio
+  Teaching Portfolio
 baseurl: "eportfolio" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: LyronW
@@ -24,8 +24,12 @@ github_username:  Armadilloa16
 
 # Build settings
 markdown: kramdown
+theme: minima
 plugins:
   - jekyll-feed
+
+kramdown:
+  auto_ids: true # Auto-generate ID's for headings
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
