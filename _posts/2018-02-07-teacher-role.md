@@ -1,7 +1,7 @@
 ﻿---
 layout: post
 title:  "The Role of a Teacher (C&M Core: Seminar 2)"
-date:   2018-02-6 12:25:00 +1030
+date:   2018-02-7 7:49:00 +1030
 categories: CMcore seminar
 ---
 
