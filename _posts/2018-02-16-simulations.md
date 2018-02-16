@@ -1,7 +1,7 @@
 ﻿---
 layout: post
 title:  "Reflections on Simulations (STiC: Assignment 2)"
-date:   2018-02-17 12:00:00 +1030
+date:   2018-02-16 12:00:00 +1030
 categories: MTeach STiC
 ---
 
