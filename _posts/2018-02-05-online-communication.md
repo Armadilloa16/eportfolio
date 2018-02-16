@@ -2,7 +2,7 @@
 layout: post
 title:  "Online Communication (C&M Core: ICT Task 3)"
 date:   2018-02-05 16:04:00 +1030
-categories: CMcore ICT
+categories: MTeach CMcore ICT
 ---
 
 This task had three questions to reflect and post about, these are included in my post to the discussion board, which follows:
