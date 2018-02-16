@@ -7,7 +7,7 @@ categories: MTeach mathCM
 
 We where set a task to make a video of approximately 3 minutes duration that relates to a topic in a SACE Stage 1 or 2 Mathematics course. The full instructions are [here]({{ site.baseurl }}/files/assignments/VideoTask.pdf).
 
-I uploaded the video I made to YouTube, and it can be accessed through [this link](https://youtu.be/zUL2OBqF-qQ).
+I uploaded the video I made to YouTube, and it can be accessed via [this link](https://youtu.be/zUL2OBqF-qQ).
 
 The tasks also asks that the video be accompanied by a rationale identifying the concepts involved, describes the intended learners, and explains why the video will be effective for learning
 

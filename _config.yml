@@ -21,6 +21,7 @@ baseurl: "/eportfolio" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: LyronW
 github_username:  Armadilloa16
+future: true
 
 # Build settings
 markdown: kramdown
@@ -38,6 +39,7 @@ header_pages:
  - apst.html 
  - reflections.html
 
+ 
 #scholar:
 #  style: apa
 #  locale: en
