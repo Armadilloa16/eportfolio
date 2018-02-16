@@ -1,16 +1,27 @@
-The Feynman Lectures on Physics
+The Feynman Lectures on Physics (Volume I)
 ========================================================
 author: Lyron Winderbaum
 date: 13/02/2018
 autosize: true
 css: custom.css
 
+
+Richard Feynman
+========================================================
+<img src="./images/RichardFeynman-PaineMansionWoods1984_copyrightTamikoThiel_bw.jpg" alt="Richard Feynman" style="float:left">
+
+This photo was taken from the Richard Feynman wiki page, which has [a section on his pedagogy](https://en.wikipedia.org/wiki/Richard_Feynman#Pedagogy), where it mentions how:
+
+"*In April 1966, Feynman delivered an address to the National Science Teachers Association, in which he suggested how students could be made to think like scientists, be open-minded, curious, and especially, to doubt.*"
+
+
+
 Accessibility, Relevance, Suitability
 ========================================================
-- Accessibility: Caltech holds the rights, but the lectures are freely available to [read online](http://www.feynmanlectures.caltech.edu/).
-- Relevance: Aren't these lectures on Physics? Volume I, Chapter 1: "Atoms in Motion" is actually mostly about Chemistry.
-- Suitability: The material in Chapter 1 could be used directly, I think it would be most suitable for SIS but there is also some SU relevant to SACE.
-- Suitability: However I think the best use of this resource would be as an exemplar of thoughtful, concise, and eloquent teaching (writing), and I would use it as inspiration for style and design of my own content.
+- Caltech holds the rights, but the lectures are freely available to [read online](http://www.feynmanlectures.caltech.edu/).
+- Chapter 1 directly relates to a number of SU topics from mostly Stage 1 SACE.
+- Chapters 2 and 3 have alot of material that would be great for SIS in a more general sense.
+- However I think the best use of this resource would be as an exemplar of thoughtful, concise, and eloquent teaching (writing), and I would use it mostly as inspiration for pedagogy, style and design of teaching content.
 
 Application
 ========================================================
