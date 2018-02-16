@@ -15,7 +15,7 @@ In this task we where briefly introduced to a number of different tools:
 - Prezi
 - Sway
 
-had three questions to reflect and post about, these are included in my post to the discussion board, which follows:
+We had three questions to reflect and post responses too, these are included in my post to the discussion board, which follows:
 
 <blockquote markdown="1">
 
