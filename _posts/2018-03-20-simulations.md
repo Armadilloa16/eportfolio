@@ -1,9 +1,10 @@
 ﻿---
 layout: post
 title:  "Reflections on Simulations (STiC: Assignment 2)"
-date:   2018-02-16 12:00:00 +1030
+date:   2018-03-20 12:00:00 +1030
 categories: MTeach STiC
 ---
+TODO: Posted at due date.
 
 We where tasked to reflect on the simulations we did in the tutorials for Student Teacher in the Classroom (STiC), the instructions for the task are available [here]({{ site.baseurl }}/files/assignments/STiCassignment2.pdf). We did three simulations, with increasing amount of misbehavior:
 
