@@ -1,0 +1,41 @@
+\documentclass{article}
+
+\usepackage{tikz}
+\usetikzlibrary{angles, quotes}
+
+\begin{document}
+
+% \begin{tikzpicture}
+%   \draw [red, ultra thick] (3,0.5) circle [radius=0.5];;
+%   \draw [gray] (6,0) arc [radius=1, start angle=45, end angle= 120];
+% \end{tikzpicture}
+
+\begin{tikzpicture}[my angle/.style={draw, <->, angle eccentricity=1.3, angle radius=9mm}, scale = 3]
+                        ]
+% circle
+\draw (0,0) circle (2cm);
+% coordinates
+\coordinate (A)  at ( 2,0);
+\coordinate (B)  at ( 0,2);
+\coordinate (C)  at (-2,0);
+\coordinate (D)  at (0,-2);
+%
+\coordinate (A) at ( 30:2);
+\coordinate (B) at ( 75:2);
+\coordinate (C) at (225:2);
+\coordinate (D) at (330:2);
+
+
+% angles
+\draw[thick]    (A) -- (C) -- (B);
+\pic[my angle, "\Large$\theta$"]      {angle = A--C--B};
+
+\draw[thick]    (A) -- (D) -- (B);
+\pic[my angle, "$?$"]      {angle = A--D--B};
+
+
+\end{tikzpicture}
+
+
+
+\end{document}
