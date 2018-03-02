@@ -9,7 +9,7 @@ We were tasked to make a lesson plan and collate/ create all the required teachi
 
 My [completed lesson plan]({{ site.baseurl }}/files/assignments/mathLessonPlan/MathsLessonPlan.docx) contains links to most of the resources, with the exception of the [worksheet intended to be a physical handout]({{ site.baseurl }}/files/assignments/mathLessonPlan/worksheet.pdf).
 
-The main other resources that are linked in my completed lesson plan include [A GeoGebra worksheet](https://ggbm.at/kpREkaRQ), and [A YouTube video](https://youtu.be/zUL2OBqF-qQ) I made for [a previous task]({{ site.baseurl }}{% post_url 2018-02-16-quadrilaterals-video %}).
+The main other resources that are linked in my completed lesson plan include [a GeoGebra worksheet](https://ggbm.at/kpREkaRQ), and [a YouTube video](https://youtu.be/zUL2OBqF-qQ) I made for [a previous task]({{ site.baseurl }}{% post_url 2018-02-16-quadrilaterals-video %}).
 
 
 
