@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Presentation Tools (C&M Core: ICT Task 6)"
+title:  "Collaboration (C&M Core: ICT Task 6)"
 date:   2018-03-01 12:00:00 +1030
 categories: MTeach CMcore ICT
 ---
