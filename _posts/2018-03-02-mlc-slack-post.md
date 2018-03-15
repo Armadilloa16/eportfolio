@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "MLC Slack Post"
-date:   2018-03-02 12:0:00 +1030
+date:   2018-03-02 12:00:00 +1030
 categories: Blog
 ---
 
