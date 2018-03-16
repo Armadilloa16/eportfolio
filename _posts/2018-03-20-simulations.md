@@ -24,7 +24,7 @@ I uploaded the video I made to YouTube, and it can be accessed via [this link](h
  
 # Simulation 2
 
-The second simulation introuced one misbehaving student in the form of a ransomly assigned attention seeking student. 
+The second simulation introuced one misbehaving student in the form of a ransomly assigned attention seeking student. The misbehviour took me quite off balance and I felt quite overwhelmed actually. 
 
 I uploaded the video I made to YouTube, and it can be accessed via [this link](https://youtu.be/_HuUQ4zd4qI).
 
@@ -32,5 +32,5 @@ I could have done better by preparing better.
 
 # Simulation 3
 
-
+I uploaded the video I made to YouTube, and it can be accessed via [this link](https://youtu.be/__82xps6YJw).
 
