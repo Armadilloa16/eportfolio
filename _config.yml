@@ -20,9 +20,10 @@ description: >- # this means to ignore newlines until "baseurl:"
   A Portfolio of my Teaching and Personal Development
 baseurl: "/eportfolio" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-social_sites.github: TRUE
-twitter_username: LyronW
-github_username:  Armadilloa16
+social_sites:
+  twitter: LyronW
+  github: Armadilloa16
+
 future: true
 
 # Build settings
