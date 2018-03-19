@@ -5,7 +5,7 @@ date:   2018-03-20 12:00:00 +1030
 categories: MTeach STiC
 ---
 
-We where tasked to reflect on the simulations we did in the tutorials for Student Teacher in the Classroom (STiC), the instructions for the task are available [here]({{ site.baseurl }}/files/assignments/STiCassignment2.pdf). We did three simulations, with increasing amount of misbehavior. The first simulation was mostly focused on presentation --- body language, speech mannerisms, praise, using students names, and whiteboard work. The second simulation introduced some misbehaving students to see how we could cope with misbehavior. Each `student' drew a slip of paper telling them how to behave prior to the session. The third simulation introduced even more misbehavior.
+We where tasked to reflect on the simulations we did in the tutorials for Student Teacher Interaction in the Classroom (STiC), the instructions for the task are available [here]({{ site.baseurl }}/files/assignments/STiCassignment2.pdf). We did three simulations, with increasing amount of misbehavior. The first simulation was mostly focused on presentation --- body language, speech mannerisms, praise, using students names, and whiteboard work. The second simulation introduced some misbehaving students to see how we could cope with misbehavior. Each `student' drew a slip of paper telling them how to behave prior to the session. The third simulation introduced even more misbehavior.
 
 I've uploaded videos of the three simulations to YouTube, see the links below:
 - [Video of Simulation 1](https://youtu.be/gq8I5YF4bg4)
