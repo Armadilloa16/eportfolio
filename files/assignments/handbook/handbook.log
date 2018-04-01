@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.20)  1 APR 2018 14:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.20)  1 APR 2018 15:20
 entering extended mode
 **./handbook.tex
 (handbook.tex
@@ -251,7 +251,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.28 ... {3.1.1}Peer Praise}{11}{subsection.3.1.1}
+l.28 ... {3.1.1}Peer Praise}{12}{subsection.3.1.1}
                                                    [1
 
 ] [2])
@@ -262,11 +262,11 @@ l.28 ... {3.1.1}Peer Praise}{11}{subsection.3.1.1}
 Chapter 1.
 [4
 
-]
+] [5]
 Chapter 2.
-[5
+[6
 
-] [6]
+] [7]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 103.
 
  ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
@@ -274,95 +274,96 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 103.
- [7] [8]
-[9] [10]
+ [8] [9]
+[10] [11]
 Chapter 3.
-[11
+[12
 
-] [12] [13]
+] [13] [14]
 Chapter 4.
-<./images/correctiveHierarchy.jpg, id=448, 293.898pt x 218.0145pt>
+<./images/correctiveHierarchy.jpg, id=487, 293.898pt x 218.0145pt>
 File: ./images/correctiveHierarchy.jpg Graphic file (type jpg)
 <use ./images/correctiveHierarchy.jpg>
 Package pdftex.def Info: ./images/correctiveHierarchy.jpg  used on input line 3
-52.
+50.
 (pdftex.def)             Requested size: 293.89726pt x 218.01395pt.
+[15
 
-LaTeX Warning: Reference `sec:direct_appeal_c' on page 14 undefined on input li
-ne 370.
-
-[14
-
-] [15 <./images/correctiveHierarchy.jpg>]
+] [16 <./images/correctiveHierarchy.jpg>]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 418.
- [16] [17]
+(Font)              <5> on input line 379.
+ [17] [18]
 Chapter 5.
-[18
+[19
 
 ]
+Overfull \hbox (30.53572pt too wide) in paragraph at lines 534--534
+[]\OT1/cmr/bx/n/17.28 Underachieving Boys: The Play's The Thing. 
+ []
+
+[20]
 Chapter 6.
 
-Overfull \hbox (9.96579pt too wide) in paragraph at lines 477--477
+Overfull \hbox (9.96579pt too wide) in paragraph at lines 582--582
 []\OT1/cmr/bx/n/17.28 Vygotsky's Zone of Prox-i-mal De-vel-op-ment
  []
 
 
-LaTeX Warning: Reference `sec:scaffolding' on page 19 undefined on input line 4
-81.
-
-[19
-
-] [20]
-
 LaTeX Warning: Reference `sec:scaffolding' on page 21 undefined on input line 5
-12.
+86.
+
+[21
+
+] [22]
+
+LaTeX Warning: Reference `sec:scaffolding' on page 23 undefined on input line 6
+17.
 
 
-LaTeX Warning: Reference `praise_s' on page 21 undefined on input line 512.
+LaTeX Warning: Reference `praise_s' on page 23 undefined on input line 617.
 
 
-Overfull \hbox (6.90573pt too wide) in paragraph at lines 512--513
+Overfull \hbox (6.90573pt too wide) in paragraph at lines 617--618
 \OT1/cmr/m/n/12 with-drawl be-haviours): through scaf-fold-ing ([]), care-ful d
 e-sign of lessons
  []
 
-[21] [22
+[23] [24
 
 
 ]
 Appendix A.
-[23
+[25
 
 ]
 Appendix B.
-(handbook.bbl [24
+(handbook.bbl [26
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 557.
- [25
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 662.
+ [27
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 557.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 662.
  (handbook.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 557.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 557.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 662.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 662.
 Package rerunfilecheck Info: File `handbook.out' has not changed.
-(rerunfilecheck)             Checksum: 6D332B1F755EC1CA9BC22E432736922E;4500.
+(rerunfilecheck)             Checksum: DAB7A64AA8A731826608D487C48D192E;5188.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 557.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 662.
  ) 
 Here is how much of TeX's memory you used:
- 5464 strings out of 493308
- 81043 string characters out of 3138768
- 164517 words of memory out of 3000000
- 8890 multiletter control sequences out of 15000+200000
+ 5480 strings out of 493308
+ 81225 string characters out of 3138768
+ 165594 words of memory out of 3000000
+ 8897 multiletter control sequences out of 15000+200000
  9761 words of font info for 34 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,7n,28p,949b,381s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 28i,7n,31p,1032b,381s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX
@@ -371,9 +372,9 @@ s/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
 nts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
 mti12.pfb>
-Output written on handbook.pdf (26 pages, 423862 bytes).
+Output written on handbook.pdf (28 pages, 431837 bytes).
 PDF statistics:
- 587 PDF objects out of 1000 (max. 8388607)
- 98 named destinations out of 1000 (max. 500000)
- 534 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 637 PDF objects out of 1000 (max. 8388607)
+ 107 named destinations out of 1000 (max. 500000)
+ 590 words of extra memory for PDF output out of 10000 (max. 10000000)
 
