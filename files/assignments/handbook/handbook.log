@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.20)  2 APR 2018 19:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.20)  2 APR 2018 19:46
 entering extended mode
 **./handbook.tex
 (handbook.tex
@@ -332,7 +332,7 @@ Chapter 3.
 
 ] [12] [13]
 Chapter 4.
-<./images/correctiveHierarchy.jpg, id=469, 293.898pt x 218.0145pt>
+<./images/correctiveHierarchy.jpg, id=470, 293.898pt x 218.0145pt>
 File: ./images/correctiveHierarchy.jpg Graphic file (type jpg)
 <use ./images/correctiveHierarchy.jpg>
 Package pdftex.def Info: ./images/correctiveHierarchy.jpg  used on input line 3
@@ -423,9 +423,9 @@ blic/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
 nts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
 mti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pf
 b>
-Output written on handbook.pdf (34 pages, 497348 bytes).
+Output written on handbook.pdf (34 pages, 501575 bytes).
 PDF statistics:
- 861 PDF objects out of 1000 (max. 8388607)
+ 862 PDF objects out of 1000 (max. 8388607)
  116 named destinations out of 1000 (max. 500000)
  550 words of extra memory for PDF output out of 10000 (max. 10000000)
 
