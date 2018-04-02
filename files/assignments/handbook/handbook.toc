@@ -45,27 +45,34 @@
 \contentsline {section}{\numberline {4.9}Give Choice}{16}{section.4.9}
 \contentsline {section}{\numberline {4.10}Apply Sanctions}{16}{section.4.10}
 \contentsline {chapter}{\numberline {5}Video Examples}{17}{chapter.5}
-\contentsline {section}{\numberline {5.1}Praise and Preparation (Teaching with Bayley --- Amy)}{17}{section.5.1}
-\contentsline {section}{\numberline {5.2}Manage that Class (Teaching with Bayley --- Jenny)}{17}{section.5.2}
-\contentsline {section}{\numberline {5.3}Argument Tennis (Phil Beadle)}{17}{section.5.3}
-\contentsline {section}{\numberline {5.4}Attension Seekers (Teaching with Bayley --- French Teacher)}{18}{section.5.4}
-\contentsline {section}{\numberline {5.5}Chatty Girls (Teaching with Bayley --- Maths Class)}{18}{section.5.5}
-\contentsline {section}{\numberline {5.6}Tough Love (David Torn)}{18}{section.5.6}
-\contentsline {section}{\numberline {5.7}Underachieving Boys: The Play's The Thing.}{18}{section.5.7}
-\contentsline {chapter}{\numberline {6}Theories and Theorists}{19}{chapter.6}
-\contentsline {section}{\numberline {6.1}Blooms Taxonomy}{19}{section.6.1}
-\contentsline {section}{\numberline {6.2}Garder's Multiple Intelligences}{19}{section.6.2}
-\contentsline {section}{\numberline {6.3}Thomas Gordon}{19}{section.6.3}
-\contentsline {section}{\numberline {6.4}Vygotsky's Zone of Proximal Development (ZPD)}{20}{section.6.4}
-\contentsline {section}{\numberline {6.5}Jacob Kounin}{20}{section.6.5}
-\contentsline {section}{\numberline {6.6}Dreikurs' Social Discipline Model (in the context of chronic misbehaviour management)}{21}{section.6.6}
-\contentsline {chapter}{Appendices}{22}{section*.2}
-\contentsline {chapter}{\numberline {A}Elaboration on Stategies with Examples}{23}{Appendix.1.A}
-\contentsline {section}{\numberline {A.1}Manage your Time}{23}{section.1.A.1}
-\contentsline {section}{\numberline {A.2}One-on-One}{23}{section.1.A.2}
-\contentsline {chapter}{\numberline {B}More Theories and Theorists}{24}{Appendix.1.B}
-\contentsline {section}{\numberline {B.1}Maslow's Hierarchy of Needs}{24}{section.1.B.1}
-\contentsline {section}{\numberline {B.2}Glasser's Choice Theory}{24}{section.1.B.2}
-\contentsline {section}{\numberline {B.3}Piaget's Developmental Stages}{24}{section.1.B.3}
-\contentsline {section}{\numberline {B.4}Skinners' Operant Conditioning}{24}{section.1.B.4}
-\contentsline {section}{\numberline {B.5}Cognititive Load Theory}{24}{section.1.B.5}
+\contentsline {chapter}{\numberline {6}Theories and Theorists}{20}{chapter.6}
+\contentsline {section}{\numberline {6.1}Blooms Taxonomy}{20}{section.6.1}
+\contentsline {section}{\numberline {6.2}Garder's Multiple Intelligences}{20}{section.6.2}
+\contentsline {section}{\numberline {6.3}Skinners' Operant Conditioning}{20}{section.6.3}
+\contentsline {section}{\numberline {6.4}Thomas Gordon}{20}{section.6.4}
+\contentsline {section}{\numberline {6.5}Vygotsky's Zone of Proximal Development (ZPD)}{21}{section.6.5}
+\contentsline {section}{\numberline {6.6}Jacob Kounin}{21}{section.6.6}
+\contentsline {section}{\numberline {6.7}Dreikurs' Social Discipline Model (in the context of chronic misbehaviour management)}{22}{section.6.7}
+\contentsline {chapter}{Appendices}{24}{section*.2}
+\contentsline {chapter}{\numberline {A}Video Example Synopses}{25}{Appendix.1.A}
+\contentsline {section}{\numberline {A.1}Praise and Preparation}{25}{section.1.A.1}
+\contentsline {section}{\numberline {A.2}Too Much Talk}{26}{section.1.A.2}
+\contentsline {section}{\numberline {A.3}Manage that Class}{27}{section.1.A.3}
+\contentsline {section}{\numberline {A.4}A Lesson From The Best}{27}{section.1.A.4}
+\contentsline {section}{\numberline {A.5}Attention Seekers}{28}{section.1.A.5}
+\contentsline {section}{\numberline {A.6}Chatty Girls (Teaching with Bayley --- Maths Class)}{29}{section.1.A.6}
+\contentsline {section}{\numberline {A.7}Tough Love}{29}{section.1.A.7}
+\contentsline {section}{\numberline {A.8}More Videos I haven't Reviewed Yet}{30}{section.1.A.8}
+\contentsline {subsection}{\numberline {A.8.1}The Need for Structure}{30}{subsection.1.A.8.1}
+\contentsline {subsection}{\numberline {A.8.2}Love 'em or loathe 'em}{30}{subsection.1.A.8.2}
+\contentsline {subsection}{\numberline {A.8.3}Getting Involved}{30}{subsection.1.A.8.3}
+\contentsline {subsection}{\numberline {A.8.4}Key Instructions}{31}{subsection.1.A.8.4}
+\contentsline {subsection}{\numberline {A.8.5}The Play's The Thing}{31}{subsection.1.A.8.5}
+\contentsline {chapter}{\numberline {B}Elaboration on Stategies with Examples}{32}{Appendix.1.B}
+\contentsline {section}{\numberline {B.1}Manage your Time}{32}{section.1.B.1}
+\contentsline {section}{\numberline {B.2}One-on-One}{32}{section.1.B.2}
+\contentsline {chapter}{\numberline {C}More Theories and Theorists}{33}{Appendix.1.C}
+\contentsline {section}{\numberline {C.1}Maslow's Hierarchy of Needs}{33}{section.1.C.1}
+\contentsline {section}{\numberline {C.2}Glasser's Choice Theory}{33}{section.1.C.2}
+\contentsline {section}{\numberline {C.3}Piaget's Developmental Stages}{33}{section.1.C.3}
+\contentsline {section}{\numberline {C.4}Cognititive Load Theory}{33}{section.1.C.4}
