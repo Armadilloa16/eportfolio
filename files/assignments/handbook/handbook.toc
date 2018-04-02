@@ -1,78 +1,68 @@
 \contentsline {chapter}{\numberline {1}Introduction}{4}{chapter.1}
-\contentsline {chapter}{\numberline {2}Preventative Strategies}{5}{chapter.2}
-\contentsline {section}{\numberline {2.1}Praise}{5}{section.2.1}
-\contentsline {section}{\numberline {2.2}Show Interest}{5}{section.2.2}
-\contentsline {section}{\numberline {2.3}Use Names}{5}{section.2.3}
-\contentsline {section}{\numberline {2.4}Rapport with Students}{6}{section.2.4}
-\contentsline {section}{\numberline {2.5}Establish Routines and Procedures}{6}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Democratic setting of classroom practices}{6}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Set clear Expectations}{6}{subsection.2.5.2}
-\contentsline {section}{\numberline {2.6}Use of Language}{6}{section.2.6}
-\contentsline {subsection}{\numberline {2.6.1}Clear Instructions}{7}{subsection.2.6.1}
-\contentsline {subsection}{\numberline {2.6.2}Clear Materials}{7}{subsection.2.6.2}
-\contentsline {section}{\numberline {2.7}Non-verbals}{7}{section.2.7}
-\contentsline {subsection}{\numberline {2.7.1}Enthusiasm}{8}{subsection.2.7.1}
-\contentsline {section}{\numberline {2.8}Preparation}{8}{section.2.8}
-\contentsline {subsection}{\numberline {2.8.1}Relevance}{8}{subsection.2.8.1}
-\contentsline {subsection}{\numberline {2.8.2}Fun}{8}{subsection.2.8.2}
-\contentsline {subsection}{\numberline {2.8.3}Variety}{8}{subsection.2.8.3}
-\contentsline {subsection}{\numberline {2.8.4}Structure}{8}{subsection.2.8.4}
-\contentsline {section}{\numberline {2.9}Lesson Movement / Momentum}{9}{section.2.9}
-\contentsline {subsection}{\numberline {2.9.1}Start Well}{9}{subsection.2.9.1}
-\contentsline {section}{\numberline {2.10}Time Management}{9}{section.2.10}
-\contentsline {section}{\numberline {2.11}Model Appropriate Behaviors}{9}{section.2.11}
-\contentsline {chapter}{\numberline {3}Supportive Strategies}{10}{chapter.3}
-\contentsline {section}{\numberline {3.1}Praise}{10}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Peer Praise}{10}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Praise Peers}{10}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}Be Compassionate}{11}{section.3.2}
-\contentsline {section}{\numberline {3.3}Scaffolding}{11}{section.3.3}
-\contentsline {section}{\numberline {3.4}Proximity (``The Whisper Technique'')}{11}{section.3.4}
-\contentsline {section}{\numberline {3.5}Distraction}{12}{section.3.5}
-\contentsline {section}{\numberline {3.6}Tactical Ignoring}{12}{section.3.6}
-\contentsline {section}{\numberline {3.7}Wait Time}{12}{section.3.7}
-\contentsline {section}{\numberline {3.8}Challenge Students}{12}{section.3.8}
-\contentsline {section}{\numberline {3.9}Use Humour to Depotentiate}{12}{section.3.9}
-\contentsline {chapter}{\numberline {4}Corrective Strategies}{13}{chapter.4}
-\contentsline {section}{\numberline {4.1}Eye Contact}{13}{section.4.1}
-\contentsline {section}{\numberline {4.2}Calling on Student}{13}{section.4.2}
-\contentsline {section}{\numberline {4.3}Questioning Awareness of Effect}{15}{section.4.3}
-\contentsline {section}{\numberline {4.4}Gordons I-Messages}{15}{section.4.4}
-\contentsline {section}{\numberline {4.5}Reminder of Rules}{15}{section.4.5}
-\contentsline {section}{\numberline {4.6}Direct Appeal}{15}{section.4.6}
-\contentsline {section}{\numberline {4.7}Glassers Triplets}{15}{section.4.7}
-\contentsline {section}{\numberline {4.8}Private Talk}{16}{section.4.8}
-\contentsline {section}{\numberline {4.9}Give Choice}{16}{section.4.9}
-\contentsline {section}{\numberline {4.10}Apply Sanctions}{16}{section.4.10}
-\contentsline {chapter}{\numberline {5}Video Examples}{17}{chapter.5}
-\contentsline {chapter}{\numberline {6}Theories and Theorists}{20}{chapter.6}
-\contentsline {section}{\numberline {6.1}Blooms Taxonomy}{20}{section.6.1}
-\contentsline {section}{\numberline {6.2}Garder's Multiple Intelligences}{20}{section.6.2}
-\contentsline {section}{\numberline {6.3}Skinners' Operant Conditioning}{20}{section.6.3}
-\contentsline {section}{\numberline {6.4}Thomas Gordon}{20}{section.6.4}
-\contentsline {section}{\numberline {6.5}Vygotsky's Zone of Proximal Development (ZPD)}{21}{section.6.5}
-\contentsline {section}{\numberline {6.6}Jacob Kounin}{21}{section.6.6}
-\contentsline {section}{\numberline {6.7}Dreikurs' Social Discipline Model (in the context of chronic misbehaviour management)}{22}{section.6.7}
-\contentsline {chapter}{Appendices}{24}{section*.2}
-\contentsline {chapter}{\numberline {A}Video Example Synopses}{25}{Appendix.1.A}
-\contentsline {section}{\numberline {A.1}Praise and Preparation}{25}{section.1.A.1}
-\contentsline {section}{\numberline {A.2}Too Much Talk}{26}{section.1.A.2}
-\contentsline {section}{\numberline {A.3}Manage that Class}{27}{section.1.A.3}
-\contentsline {section}{\numberline {A.4}A Lesson From The Best}{27}{section.1.A.4}
-\contentsline {section}{\numberline {A.5}Attention Seekers}{28}{section.1.A.5}
-\contentsline {section}{\numberline {A.6}Chatty Girls (Teaching with Bayley --- Maths Class)}{29}{section.1.A.6}
-\contentsline {section}{\numberline {A.7}Tough Love}{29}{section.1.A.7}
-\contentsline {section}{\numberline {A.8}More Videos I haven't Reviewed Yet}{30}{section.1.A.8}
-\contentsline {subsection}{\numberline {A.8.1}The Need for Structure}{30}{subsection.1.A.8.1}
-\contentsline {subsection}{\numberline {A.8.2}Love 'em or loathe 'em}{30}{subsection.1.A.8.2}
-\contentsline {subsection}{\numberline {A.8.3}Getting Involved}{30}{subsection.1.A.8.3}
-\contentsline {subsection}{\numberline {A.8.4}Key Instructions}{31}{subsection.1.A.8.4}
-\contentsline {subsection}{\numberline {A.8.5}The Play's The Thing}{31}{subsection.1.A.8.5}
-\contentsline {chapter}{\numberline {B}Elaboration on Stategies with Examples}{32}{Appendix.1.B}
-\contentsline {section}{\numberline {B.1}Manage your Time}{32}{section.1.B.1}
-\contentsline {section}{\numberline {B.2}One-on-One}{32}{section.1.B.2}
-\contentsline {chapter}{\numberline {C}More Theories and Theorists}{33}{Appendix.1.C}
-\contentsline {section}{\numberline {C.1}Maslow's Hierarchy of Needs}{33}{section.1.C.1}
-\contentsline {section}{\numberline {C.2}Glasser's Choice Theory}{33}{section.1.C.2}
-\contentsline {section}{\numberline {C.3}Piaget's Developmental Stages}{33}{section.1.C.3}
-\contentsline {section}{\numberline {C.4}Cognititive Load Theory}{33}{section.1.C.4}
+\contentsline {chapter}{\numberline {2}Preventative Strategies}{6}{chapter.2}
+\contentsline {section}{\numberline {2.1}Praise}{6}{section.2.1}
+\contentsline {section}{\numberline {2.2}Show Interest}{6}{section.2.2}
+\contentsline {section}{\numberline {2.3}Use Names}{6}{section.2.3}
+\contentsline {section}{\numberline {2.4}Rapport with Students}{7}{section.2.4}
+\contentsline {section}{\numberline {2.5}Establish Routines and Procedures}{7}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Democratic Setting of Classroom Practices}{7}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Set Clear Expectations}{7}{subsection.2.5.2}
+\contentsline {section}{\numberline {2.6}Use of Language}{7}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}Clear Instructions}{8}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.6.2}Clear Materials}{8}{subsection.2.6.2}
+\contentsline {section}{\numberline {2.7}Non-verbals}{8}{section.2.7}
+\contentsline {subsection}{\numberline {2.7.1}Enthusiasm}{9}{subsection.2.7.1}
+\contentsline {section}{\numberline {2.8}Preparation}{9}{section.2.8}
+\contentsline {subsection}{\numberline {2.8.1}Relevance}{9}{subsection.2.8.1}
+\contentsline {subsection}{\numberline {2.8.2}Fun}{9}{subsection.2.8.2}
+\contentsline {subsection}{\numberline {2.8.3}Variety}{9}{subsection.2.8.3}
+\contentsline {subsection}{\numberline {2.8.4}Structure}{9}{subsection.2.8.4}
+\contentsline {section}{\numberline {2.9}Lesson Movement / Momentum}{10}{section.2.9}
+\contentsline {subsection}{\numberline {2.9.1}Start Well}{10}{subsection.2.9.1}
+\contentsline {section}{\numberline {2.10}Time Management}{10}{section.2.10}
+\contentsline {section}{\numberline {2.11}Model Appropriate Behaviors}{10}{section.2.11}
+\contentsline {chapter}{\numberline {3}Supportive Strategies}{11}{chapter.3}
+\contentsline {section}{\numberline {3.1}Praise}{11}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Peer Praise}{11}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Praise Peers}{11}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Be Compassionate}{12}{section.3.2}
+\contentsline {section}{\numberline {3.3}Scaffolding}{12}{section.3.3}
+\contentsline {section}{\numberline {3.4}Proximity (``The Whisper Technique'')}{12}{section.3.4}
+\contentsline {section}{\numberline {3.5}Distraction}{13}{section.3.5}
+\contentsline {section}{\numberline {3.6}Tactical Ignoring}{13}{section.3.6}
+\contentsline {section}{\numberline {3.7}Wait Time}{13}{section.3.7}
+\contentsline {section}{\numberline {3.8}Challenge Students}{13}{section.3.8}
+\contentsline {section}{\numberline {3.9}Use Humour to Depotentiate}{13}{section.3.9}
+\contentsline {chapter}{\numberline {4}Corrective Strategies}{14}{chapter.4}
+\contentsline {section}{\numberline {4.1}Eye Contact}{14}{section.4.1}
+\contentsline {section}{\numberline {4.2}Calling on Student}{14}{section.4.2}
+\contentsline {section}{\numberline {4.3}Questioning Awareness of Effect}{16}{section.4.3}
+\contentsline {section}{\numberline {4.4}Gordons I-Messages}{16}{section.4.4}
+\contentsline {section}{\numberline {4.5}Reminder of Rules}{16}{section.4.5}
+\contentsline {section}{\numberline {4.6}Direct Appeal}{16}{section.4.6}
+\contentsline {section}{\numberline {4.7}Glassers Triplets}{16}{section.4.7}
+\contentsline {section}{\numberline {4.8}Private Talk}{17}{section.4.8}
+\contentsline {section}{\numberline {4.9}Give Choice}{17}{section.4.9}
+\contentsline {section}{\numberline {4.10}Apply Sanctions}{17}{section.4.10}
+\contentsline {chapter}{\numberline {5}Video Examples}{18}{chapter.5}
+\contentsline {chapter}{\numberline {6}Theories and Theorists}{21}{chapter.6}
+\contentsline {section}{\numberline {6.1}Skinners' Operant Conditioning}{21}{section.6.1}
+\contentsline {section}{\numberline {6.2}Thomas Gordon}{21}{section.6.2}
+\contentsline {section}{\numberline {6.3}Vygotsky's ZPD}{22}{section.6.3}
+\contentsline {section}{\numberline {6.4}Jacob Kounin}{22}{section.6.4}
+\contentsline {section}{\numberline {6.5}Dreikurs' Social Discipline Model (in the context of chronic misbehaviour management)}{23}{section.6.5}
+\contentsline {chapter}{Appendices}{25}{section*.2}
+\contentsline {chapter}{\numberline {A}Video Example Synopses}{26}{Appendix.1.A}
+\contentsline {section}{\numberline {A.1}Praise and Preparation}{26}{section.1.A.1}
+\contentsline {section}{\numberline {A.2}Too Much Talk}{27}{section.1.A.2}
+\contentsline {section}{\numberline {A.3}Manage that Class}{28}{section.1.A.3}
+\contentsline {section}{\numberline {A.4}A Lesson From The Best}{28}{section.1.A.4}
+\contentsline {section}{\numberline {A.5}Attention Seekers}{29}{section.1.A.5}
+\contentsline {section}{\numberline {A.6}Chatty Girls (Teaching with Bayley --- Maths Class)}{30}{section.1.A.6}
+\contentsline {section}{\numberline {A.7}Tough Love}{30}{section.1.A.7}
+\contentsline {section}{\numberline {A.8}More Videos I haven't Reviewed Yet}{31}{section.1.A.8}
+\contentsline {subsection}{\numberline {A.8.1}The Need for Structure}{31}{subsection.1.A.8.1}
+\contentsline {subsection}{\numberline {A.8.2}Love 'em or loathe 'em}{31}{subsection.1.A.8.2}
+\contentsline {subsection}{\numberline {A.8.3}Getting Involved}{31}{subsection.1.A.8.3}
+\contentsline {subsection}{\numberline {A.8.4}Key Instructions}{32}{subsection.1.A.8.4}
+\contentsline {subsection}{\numberline {A.8.5}The Play's The Thing}{32}{subsection.1.A.8.5}

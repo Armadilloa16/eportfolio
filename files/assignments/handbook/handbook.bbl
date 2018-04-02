@@ -11,4 +11,25 @@ Levin, J. and Nolan, J.~F. (2005).
   Decision-Making Model}.
 \newblock Pearson.
 
+\bibitem[Skinner, 1950]{Skinner1950}
+Skinner, B.~F. (1950).
+\newblock Are theories of learning necessary?
+\newblock {\em Psychological review}, 57(4):193.
+
+\bibitem[Skinner, 2011]{Skinner2011}
+Skinner, B.~F. (2011).
+\newblock {\em About behaviorism}.
+\newblock Vintage.
+
+\bibitem[Thorndike, 1898]{Thorndike1898}
+Thorndike, E.~L. (1898).
+\newblock Animal intelligence: an experimental study of the associative
+  processes in animals.
+\newblock {\em The Psychological Review: Monograph Supplements}, 2(4):i.
+
+\bibitem[Vygotsky, 1978]{Vygotsky1978}
+Vygotsky, L. (1978).
+\newblock Interaction between learning and development.
+\newblock {\em Readings on the development of children}, 23(3):34--41.
+
 \end{thebibliography}
