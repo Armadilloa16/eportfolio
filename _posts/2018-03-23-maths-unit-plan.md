@@ -26,5 +26,5 @@ I had some other ideas for summative investigations, so I thought I'd include on
 
 We learnt that the angle at the circumference of a circle subtended by an arc of that circle is equal, so given two points, which we take to be the endpoints of an arc, we can presume that there is a circular path of points at which the angles subtended by that arc are all equal. However there are multiple circles that can be drawn through the same two points: how does the radius of the circle relate to the angle subtended by the arc? Is this related to the arc length? Does this relate to the total circumference of the circle? Etc.
 
-
+TODO: Add APST Standard links
 
