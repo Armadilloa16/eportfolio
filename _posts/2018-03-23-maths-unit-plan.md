@@ -11,6 +11,15 @@ I chose Stage 1 Mathematics Topic 8: Geometry, which is the same topic I did [my
 
 Here are [the unit plan I submitted]({{ site.baseurl }}/files/assignments/mathUnitPlan/Stage 1 Mathematics Topic 8 Geometry --- Unit Plan.odt) and [the associated summative investigation on circular inversion]({{ site.baseurl }}/files/assignments/mathUnitPlan/Summative Investigation Task --- Circular Inversion.odt). 
 
+EDIT: I realised the links to the GeoGebra applets in the submitted version were not working, so I sent Ian the new links, which he said worked fine. :) The new links were:
+ - (Points): [https://ggbm.at/pmNCt2UK](https://ggbm.at/pmNCt2UK)
+ - (Line Segments): [https://ggbm.at/fsbGpUna](https://ggbm.at/fsbGpUna)
+ - (Triangles): [https://ggbm.at/MFKKj6zS](https://ggbm.at/MFKKj6zS)
+ - (Circles): [https://ggbm.at/bGHdZaF5](https://ggbm.at/bGHdZaF5)
+
+
+
+
 I had some other ideas for summative investigations, so I thought I'd include one particularly nice one here in case I ever wanted to come back and use it, the beginning seeds I had for it are below:
 
 # Angles subtended by an arc, arcs through two points?
