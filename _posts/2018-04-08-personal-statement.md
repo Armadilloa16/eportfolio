@@ -16,7 +16,7 @@ The Seminar 8 task was to:
 
 5. Begin working on your Personal Statement: My philosophy of teaching - what kind of teacher am I/do I want to be and why? What is the role of a teacher in the process of learning? and post this to your e-portfolio, remember this is very much a first attempt and will continue to change and develop as you grow as an educator.
 
-I had a go and drafted a personal statement on March 16 2018, which I just uploaded to [the splash page of my eportfolio](https://armadilloa16.github.io/eportfolio/). Although I originally started by structuring it around the 3 key domains of teaching from the APST, as I edited it evolved beyond that, although some remnants of it remain and each of the domains are still discussed, just not used for structure.
+I had a go and drafted a personal statement on March 16 2018, which I just uploaded to [the splash page of my eportfolio]({{ site.baseurl }}{% link index.md %}). Although I originally started by structuring it around the 3 key domains of teaching from the APST, as I edited it evolved beyond that, although some remnants of it remain and each of the domains are still discussed, just not used for structure.
 
 
 
