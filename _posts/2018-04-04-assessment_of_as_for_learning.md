@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Assessment of/as/for Learning (C&M Core: Seminar 4)"
+title:  "Assessment OF/AS/FOR Learning (C&M Core: Seminar 4)"
 date:   2018-04-04 12:00:00 +1030
 categories: MTeach CMcore seminar
 ---
@@ -24,10 +24,6 @@ Examples,
  - Assessment **as** learning: Leading questions can often be used to scaffold students learning, so what seems like assessment (asking them a question) can actually be a learning exercise. A more traditional example might be something like a research assignment --- although it is an assessment task, the process of completing the task will result in learning as the student researches the topic.
  - Assessment **for** learning: formative assessment, as emphasised by [^Black2010], is the classic example. A pre-quiz for example, when the first thing you do in a subject or topic is a formative quiz the purpose will often be to inform the teacher about the existing knowledge of the students, so that they can adjust the scaffolding and/ or revision needed **for** their effective learning.
 
-
- 
- 
- 
 
 References:
 
