@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<div class="blog list">
+    <h1>Reflections Under #{{ page.tag }}</h1>
+	  
+	<h2>Subcategories:</h2> 
+	  
+	<div class="tags" style="margin-bottom:1cm;">
+		{% for category in page.categories %}
+			<span class="tag">
+				<a href="/category/{{ category }}">#{{ category }}</a>
+			</span>
+		{% endfor %}
+	</div>
+	
+	<ul class="post-list">
+		{% for post in site.categories[page.tag] %}
+			{% include post_preview.html %}
+		{% endfor %}
+	</ul>	
+</div>
+

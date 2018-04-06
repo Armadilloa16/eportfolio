@@ -42,7 +42,19 @@ header_pages:
  - apst.html 
  - reflections.html
 
+collections:
+  category:
+    output: true
  
+defaults:
+  -
+    scope:
+      path: ""
+      type: category
+    values:
+      layout: "category"
+
+
 #scholar:
 #  style: apa
 #  locale: en
