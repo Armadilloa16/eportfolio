@@ -2,7 +2,7 @@
 layout: post
 title:  "Stage 2 Chemistry Topic 3: Organic and Biological Chemistry, Part 1: Subtopics 3.1 - 3.6 (Chemistry C&M: Topic Folio)"
 date:   2018-03-30 12:00:00 +1030
-categories: chemCM
+categories: MTeach chemCM
 ---
 
 We were tasked to make a topic folio: essentially a unit plan along with all the necessary associated materials and resources to teach a topic in Stage 2 Chemistry. I picked Part 1 of Topic 3: Organic and Biological Chemistry (Subtopics 3.1-3.6). [Instructions and rubric for the task]({{ site.baseurl }}/files/assignments/chemFolio/TopicTeachingFolio.pdf) were provided, as well as a fair amount of examples and such.

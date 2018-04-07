@@ -1,5 +1,5 @@
 ---
 tag: CMcore
-categories: seminar ICT
+categories: ICT seminar
 permalink: "/category/CMcore"
 ---

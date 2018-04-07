@@ -2,7 +2,7 @@
 layout: post
 title:  "Silver Rhombic Dodecahedra (Mathematics C&M: Teach for 5min)"
 date:   2018-03-16 12:00:00 +1030
-categories: MTeach STiC
+categories: MTeach mathCM
 ---
 
 We were tasked to teach a stage 1 or stage 2 relevant topic to our fellow student teachers for 4-5min, [the instructions and rubrik are available here]({{ site.baseurl }}/files/assignments/mathTeach5min/TeachFor5min.docx).
