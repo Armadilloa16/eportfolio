@@ -29,7 +29,17 @@ These questions are so loaded! This question is phrased with “should”, the p
 
 </blockquote>
 
-TODO: I should add links to APST Standards to this...
+This reflection, and the material covered in it, contribute to APST 
+[2.6]({{ site.baseurl }}/apst/#2-6),
+[4.3]({{ site.baseurl }}/apst/#3-1),
+[4.4]({{ site.baseurl }}/apst/#4-4),
+[4.5]({{ site.baseurl }}/apst/#4-5),
+[5.2]({{ site.baseurl }}/apst/#5-2),
+[5.5]({{ site.baseurl }}/apst/#5-5),
+[7.1]({{ site.baseurl }}/apst/#7-1),
+[7.2]({{ site.baseurl }}/apst/#7-2),
+[7.3]({{ site.baseurl }}/apst/#7-3), and
+[7.4]({{ site.baseurl }}/apst/#7-4).
 
 References:
 
