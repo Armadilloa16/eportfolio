@@ -39,5 +39,20 @@ In some ways I think the role of the teacher has changed as we move from an indu
 
 </blockquote>
 
-TODO: I should add links to APST Standards to this...
+This reflection, and the material covered in it, contribute to APST 
+[1.1]({{ site.baseurl }}/apst/#1-1),
+[1.2]({{ site.baseurl }}/apst/#1-2),
+[1.3]({{ site.baseurl }}/apst/#1-3),
+[1.4]({{ site.baseurl }}/apst/#1-4),
+[2.1]({{ site.baseurl }}/apst/#2-1),
+[2.2]({{ site.baseurl }}/apst/#2-2),
+[2.3]({{ site.baseurl }}/apst/#2-3),
+[2.4]({{ site.baseurl }}/apst/#2-4),
+[2.5]({{ site.baseurl }}/apst/#2-5),
+[2.6]({{ site.baseurl }}/apst/#2-6),
+[5.1]({{ site.baseurl }}/apst/#5-1),
+[5.2]({{ site.baseurl }}/apst/#5-2),
+[5.3]({{ site.baseurl }}/apst/#5-3),
+[5.4]({{ site.baseurl }}/apst/#5-4), and
+[5.5]({{ site.baseurl }}/apst/#5-5).
 

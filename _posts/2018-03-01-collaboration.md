@@ -39,5 +39,20 @@ The popping in the audio in the first few videos was abit unpleasent. There were
 
 </blockquote>
 
-TODO: I should add links to APST Standards to this...
+This reflection, and the material covered in it, contribute to APST 
+[1.1]({{ site.baseurl }}/apst/#1-1),
+[1.2]({{ site.baseurl }}/apst/#1-2),
+[1.3]({{ site.baseurl }}/apst/#1-3),
+[1.4]({{ site.baseurl }}/apst/#1-4),
+[1.5]({{ site.baseurl }}/apst/#1-5),
+[1.6]({{ site.baseurl }}/apst/#1-6),
+[4.1]({{ site.baseurl }}/apst/#4-1),
+[4.2]({{ site.baseurl }}/apst/#4-2),
+[4.3]({{ site.baseurl }}/apst/#4-3),
+[4.4]({{ site.baseurl }}/apst/#4-4),
+[4.5]({{ site.baseurl }}/apst/#4-5),
+[6.1]({{ site.baseurl }}/apst/#6-1),
+[6.2]({{ site.baseurl }}/apst/#6-2),
+[6.3]({{ site.baseurl }}/apst/#6-3), and
+[6.4]({{ site.baseurl }}/apst/#6-4).
 

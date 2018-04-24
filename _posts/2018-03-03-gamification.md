@@ -56,5 +56,22 @@ Just for my own personal future reference, I have another maths concept I really
 
 </blockquote>
 
-TODO: I should add links to APST Standards to this...
+This reflection, and the material covered in it, contribute to APST 
+[2.1]({{ site.baseurl }}/apst/#2-1),
+[2.2]({{ site.baseurl }}/apst/#2-2),
+[2.3]({{ site.baseurl }}/apst/#2-3),
+[2.4]({{ site.baseurl }}/apst/#2-4),
+[2.5]({{ site.baseurl }}/apst/#2-5),
+[2.6]({{ site.baseurl }}/apst/#2-6),
+[3.1]({{ site.baseurl }}/apst/#3-1),
+[3.2]({{ site.baseurl }}/apst/#3-2),
+[3.3]({{ site.baseurl }}/apst/#3-3),
+[3.4]({{ site.baseurl }}/apst/#3-4),
+[3.5]({{ site.baseurl }}/apst/#3-5),
+[3.6]({{ site.baseurl }}/apst/#3-6),
+[3.7]({{ site.baseurl }}/apst/#3-7),
+[6.1]({{ site.baseurl }}/apst/#6-1),
+[6.2]({{ site.baseurl }}/apst/#6-2),
+[6.3]({{ site.baseurl }}/apst/#6-3), and
+[6.4]({{ site.baseurl }}/apst/#6-4).
 

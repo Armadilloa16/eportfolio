@@ -36,5 +36,20 @@ Moving into the future I would like to gradually phase in more use of tools like
 
 </blockquote>
 
-TODO: I should add links to APST Standards to this...
+This reflection, and the material covered in it, contribute to APST 
+[1.1]({{ site.baseurl }}/apst/#1-1),
+[1.2]({{ site.baseurl }}/apst/#1-2),
+[1.3]({{ site.baseurl }}/apst/#1-3),
+[1.4]({{ site.baseurl }}/apst/#1-4),
+[1.5]({{ site.baseurl }}/apst/#1-5),
+[1.6]({{ site.baseurl }}/apst/#1-6),
+[2.1]({{ site.baseurl }}/apst/#2-1),
+[2.2]({{ site.baseurl }}/apst/#2-2),
+[2.4]({{ site.baseurl }}/apst/#2-4),
+[2.5]({{ site.baseurl }}/apst/#2-5),
+[2.6]({{ site.baseurl }}/apst/#2-6),
+[3.2]({{ site.baseurl }}/apst/#3-2),
+[3.4]({{ site.baseurl }}/apst/#3-4),
+[3.6]({{ site.baseurl }}/apst/#3-6), and
+[3.7]({{ site.baseurl }}/apst/#3-7).
 
