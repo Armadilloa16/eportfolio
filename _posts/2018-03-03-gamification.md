@@ -3,6 +3,7 @@ layout: post
 title:  "Gamification (C&M Core: ICT Task 7)"
 date:   2018-03-03 11:00:00 +1030
 categories: MTeach CMcore ICT
+apst: [2-1, 2-2, 2-3, 2-4, 2-5, 2-6, 3-1, 3-2, 3-3, 3-4, 3-5, 3-6, 3-7, 6-1, 6-2, 6-3, 6-4] 
 ---
 
 In this task we were introduced to a number of Video Libraries:
@@ -56,22 +57,5 @@ Just for my own personal future reference, I have another maths concept I really
 
 </blockquote>
 
-This reflection, and the material covered in it, contribute to APST 
-[2.1]({{ site.baseurl }}/apst/#2-1),
-[2.2]({{ site.baseurl }}/apst/#2-2),
-[2.3]({{ site.baseurl }}/apst/#2-3),
-[2.4]({{ site.baseurl }}/apst/#2-4),
-[2.5]({{ site.baseurl }}/apst/#2-5),
-[2.6]({{ site.baseurl }}/apst/#2-6),
-[3.1]({{ site.baseurl }}/apst/#3-1),
-[3.2]({{ site.baseurl }}/apst/#3-2),
-[3.3]({{ site.baseurl }}/apst/#3-3),
-[3.4]({{ site.baseurl }}/apst/#3-4),
-[3.5]({{ site.baseurl }}/apst/#3-5),
-[3.6]({{ site.baseurl }}/apst/#3-6),
-[3.7]({{ site.baseurl }}/apst/#3-7),
-[6.1]({{ site.baseurl }}/apst/#6-1),
-[6.2]({{ site.baseurl }}/apst/#6-2),
-[6.3]({{ site.baseurl }}/apst/#6-3), and
-[6.4]({{ site.baseurl }}/apst/#6-4).
+Note: APST standards linked are as specified by Jarrod Johnson (who ran the ICT component).
 

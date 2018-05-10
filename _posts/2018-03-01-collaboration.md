@@ -3,6 +3,7 @@ layout: post
 title:  "Collaboration (C&M Core: ICT Task 6)"
 date:   2018-03-01 12:00:00 +1030
 categories: MTeach CMcore ICT
+apst: [1-1, 1-2, 1-3, 1-4, 1-5, 1-6, 4-1, 4-2, 4-3, 4-4, 4-5, 6-1, 6-2, 6-3, 6-4]
 ---
 
 In this task we where briefly introduced to a number of different ICT tools that could be used for collaboration, cooperation, and sharing:
@@ -39,20 +40,5 @@ The popping in the audio in the first few videos was abit unpleasent. There were
 
 </blockquote>
 
-This reflection, and the material covered in it, contribute to APST 
-[1.1]({{ site.baseurl }}/apst/#1-1),
-[1.2]({{ site.baseurl }}/apst/#1-2),
-[1.3]({{ site.baseurl }}/apst/#1-3),
-[1.4]({{ site.baseurl }}/apst/#1-4),
-[1.5]({{ site.baseurl }}/apst/#1-5),
-[1.6]({{ site.baseurl }}/apst/#1-6),
-[4.1]({{ site.baseurl }}/apst/#4-1),
-[4.2]({{ site.baseurl }}/apst/#4-2),
-[4.3]({{ site.baseurl }}/apst/#4-3),
-[4.4]({{ site.baseurl }}/apst/#4-4),
-[4.5]({{ site.baseurl }}/apst/#4-5),
-[6.1]({{ site.baseurl }}/apst/#6-1),
-[6.2]({{ site.baseurl }}/apst/#6-2),
-[6.3]({{ site.baseurl }}/apst/#6-3), and
-[6.4]({{ site.baseurl }}/apst/#6-4).
+Note: APST standards linked are as specified by Jarrod Johnson (who ran the ICT component).
 

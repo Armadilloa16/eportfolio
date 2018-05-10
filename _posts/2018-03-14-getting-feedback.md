@@ -2,7 +2,8 @@
 layout: post
 title:  "Getting Feedback (C&M Core: ICT Task 8)"
 date:   2018-03-14 12:00:00 +1030
-categories: MTeach CMcore ICT
+categories: [MTeach, CMcore, ICT]
+apst: [1-1, 1-2, 1-3, 1-4, 1-5, 1-6, 5-1, 5-2, 5-3, 5-4, 5-5, 7-1, 7-2, 7-3, 7-4]
 ---
 
 In this task we went through:
@@ -50,20 +51,6 @@ Sometimes I've dismissed certain topics (like learning the countries of the worl
 
 </blockquote>
 
-This reflection, and the material covered in it, contribute to APST 
-[1.1]({{ site.baseurl }}/apst/#1-1),
-[1.2]({{ site.baseurl }}/apst/#1-2),
-[1.3]({{ site.baseurl }}/apst/#1-3),
-[1.4]({{ site.baseurl }}/apst/#1-4),
-[1.5]({{ site.baseurl }}/apst/#1-5),
-[1.6]({{ site.baseurl }}/apst/#1-6),
-[5.1]({{ site.baseurl }}/apst/#5-1),
-[5.2]({{ site.baseurl }}/apst/#5-2),
-[5.3]({{ site.baseurl }}/apst/#5-3),
-[5.4]({{ site.baseurl }}/apst/#5-4),
-[5.5]({{ site.baseurl }}/apst/#5-5),
-[7.1]({{ site.baseurl }}/apst/#7-1),
-[7.2]({{ site.baseurl }}/apst/#7-2),
-[7.3]({{ site.baseurl }}/apst/#7-3), and
-[7.4]({{ site.baseurl }}/apst/#7-4).
+Note: APST standards linked are those on the CANVAS site, presumably as specified by Jarrod Johnson.
+
 

@@ -3,6 +3,7 @@ layout: post
 title:  "Online Communication (C&M Core: ICT Task 3)"
 date:   2018-02-05 16:04:00 +1030
 categories: MTeach CMcore ICT
+apst: [2-6, 3-1, 4-4, 4-5, 5-2, 5-5, 7-1, 7-2, 7-3, 7-4]
 ---
 
 This task had three questions to reflect and post about, these are included in my post to the discussion board, which follows:
@@ -29,17 +30,11 @@ These questions are so loaded! This question is phrased with “should”, the p
 
 </blockquote>
 
-This reflection, and the material covered in it, contribute to APST 
-[2.6]({{ site.baseurl }}/apst/#2-6),
-[4.3]({{ site.baseurl }}/apst/#3-1),
-[4.4]({{ site.baseurl }}/apst/#4-4),
-[4.5]({{ site.baseurl }}/apst/#4-5),
-[5.2]({{ site.baseurl }}/apst/#5-2),
-[5.5]({{ site.baseurl }}/apst/#5-5),
-[7.1]({{ site.baseurl }}/apst/#7-1),
-[7.2]({{ site.baseurl }}/apst/#7-2),
-[7.3]({{ site.baseurl }}/apst/#7-3), and
-[7.4]({{ site.baseurl }}/apst/#7-4).
+
+
+
+
+Note: APST standards linked are as specified by Jarrod Johnson (who ran the ICT component).
 
 References:
 

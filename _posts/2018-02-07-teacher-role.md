@@ -3,6 +3,7 @@ layout: post
 title:  "The Role of a Teacher (C&M Core: Seminar 2)"
 date:   2018-02-7 7:49:00 +1030
 categories: MTeach CMcore seminar
+apst: [6-2, 6-3, 7-1, 7-4]
 ---
 
 The Seminar 2 task was to: 
@@ -21,8 +22,7 @@ Personally, I see two fundamentally crucial role of a teacher. The first is to b
 
 And so  I had a conversation with Glen Arthur (the chemistry curriculum and methodology tutor) about exactly this yesterday night: 
 
-
-
+EDIT: Did I forget to write about that conversation? We talked about the balance a teacher needs to find between doing what is in the best interests of the student, and preparing them to answer questions in an exam, because that will be an important skill for them to have.
 
 
 References:
