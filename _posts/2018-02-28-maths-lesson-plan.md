@@ -3,7 +3,7 @@ layout: post
 title:  "Introduction to Circle Geometry (Mathematics C&M: Lesson Plan)"
 date:   2018-02-28 12:00:00 +1030
 categories: MTeach mathCM
-apst: [1-5, 2-1, 2-2, 2-3, 3-1, 3-2, 3-4]
+tags: [1-5, 2-1, 2-2, 2-3, 3-1, 3-2, 3-4]
 ---
 
 We were tasked to make a lesson plan and collate/ create all the required teaching resources for a SACE mathematics subject. [Instructions and rubric]({{ site.baseurl }}/files/assignments/mathLessonPlan/MathsLessonPlan.pdf) as well as a [lesson plan template]({{ site.baseurl }}/files/assignments/mathLessonPlan/MathsLessonPlanTemplate.docx) were provided.

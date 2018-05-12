@@ -3,7 +3,7 @@ layout: post
 title:  "Assessment OF/AS/FOR Learning (C&M Core: Seminar 4)"
 date:   2018-04-04 12:00:00 +1030
 categories: MTeach CMcore seminar
-apst: [1-1, 1-2, 2-3, 5-1, 5-2, 5-3, 5-4, 5-5, 6-2]
+tags: [1-1, 1-2, 2-3, 5-1, 5-2, 5-3, 5-4, 5-5, 6-2]
 ---
 
 The Seminar 4 task was to: 

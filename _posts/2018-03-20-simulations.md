@@ -3,7 +3,7 @@ layout: post
 title:  "Reflections on Simulations (STiC: Assignment 2)"
 date:   2018-03-20 12:00:00 +1030
 categories: MTeach STiC
-apst: [1-5, 2-1, 2-2, 3-1, 3-2, 3-3, 3-4, 3-5, 3-6, 4-1, 4-2, 4-3, 5-2, 6-2, 6-3]
+tags: [1-5, 2-1, 2-2, 3-1, 3-2, 3-3, 3-4, 3-5, 3-6, 4-1, 4-2, 4-3, 5-2, 6-2, 6-3]
 ---
 
 We where tasked to reflect on the simulations we did in the tutorials for Student Teacher Interaction in the Classroom (STiC), the instructions for the task are available [here]({{ site.baseurl }}/files/assignments/STiCassignment2.pdf). We did three simulations, with increasing amount of misbehavior. The first simulation was mostly focused on presentation --- body language, speech mannerisms, praise, using students names, and whiteboard work. The second simulation introduced some misbehaving students to see how we could cope with misbehavior. Each `student' drew a slip of paper telling them how to behave prior to the session. The third simulation introduced even more misbehavior.

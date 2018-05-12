@@ -29,9 +29,9 @@ layout: default
   </div>
   
   <div class="tags">
-	{% if page.apst.size > 0 %}
+	{% if page.tags.size > 0 %}
 	  APST: 
-	  {% for std in page.apst %}
+	  {% for std in page.tags %}
 		<span class="tag" sep=",">
 		  <a href="{{ site.baseurl }}/apst/#{{ std }}">{{ std }}</a>
 		</span>

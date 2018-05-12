@@ -3,7 +3,7 @@ layout: post
 title:  "Online Communication (C&M Core: ICT Task 3)"
 date:   2018-02-05 16:04:00 +1030
 categories: MTeach CMcore ICT
-apst: [2-6, 3-1, 4-4, 4-5, 5-2, 5-5, 7-1, 7-2, 7-3, 7-4]
+tags: [2-6, 3-1, 4-4, 4-5, 5-2, 5-5, 7-1, 7-2, 7-3, 7-4]
 ---
 
 This task had three questions to reflect and post about, these are included in my post to the discussion board, which follows:

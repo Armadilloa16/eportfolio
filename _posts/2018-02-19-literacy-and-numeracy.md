@@ -3,7 +3,7 @@ layout: post
 title:  "Literacy and Numeracy (C&M Core: ICT Task 5)"
 date:   2018-02-19 12:47:00 +1030
 categories: MTeach CMcore ICT
-apst: [1-1, 1-2, 1-3, 1-4, 2-1, 2-2, 2-3, 2-4, 2-5, 2-6, 5-1, 5-2, 5-3, 5-4, 5-5]
+tags: [1-1, 1-2, 1-3, 1-4, 2-1, 2-2, 2-3, 2-4, 2-5, 2-6, 5-1, 5-2, 5-3, 5-4, 5-5]
 ---
 
 Fundamental to education is the "3Rs": 

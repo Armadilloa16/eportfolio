@@ -3,7 +3,7 @@ layout: post
 title:  "Gamification (C&M Core: ICT Task 7)"
 date:   2018-03-03 11:00:00 +1030
 categories: MTeach CMcore ICT
-apst: [2-1, 2-2, 2-3, 2-4, 2-5, 2-6, 3-1, 3-2, 3-3, 3-4, 3-5, 3-6, 3-7, 6-1, 6-2, 6-3, 6-4] 
+tags: [2-1, 2-2, 2-3, 2-4, 2-5, 2-6, 3-1, 3-2, 3-3, 3-4, 3-5, 3-6, 3-7, 6-1, 6-2, 6-3, 6-4] 
 ---
 
 In this task we were introduced to a number of Video Libraries:

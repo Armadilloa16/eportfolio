@@ -3,7 +3,7 @@ layout: post
 title:  "The Role of a Teacher (C&M Core: Seminar 2)"
 date:   2018-02-7 7:49:00 +1030
 categories: MTeach CMcore seminar
-apst: [6-2, 6-3, 7-1, 7-4]
+tags: [6-2, 6-3, 7-1, 7-4]
 ---
 
 The Seminar 2 task was to: 

@@ -3,7 +3,7 @@ layout: post
 title:  "Collaboration (C&M Core: ICT Task 6)"
 date:   2018-03-01 12:00:00 +1030
 categories: MTeach CMcore ICT
-apst: [1-1, 1-2, 1-3, 1-4, 1-5, 1-6, 4-1, 4-2, 4-3, 4-4, 4-5, 6-1, 6-2, 6-3, 6-4]
+tags: [1-1, 1-2, 1-3, 1-4, 1-5, 1-6, 4-1, 4-2, 4-3, 4-4, 4-5, 6-1, 6-2, 6-3, 6-4]
 ---
 
 In this task we where briefly introduced to a number of different ICT tools that could be used for collaboration, cooperation, and sharing:

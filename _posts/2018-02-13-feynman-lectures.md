@@ -3,7 +3,7 @@ layout: post
 title:  "The Feynman Lectures on Physics (Chemistry C&M: Resource Analysis)"
 date:   2018-02-13 11:50:00 +1030
 categories: MTeach chemCM
-apst: [2-1, 2-2, 2-6, 3-4, 4-5, 6-3]
+tags: [2-1, 2-2, 2-6, 3-4, 4-5, 6-3]
 ---
 
 We where set a task to select a resource which could be incorporated into the teaching of SACE Stage 1 or Stage 2 Chemistry. 

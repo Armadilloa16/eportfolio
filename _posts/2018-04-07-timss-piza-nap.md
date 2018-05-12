@@ -3,7 +3,7 @@ layout: post
 title:  "TIMSS, PISA, and NAP (C&M Core: Seminar 7)"
 date:   2018-04-07 12:00:00 +1030
 categories: MTeach CMcore seminar
-apst: [2-3, 3-6, 5-1, 5-3, 5-5, 6-2]
+tags: [2-3, 3-6, 5-1, 5-3, 5-5, 6-2]
 ---
 
 Then Seminar 7 task was to: 

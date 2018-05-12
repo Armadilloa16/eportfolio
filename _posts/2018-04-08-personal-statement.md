@@ -3,7 +3,7 @@ layout: post
 title:  "Personal Statement (C&M Core: Seminar 8)"
 date:   2018-04-07 12:00:00 +1030
 categories: MTeach CMcore seminar
-apst: 6-2
+tags: 6-2
 ---
 
 The Seminar 8 task was to: 

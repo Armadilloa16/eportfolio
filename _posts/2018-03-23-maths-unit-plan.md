@@ -3,7 +3,7 @@ layout: post
 title:  "Stage 1 Mathematics Topic 8: Geometry Unit Plan (Mathematics C&M: Unit Plan)"
 date:   2018-03-23 12:00:00 +1030
 categories: MTeach mathCM
-apst: [1-1, 1-2, 1-5, 2-1, 2-2, 2-3, 2-6, 3-1, 3-2, 3-4, 4-1, 4-5]
+tags: [1-1, 1-2, 1-5, 2-1, 2-2, 2-3, 2-6, 3-1, 3-2, 3-4, 4-1, 4-5]
 ---
 
 We were tasked to make a unit plan for a topic in a SACE mathematics subject. [Instructions and rubric]({{ site.baseurl }}/files/assignments/mathUnitPlan/MathUnitPlan.docx) as well as a [summary of what we were expected to hand in and an example of a unit schedule]({{ site.baseurl }}/files/assignments/mathUnitPlan/MathsUnitPlan_summary.docx) were provided.

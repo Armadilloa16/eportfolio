@@ -3,7 +3,7 @@ layout: post
 title:  "Getting Feedback (C&M Core: ICT Task 8)"
 date:   2018-03-14 12:00:00 +1030
 categories: [MTeach, CMcore, ICT]
-apst: [1-1, 1-2, 1-3, 1-4, 1-5, 1-6, 5-1, 5-2, 5-3, 5-4, 5-5, 7-1, 7-2, 7-3, 7-4]
+tags: [1-1, 1-2, 1-3, 1-4, 1-5, 1-6, 5-1, 5-2, 5-3, 5-4, 5-5, 7-1, 7-2, 7-3, 7-4]
 ---
 
 In this task we went through:
