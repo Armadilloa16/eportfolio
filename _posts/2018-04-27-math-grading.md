@@ -3,6 +3,7 @@ layout: post
 title:  "Individual Grading of 4 SATS and an Investigation (Mathematics C&M: Grading)"
 date:   2018-04-27 12:00:00 +1030
 categories: MTeach mathCM
+apst: [2-3, 5-1, 5-3, 5-4, 7-1, 7-2]
 ---
 
 We were given a folio of 4 SATs, and also an Investigation from a student last year (2017). I won't include them here, for privacy reasons. We were then instructed to individually grade each of these assessment types (without consulting with our peers), and post our suggested grade along with a short justification. To help me consider the performance standards individually I used [the tables I made]({{ site.baseurl }}{% post_url 2018-04-24-maths-sace-performance-standards %}). Below I include the posts I made to the discussion posts:

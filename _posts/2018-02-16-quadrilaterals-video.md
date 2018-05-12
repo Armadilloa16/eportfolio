@@ -3,6 +3,7 @@ layout: post
 title:  "Quadrilaterals Inscribed in Circles (Mathematics C&M: Video Task)"
 date:   2018-02-16 11:26:00 +1030
 categories: MTeach mathCM
+apst: [2-1, 2-2, 2-3, 2-6, 3-3, 3-4, 4-5, 6-2, 6-4]
 ---
 
 We where set a task to make a video of approximately 3 minutes duration that relates to a topic in a SACE Stage 1 or 2 Mathematics course. The full instructions are [here]({{ site.baseurl }}/files/assignments/VideoTask.pdf).

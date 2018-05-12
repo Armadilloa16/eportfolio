@@ -3,6 +3,7 @@ layout: post
 title:  "MLC Slack Post"
 date:   2018-03-02 12:00:00 +1030
 categories: Blog
+apst: [1-1, 1-2, 1-3, 1-5, 2-5, 4-1, 4-2, 4-3, 4-4, 5-1, 5-2, 6-2, 6-3]
 ---
 
 I've been working at the Maths Learning Centre (MLC) at the University of Adelaide for many years now, and this year the coordinator David Butler organised a [Slack](https://slack.com/) page as a social media cyberspace in which for us tutors at the MLC to communicate and share experiences and ideas about teaching at the MLC. So today I posted to the Slack page with some of my reflections on my experiences working at the MLC yesterday, and I thought to include those reflections here. My post to Slack follows:
@@ -23,5 +24,4 @@ TL;DR: I'm just saying be aware and be compassionate, is what it boils down too.
 
 </blockquote>
 
-TODO: I should add links to APST Standards to this...
 

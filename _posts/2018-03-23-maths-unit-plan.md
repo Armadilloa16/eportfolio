@@ -3,6 +3,7 @@ layout: post
 title:  "Stage 1 Mathematics Topic 8: Geometry Unit Plan (Mathematics C&M: Unit Plan)"
 date:   2018-03-23 12:00:00 +1030
 categories: MTeach mathCM
+apst: [1-1, 1-2, 1-5, 2-1, 2-2, 2-3, 2-6, 3-1, 3-2, 3-4, 4-1, 4-5]
 ---
 
 We were tasked to make a unit plan for a topic in a SACE mathematics subject. [Instructions and rubric]({{ site.baseurl }}/files/assignments/mathUnitPlan/MathUnitPlan.docx) as well as a [summary of what we were expected to hand in and an example of a unit schedule]({{ site.baseurl }}/files/assignments/mathUnitPlan/MathsUnitPlan_summary.docx) were provided.
@@ -26,5 +27,4 @@ I had some other ideas for summative investigations, so I thought I'd include on
 
 We learnt that the angle at the circumference of a circle subtended by an arc of that circle is equal, so given two points, which we take to be the endpoints of an arc, we can presume that there is a circular path of points at which the angles subtended by that arc are all equal. However there are multiple circles that can be drawn through the same two points: how does the radius of the circle relate to the angle subtended by the arc? Is this related to the arc length? Does this relate to the total circumference of the circle? Etc.
 
-TODO: Add APST Standard links
 

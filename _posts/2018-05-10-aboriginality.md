@@ -3,7 +3,7 @@ layout: post
 title:  "Understanding Aboriginality Webinar"
 date:   2018-05-10 12:00:00 +1030
 categories: PD
-apst: [1.4, 2.4]
+apst: [1-3, 1-4, 2-4, 4-1, 6-1, 6-2, 7-4]
 ---
 
 Today I attended a Webinar entitled "Understanding Aboriginality" presented by Dr Sheelagh Daniels-Mayes, Shirley Gilbert and Dr Graeme Gower. Interesting timing as well as last monday we had a lecture by Dr Linda Westphalen and Michael Corbung on Aboriginality. Here I'll sum up some of the key take-away messages I got from the Webinar.
