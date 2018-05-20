@@ -52,8 +52,10 @@ Professional Reading:
  - Yuriko Yamanouchi
  - John Gardiner-Garde-Social Policy Groid
 
+EDIT: They sent me [an attendance certificate]({{ site.baseurl }}/files/qualifications/aboriginality-certificate.pdf)
 
-TODO: Slides from the webinar and recording will be provided, I should add links to the other resources above that I missed at the time.
+ 
+ TODO: Slides from the webinar and recording will be provided, I should add links to the other resources above that I missed at the time.
 
 
 
