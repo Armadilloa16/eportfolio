@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title:  "First Lesson"
+title:  "First Lesson (NMHS Week 1: Wednesday)"
 date:   2018-06-06 12:00:00 +1030
 categories: MTeach nmhsPlacement
 ---

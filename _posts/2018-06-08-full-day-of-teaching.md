@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title:  "Full day of teaching"
+title:  "Full day of Teaching (NMHS Week 1: Friday)"
 date:   2018-06-08 12:00:00 +1030
 categories: MTeach nmhsPlacement
 ---
@@ -27,4 +27,6 @@ Being able to deliver essentially the same lesson again immediately was so helpf
 ## Feedback
 
 At the end of the day my mentor gave me three pages of feedback on the classes I taught today, including the same note I made above (that the second maths lesson was much improved over the first) and many other things. However similar to the other time I won't include his feedback here as it includes explicit reference to specific students by name. 
+
+
 

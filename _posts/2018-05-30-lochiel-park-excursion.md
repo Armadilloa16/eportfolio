@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title:  "Lochiel Park Excursion"
+title:  "Lochiel Park Excursion (NMHS pre-placement)"
 date:   2018-05-30 12:00:00 +1030
 categories: MTeach nmhsPlacement
 ---
