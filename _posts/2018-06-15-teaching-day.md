@@ -9,7 +9,7 @@ I didn't do lesson plans for the lessons today, although I did spend some time p
 
 ## Science Single
 
-In this science single, I selected some questions from [this activity sheet]({{ site.baseurl }}//files/placement/lessons/20180615/yr10MotionAndEnergyTransferAS.pdf), which I got from the really quite good [Science by Doing website](https://www.sciencebydoing.edu.au/), [thanks Tory!]({{ site.baseurl }}{% post_url 2018-05-14-acara-science %}). We went through the horse and cart problem (a classic), got a little good discussion and then I went through the solution.
+In this science single, I selected some questions from [this activity sheet]({{ site.baseurl }}//files/placement/nmhs/resources/yr10MotionAndEnergyTransferAS_science_by_doing.pdf), which I got from the really quite good [Science by Doing website](https://www.sciencebydoing.edu.au/), [thanks Tory!]({{ site.baseurl }}{% post_url 2018-05-14-acara-science %}). We went through the horse and cart problem (a classic), got a little good discussion and then I went through the solution.
 
 
 
@@ -18,11 +18,7 @@ In this science single, I selected some questions from [this activity sheet]({{ 
 I tried to really emphasise the due date for the DI in todays doubles, really pushing people to get a move on with their calculations. It seemed to work too, particularly with the afternoon class that missed their monday and tuesday lessons this week, and sensed they were behind I think. So it was crasy hectic, but for the right reasons --- people all asking for help. So it was good, I think.
 
 
-## Feedback
 
-As usual, my mentor teacher gave me feedback after the classes, but as usual the feedback contained reference to specific students by name so I won't include it. 
-
-TODO: Maybe at some point I'll go through all the feedback and blank out the student names so I can upload it as evidence?
 
 
 

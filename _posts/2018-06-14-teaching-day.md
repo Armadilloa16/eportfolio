@@ -5,7 +5,7 @@ date:   2018-06-14 12:00:00 +1030
 categories: MTeach nmhsPlacement
 ---
 
-I did lesson plans for these lessons as well, both [for science]({{ site.baseurl }}//files/placement/lessons/20180614/20180614_lesson12_plan.pdf) and [for maths]({{ site.baseurl }}//files/placement/lessons/20180614/20180614_lesson3_plan.pdf), but much like before, I ended up veering off the plan in both cases, but it still turned out well.
+I did lesson plans for these lessons as well, both [for science]({{ site.baseurl }}//files/placement/nmhs/lesson_plans/20180614_lesson12_plan.pdf) and [for maths]({{ site.baseurl }}//files/placement/nmhs/lesson_plans/20180614_lesson3_plan.pdf), but much like before, I ended up veering off the plan in both cases, but it still turned out well.
 
 
 
@@ -17,15 +17,9 @@ In science I reviewed Newton's first two laws, and introduced the third with the
 
 ## Periods 3: Maths
 
-This single went really quickly, I continued to give individual support with the current DI assignment, basically.
+This single went really quickly, I continued to give individual support with the current (imdb movies) DI, basically.
 
 
-
-## Feedback
-
-My mentor teacher gave me feedback after the class, but as usual the feedback contained reference to specific students by name so I won't include it. 
-
-TODO: Maybe at some point I'll go through all the feedback and blank out the student names so I can upload it as evidence?
 
 
 
