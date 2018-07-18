@@ -1,0 +1,138 @@
+% LaTeX file for resume 
+% This file uses the resume document class (res.cls)
+
+\documentclass[a4paper,12pt]{report} 
+
+\usepackage[top = 3.4cm, left = 2.4cm, right = 2.4cm, bottom = 2.6cm]{geometry}
+\usepackage{multicol}
+
+\usepackage{tikz}
+\usepackage{draftwatermark}
+\SetWatermarkText{
+\begin{tikzpicture}
+\draw[fill] (-1.4142, 0) -- (0, -1) -- (1.4142, 0) -- (0, 1) -- cycle;
+\end{tikzpicture}
+}
+\SetWatermarkHorCenter{2cm}
+\SetWatermarkVerCenter{2cm}
+\SetWatermarkColor[rgb]{0.35,0.65,0.9}
+
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+	urlcolor=black
+}
+
+\begin{document} 
+
+\begin{multicols}{2}
+[
+\begin{center}
+{\Large \textbf{Dr. Lyron Juan Winderbaum}} \\ \vspace{4mm}
+\end{center}
+]
+
+\begin{flushleft}
+\begin{tabular}{ll}
+\textbf{Details} & \\ 
+mobile: & (+61) 431 955 152 \\
+email: & \href{mailto:armadilloa16@gmail.com}{armadilloa16@gmail.com} \\
+\end{tabular}
+\end{flushleft}
+
+\begin{flushright}
+\begin{tabular}{l}
+\textbf{Address} \\
+3 Hallett Avenue \\  
+Tranmere
+SA 5073 \\
+Australia
+\end{tabular}
+\end{flushright}
+\end{multicols}                                  
+
+\subsection*{Employment History}
+
+\subsubsection*{Tutor \hfill Mar 2012 - Present} \vspace{-6pt}
+(Maths Learning Centre, The University of Adelaide) \\[4pt]
+This role involves presenting complex information to people from a diverse range of backgrounds. It requires a high level of interpersonal skills and the ability to adapt material to different cultures and learning styles.
+
+\subsubsection*{Postdoctoral Research Associate  \hfill Jan 2017 - Dec 2017} \vspace{-6pt}
+(Future Industries Institute, University of South Australia) \\[4pt]
+Extensive experience collaborating with experts in different fields and adapting statistical analyses to fulfill their needs.
+Experience leading and mentoring colleagues to implement improved data storage and reporting techniques to ensure a high standard of transparency and accountability.
+Role required high level analytical, research, and communication skills were required in order to develop, implement, and report on various multivariate statistical data analyses.
+
+\subsubsection*{Research Associate  \hfill Aug 2015 - Dec 2016} \vspace{-6pt}
+(Adelaide Proteomics Centre, The University of Adelaide) \\[4pt]
+This role involved working under time-constraints to provide a high standard of service for customers. Experience developing and implementing software to improve work efficiency and provide quality assurance to customers. Also extensive collaboration with experts in different fields, particularly biomedical research, and adapting statistical analyses to different scenarios. Role required high level analytical, research, and communication skills were required in order to develop, implement, and report on various multivariate statistical data analyses.
+
+\subsubsection*{Tutor \hfill Mar 2012 - July 2015} \vspace{-6pt}
+(School of Mathematical Sciences, The University of Adelaide) \\[4pt]
+Experience teaching tutorials, supervising computer practicals, and marking assignments and exams under time-constraints.
+
+\subsubsection*{Storeperson \hfill Feb 2007 - Feb 2012} \vspace{-6pt}
+(Coles Supermarkets) \\[4pt]
+Retail and customer service experience. \\
+
+\subsection*{Education (The University of Adelaide)}
+
+\subsubsection*{Master of Teaching \hfill Jan 2018 - Present}
+
+\subsubsection*{Doctor of Philosophy in Statistics \hfill Conferred: Dec 2016} \vspace{-6pt}
+Thesis titled "Statistical Treatment of Proteomic Imaging Mass Spectrometry Data" investigated datasets related to various cancers using statistical techniques such as principal component analysis, k-means clustering, and discriminant analysis. Collaboration with surgeons and biochemists resulting in the development of statistical methods relevant in their fields.
+
+\subsubsection*{Honours in Statistics \hfill Conferred: Dec 2011} \vspace{-6pt}
+Thesis titled "Multivariate Analysis of Trace Elements in Pyrite" developed methods through collaboration with geochemistry experts to investigate the relationships of interest to them. Methods such as hierarchical agglomerative cluster analysis and bootstrapping were adapted to produce results that were meaningful to the geologists.
+
+\subsubsection*{Bachelor of Science (Chemistry) \hfill Conferred: Mar 2011}
+
+\subsubsection*{Bachelor of Computer and Mathematical Sciences \hfill Conferred: Dec 2010 \\ (Pure Mathematics and Statistics)}
+
+\subsection*{Programming and Computer Skills}          
+\begin{itemize}
+	\item Extensive experience with MATLAB, \LaTeX, and R.
+	\item Competency with Python, Java, Golang, C\#, Ruby, Perl and Git. 
+	\item Familiarity with other popular software such as SAS/ SPSS.
+\end{itemize}
+
+\subsection*{Interests}          
+Rockclimbing, hiking, cycling, puzzles and problem solving, go/igo/weiqi/baduk, machine learning, and reproducible reporting. 
+
+
+
+\begin{multicols}{2}
+[
+\subsection*{References}
+]
+
+\begin{flushleft}
+\textbf{Associate Professor Inge Koch} \\[2pt]
+\begin{tabular}{ll}
+Position: & Executive Director, \\
+	    & Choose Maths \\
+Relation: & PhD Supervisor \\
+%Phone:    & +61 3 8344 9859 \\
+Phone:    & +61 412 672 852 \\
+Email:      & \href{mailto:inge@amsi.org.au}{inge@amsi.org.au} \\
+\end{tabular}
+\end{flushleft}
+
+
+\begin{flushleft}
+\textbf{Dr. David Butler} \\[4pt]
+\begin{tabular}{ll}
+Position: & Coordinator, \\
+	    & Maths Learning Centre \\
+Relation: & Current Employer \\
+%Phone:    & +61 8 8313 5862 \\
+Phone:    & +61 408 693 398 \\
+Email:      & \href{mailto:mathslearning@adelaide.edu.au}{mathslearning@adelaide.edu.au } \\
+\end{tabular}
+\end{flushleft}
+
+\end{multicols}
+
+
+
+\end{document}
