@@ -24,6 +24,10 @@ Trig test?/ Started Networks?
 Gave Networks assignment.
 
 
+# Week 9 
+
+Wrote Networks Test
+
 
 TODO: Flesh out the discussion, and illustrate with evidence.
 

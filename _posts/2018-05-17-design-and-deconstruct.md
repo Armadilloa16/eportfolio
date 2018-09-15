@@ -3,6 +3,7 @@ layout: post
 title:  "Design and Deconstruct Investigation (Chemistry C&M: Intensive Task)"
 date:   2018-05-17 12:00:00 +1030
 categories: MTeach chemCM
+tags: [1-2, 1-5, 2-1, 2-2, 2-3, 3-1, 3-4, 3-6, 4-1, 4-4, 6-3, 6-4, 7-4]
 ---
 
 We where set [a task]({{ site.baseurl }}/files/assignments/chemIntensive/deconstructPrac/ChemistryCurriculumandMethodologyInvestigationsFolioDeconstructDesignTask18.pdf) to make a deconstruct and design prac suitable for a stage 2 SACE chemistry class, along with a risk assessment for it. We were given [an outline of the SACE assessment requirements]({{ site.baseurl }}/files/assignments/chemIntensive/deconstructPrac/ChemistryCurriculumandMethodologyDeconstructDesignOutlineC&M18.pdf), and [an example of a deconstruct and design prac]({{ site.baseurl }}/files/assignments/chemIntensive/deconstructPrac/Stg2ChemDeconstructionInvestigationAnalysisofAnalgesicsC&M18.pdf). 

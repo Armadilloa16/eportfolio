@@ -3,6 +3,7 @@ layout: post
 title:  "Full day of Teaching (NMHS Week 1: Friday)"
 date:   2018-06-08 12:00:00 +1030
 categories: MTeach nmhsPlacement
+tags: [1-1, 1-2, 1-5, 2-1, 2-2, 2-3, 2-6, 3-1, 3-2, 3-3, 3-4, 3-5, 3-6, 4-1, 4-2, 4-4, 5-1, 5-2]
 ---
 
 Thursday was a day off for the year 10 students, so I didn't teach any classes, but today was a full day of teaching, I had 5 consecutive periods of teaching, a single of science, and then two doubles of maths. Luckily the two classes of maths were nicely synced at the same point so I could do the same lesson with both of them. 
