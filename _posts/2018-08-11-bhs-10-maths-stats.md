@@ -44,11 +44,13 @@ I showed them [an infographic showing the distribution of employment by industry
 In the above screenshot, I highlighted to the students the top 12 industries as ranked by the percentage of people employed in that industry who identify as indigenous. Then, that 69 of the 359 industries in these data report employing zero people who identify as Indigenous. I then showed them a disturbing sample of 34 of these industries (that these data show as having employed zero indigenous people in South Australia in 2017), which highlights a breathtaking and disturbingly stark inequality in our workforce.
 
 
+# What I would do differently next time.
 
+<span style="background-color: #FFFF00">
+If I was to deliver this unit again, I would start with the workplace data that I ended on. The students showed some interest in it as it relates to their future careers. I would then scrap the memory game assignment, and replace it with a similar assignment but based around this data. So each student would choose an industry relevant to them --- one they might be interested in joining when they leave school and join the workforce. I would then get them to look at trends over time for employment in that industry, but also to look at various demographics employed by that industry. This would include gender comparisons (for example, make a boxplot for the age of women employed in your industry, and another for the age of men on the same axes, to compare. This would then allow me to emphasise the comparison of Indigenous and Non-Indigenous employment in each industry. I could even look into getting some indigenous guest speakers to come in and talk about the issues they face in whatever industry they are employed in. Ideally, I could even draw on the parents and extended family of students in the class for this kind of contribution to the class investigation. At the end of the unit, we would share the results from the whole class with each other, to discuss overall trends, similarities, and this would be included in the overall assessment.
+</span>
 
-
-
- 
+Note: The highlight above is the for benefit of university assessment, once that has been completed I'll remove it. 
 
 
 
