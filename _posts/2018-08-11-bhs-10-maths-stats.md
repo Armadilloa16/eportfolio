@@ -3,6 +3,7 @@ layout: post
 title:  "Statistics Unit (BHS Weeks 1-3: Year 10 Maths)"
 date:   2018-08-11 12:00:00 +1030
 categories: MTeach bhsPlacement yr10maths
+tags: [1-5, 2-1, 2-2, 2-3, 2-4, 2-6, 3-1, 3-2, 3-3, 3-4, 3-5, 3-6, 4-1, 4-2, 4-3, 4-4, 4-5, 5-1, 5-2, 5-3, 5-4, 5-5, 6-3, 6-4]
 acara: [ACMSP248, ACMSP249, ACMSP250, ACMSP253]
 ---
 
@@ -17,21 +18,30 @@ I discussed with my mentor how to start the statistics topic and wanted to start
 
 We opened the first lesson on the new topic (statistics), with [a motivational video](https://drive.google.com/open?id=13JqYVHErcnAWDWz6wvbxpbUBQ3T6Lcet) which we would link back at the end of the of topic, but for now linked to the idea that having a whole bunch of awesome data, or amazing analysis, is completely useless unless you can communicate why it is important to someone else. This bridged the link to the activity which we then kicked off on interpreting data. We introduced this activity with the aid of our [`lesson-plan slides']({{ site.baseurl }}//files/placement/bhs/year10maths/stats/20180725_lesson_slides.pdf). We got students in groups to choose a chart type at random out of a cup, go on [the Gapminder website](https://www.gapminder.org/tools/) and find something that sparked their interest, and present on it using their chart type at the end of the week. This served as an intro to the topic, as well as an open-ended activity to push them outside of their usual comfort zone and present to their peers while practicing their communication skills.
 
-# Sumative Task (Memory Game, Week 2 into 3)
+# Summative Task (Memory Game, Week 2 into 3)
 
-In week 2 we gave them the summative assignment for the topic and started helping them through it step by step. I made some videos (flipped learning) to extend some students into some programming.
+In week 2 we gave them the [summative assignment for the statistics topic]({{ site.baseurl }}//files/placement/bhs/year10maths/stats/memory_game/Memory_game_tasksheet.pdf) ([also available as a *.docx file]({{ site.baseurl }}//files/placement/bhs/year10maths/stats/memory_game/Memory_game_tasksheet.docx)), based on analysing [the data]({{ site.baseurl }}//files/placement/bhs/year10maths/stats/memory_game/Memory_game_times.xlsx) resulting from [a memory game they played in the previous term](https://www.mathsisfun.com/games/memory/index.html). I and started helping them through it step by step. I delivered this section of the unit with the help of [`lesson-plan slides']({{ site.baseurl }}//files/placement/bhs/year10maths/stats/20180730_lesson_slides.pdf), simlar to the introductory activity, but with how I was still feeling a little  uncertain with the class I also had more indepth discussions with my mentor teacher and wrote up [a more detailed lesson plan/ notes]({{ site.baseurl }}//files/placement/bhs/year10maths/stats/lesson_outlines/20180730_lesson_plan.pdf)
+
+In order to provide the option for extension I made [a flipped learning video series](https://youtu.be/BdYo-u8UBiE) on youTube providing tutorials and instructions for how to complete the assignment while learning some programming. In order to facilitate this avenue I also provided [a formatted version of the data]({{ site.baseurl }}//files/placement/bhs/year10maths/stats/memory_game/mem_game_formatted.csv) and [some example code]({{ site.baseurl }}//files/placement/bhs/year10maths/stats/memory_game/analysis.r). Ultimately none of the students took that route, but my mentor teacher did and they learnt something from it, haha. It's also a starting point for incorporating more programming into maths units which is something I want to pursue in the future in general.
+
+In week 3 we helped them finish off their assignment, for which I wrote up a few more ["lesson notes"]({{ site.baseurl }}//files/placement/bhs/year10maths/stats/lesson_outlines/20180801_lesson_plan.pdf) in collaboration with my mentor teacher to help keep me and the class on track. Once they handed up their assignments I marked them and after some internal moderation with my mentor teacher I then gave them feedback and reported on their results. Below are some work samples from some of the particularly nice assignments:
+
+![Sample-1]({{ site.baseurl }}/files/placement/bhs/year10maths/stats/student_work/sample-1.png)
+
+![Sample-2]({{ site.baseurl }}/files/placement/bhs/year10maths/stats/student_work/sample-2.png)
+
 
 # Wrap-up Activity (Workplace Data, end of Week 3)
 
-In week 3 we helped them finish off their assignment, and on the last day of week 3 we introduced the next topic: indices. I quickly went through the index laws.
+On the last day of week 3, with the assignment done and handed up for most people, we did a final wrap-up activity for the stats topic before moving onto the next unit in week 4. The wrap-up activity involved looking at workplace employment data, which linked to what the students had been doing in care group for the previous week, and linked back to the initial video shown at the begging of the unit. See the instructions I posted to Daymap for the students, which also served as my lesson plan:
 
+![Lesson Outline]({{ site.baseurl }}/files/placement/bhs/year10maths/stats/lesson_outlines/20180810.png)
 
+I showed them [an infographic showing the distribution of employment by industry]({{ site.baseurl }}/files/placement/bhs/year10maths/stats/australianjobs2018snapshot.pdf), and demonstrated how to use look at and interpret the hackerspace data. In particular, I highlighted that this data included information on Aboriginal employment in each industry:
 
+![ATSI Workplace Data Analysis Example]({{ site.baseurl }}/files/placement/bhs/year10maths/stats/atsi_workplace_data.png)
 
-
-
-
-TODO: Flesh out the discussion, and illustrate with evidence.
+In the above screenshot, I highlighted to the students the top 12 industries as ranked by the percentage of people employed in that industry who identify as indigenous. Then, that 69 of the 359 industries in these data report employing zero people who identify as Indigenous. I then showed them a disturbing sample of 34 of these industries (that these data show as having employed zero indigenous people in South Australia in 2017), which highlights a breathtaking and disturbingly stark inequality in our workforce.
 
 
 
