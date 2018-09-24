@@ -2,9 +2,11 @@
 layout: post
 title:  "Full day of Teaching (NMHS Week 2: Friday)"
 date:   2018-06-15 12:00:00 +1030
-categories: MTeach nmhsPlacement
+categories: MTeach nmhsPlacement yr10maths yr10science
 tags: [1-1, 1-2, 1-5, 2-1, 2-2, 2-3, 3-1, 3-2, 3-3, 3-4, 3-5, 3-6, 4-1, 4-2, 5-1, 5-2]
+acara: [ACSSU229, ACMSP248, ACMSP249, ACMSP250, ACMSP253]
 ---
+
 
 I didn't do lesson plans for the lessons today, although I did spend some time planning todays lessons (I just didn't write those plans down, funnily enough, the lessons went more closely to plan than usual, too).
 

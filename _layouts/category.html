@@ -8,6 +8,8 @@ layout: default
 		<h1 class="post-title">#{{ page.tag }}</h1>
 	</header>
 	  
+	{{ content }}
+
 	{% if page.categories.size > 0 %}
 		<h2>Filter by Subcategory:</h2> 	  
 		<ul style="margin-bottom:0.7cm;">
@@ -16,6 +18,8 @@ layout: default
 			{% endfor %}
 			<li><a href="{{ site.baseurl }}/blog">Back to all reflections</a></li>
 		</ul>
+	{% else %}
+		<p><a href="{{ site.baseurl }}/blog">Back to all reflections</a></p>
 	{% endif %}
 	
 	<ul class="post-list">

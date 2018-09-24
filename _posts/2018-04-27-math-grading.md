@@ -2,7 +2,7 @@
 layout: post
 title:  "Individual Grading of 4 SATS and an Investigation (Mathematics C&M: Grading)"
 date:   2018-04-27 12:00:00 +1030
-categories: MTeach mathCM
+categories: MTeach mathCM stage2mathsMethods
 tags: [2-3, 5-1, 5-3, 5-4, 7-1, 7-2]
 ---
 

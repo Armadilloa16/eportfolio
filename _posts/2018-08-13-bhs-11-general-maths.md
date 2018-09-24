@@ -2,7 +2,7 @@
 layout: post
 title:  "Year 11 General Maths (BHS)"
 date:   2018-08-13 12:00:00 +1030
-categories: MTeach bhsPlacement
+categories: MTeach bhsPlacement stage1mathsGeneral
 ---
 
 

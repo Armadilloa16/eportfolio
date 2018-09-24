@@ -2,7 +2,7 @@
 layout: post
 title:  "Year 11 Chemistry (BHS)"
 date:   2018-08-14 12:00:00 +1030
-categories: MTeach bhsPlacement
+categories: MTeach bhsPlacement stage1chemistry
 ---
 
 

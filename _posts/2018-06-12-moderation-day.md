@@ -2,7 +2,7 @@
 layout: post
 title:  "Moderation Day (NMHS Week 2: Tuesday)"
 date:   2018-06-12 12:00:00 +1030
-categories: MTeach nmhsPlacement
+categories: MTeach nmhsPlacement yr10maths
 tags: [2-3, 3-1, 3-3, 3-6, 5-3, 6-2, 6-3, 6-4, 7-4] 
 ---
 

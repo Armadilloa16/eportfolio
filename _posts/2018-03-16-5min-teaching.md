@@ -2,7 +2,7 @@
 layout: post
 title:  "Silver Rhombic Dodecahedra (Mathematics C&M: Teach for 5min)"
 date:   2018-03-16 12:00:00 +1030
-categories: MTeach mathCM
+categories: MTeach mathCM stage1mathsMethods s1mm-Topic2-Polynomials
 tags: [2-1, 2-2, 3-4, 3-5, 4-1, 4-2, 4-3, 6-3]
 ---
 

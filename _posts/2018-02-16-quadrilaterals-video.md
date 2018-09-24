@@ -2,7 +2,7 @@
 layout: post
 title:  "Quadrilaterals Inscribed in Circles (Mathematics C&M: Video Task)"
 date:   2018-02-16 11:26:00 +1030
-categories: MTeach mathCM
+categories: MTeach mathCM stage1mathsMethods s1mm-Topic8-Geometry
 tags: [2-1, 2-2, 2-3, 2-6, 3-3, 3-4, 4-5, 6-2, 6-4]
 ---
 

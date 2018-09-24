@@ -2,7 +2,7 @@
 layout: post
 title:  "Stage 2 Chemistry Topic 3: Organic and Biological Chemistry, Part 1: Subtopics 3.1 - 3.6 (Chemistry C&M: Topic Folio)"
 date:   2018-03-30 12:00:00 +1030
-categories: MTeach chemCM
+categories: MTeach chemCM stage2chemistry s2chem-Topic3-Organic
 tags: [1-1, 1-2, 1-5, 2-1, 2-2, 2-3, 2-6, 3-1, 3-2, 3-4, 3-6, 4-1, 4-5] 
 ---
 

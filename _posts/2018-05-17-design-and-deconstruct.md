@@ -2,7 +2,7 @@
 layout: post
 title:  "Design and Deconstruct Investigation (Chemistry C&M: Intensive Task)"
 date:   2018-05-17 12:00:00 +1030
-categories: MTeach chemCM
+categories: MTeach chemCM stage2chemistry
 tags: [1-2, 1-5, 2-1, 2-2, 2-3, 3-1, 3-4, 3-6, 4-1, 4-4, 6-3, 6-4, 7-4]
 ---
 

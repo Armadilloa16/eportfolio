@@ -2,7 +2,7 @@
 layout: post
 title:  "Stage 1 Mathematics Topic 8: Geometry Unit Plan (Mathematics C&M: Unit Plan)"
 date:   2018-03-23 12:00:00 +1030
-categories: MTeach mathCM
+categories: MTeach mathCM  stage1mathsMethods s1mm-Topic8-Geometry
 tags: [1-1, 1-2, 1-5, 2-1, 2-2, 2-3, 2-6, 3-1, 3-2, 3-4, 4-1, 4-5]
 ---
 
