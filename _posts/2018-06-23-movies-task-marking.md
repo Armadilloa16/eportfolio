@@ -13,13 +13,13 @@ I marked a complete classes [movies DI]({{ site.baseurl }}//files/placement/nmhs
 
 I haven't include any of the reports themselves as they include identifying details of the students, but I can include a couple of anonymised samples of student work. This is the beginning discussion and assumptions/ limitations sections of one outstanding students work.
 
-![Sample-1]({{ site.baseurl }}/files/placement/nmhs/student_work/movies_discussion_student_2.png)
+![Sample-1]({{ site.baseurl }}/files/placement/nmhs/student_work/movies_discussion_student_2.PNG)
 
-![Sample-2]({{ site.baseurl }}/files/placement/nmhs/student_work/movies_assumptions_student_2.png)
+![Sample-2]({{ site.baseurl }}/files/placement/nmhs/student_work/movies_assumptions_student_2.PNG)
 
 This is an outstanding conclusion section written by another student.
 
-![Sample-3]({{ site.baseurl }}/files/placement/nmhs/student_work/movies_conclusion_student_1.png)
+![Sample-3]({{ site.baseurl }}/files/placement/nmhs/student_work/movies_conclusion_student_1.PNG)
 
 
 

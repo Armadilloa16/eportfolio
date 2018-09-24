@@ -15,11 +15,11 @@ Over the weekend I marked just about the whole classes inertia prac reports, whi
 
 I haven't include any of the reports themselves as they include identifying details of the students, but I can include a couple of anonymised samples of student work. This is the variables section of one students report, which showed an excellent grasp of the concepts surrounding variables.
 
-![Sample-1]({{ site.baseurl }}/files/placement/nmhs/student_work/inertia_variables_student_2.png)
+![Sample-1]({{ site.baseurl }}/files/placement/nmhs/student_work/inertia_variables_student_2.PNG)
 
 This is the materials and method section of another student's report, which showed excellent attention to detail.
 
-![Sample-2]({{ site.baseurl }}/files/placement/nmhs/student_work/inertia_method_student_1.png)
+![Sample-2]({{ site.baseurl }}/files/placement/nmhs/student_work/inertia_method_student_1.PNG)
 
 Overall neither of these prac reports where perfect, but each had sections that where excellent, and sections that demonstrated a lack of understanding as well --- highlighting the gaps in individual students knowledge which I then went on to address in future lessons with these students.
 
