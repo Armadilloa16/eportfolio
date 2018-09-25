@@ -14,11 +14,11 @@ Before my first lesson with the class I discussed with my mentor teacher what ki
 
 I discussed with my mentor how to start the statistics topic and wanted to start with an open ended question focused on some workplace data to try and get the students to explore the data and find something interesting. After some discussion I suggested using (Gapminder)[https://www.gapminder.org/tools/] instead, and after taking a look at it my mentor teacher got on board with that idea.
 
-# Introduction Activity (Gapminder, Week 1)
+## Introduction Activity (Gapminder, Week 1)
 
 We opened the first lesson on the new topic (statistics), with [a motivational video](https://drive.google.com/open?id=13JqYVHErcnAWDWz6wvbxpbUBQ3T6Lcet) which we would link back at the end of the of topic, but for now linked to the idea that having a whole bunch of awesome data, or amazing analysis, is completely useless unless you can communicate why it is important to someone else. This bridged the link to the activity which we then kicked off on interpreting data. We introduced this activity with the aid of our [`lesson-plan slides']({{ site.baseurl }}/files/placement/bhs/year10maths/stats/20180725_lesson_slides.pdf). We got students in groups to choose a chart type at random out of a cup, go on [the Gapminder website](https://www.gapminder.org/tools/) and find something that sparked their interest, and present on it using their chart type at the end of the week. This served as an intro to the topic, as well as an open-ended activity to push them outside of their usual comfort zone and present to their peers while practicing their communication skills.
 
-# Summative Task (Memory Game, Week 2 into 3)
+## Summative Task (Memory Game, Week 2 into 3)
 
 In week 2 we gave them the [summative assignment for the statistics topic]({{ site.baseurl }}//files/placement/bhs/year10maths/stats/memory_game/Memory_game_tasksheet.pdf) ([also available as a *.docx file]({{ site.baseurl }}//files/placement/bhs/year10maths/stats/memory_game/Memory_game_tasksheet.docx)), based on analysing [the data]({{ site.baseurl }}//files/placement/bhs/year10maths/stats/memory_game/Memory_game_times.xlsx) resulting from [a memory game they played in the previous term](https://www.mathsisfun.com/games/memory/index.html). I and started helping them through it step by step. I delivered this section of the unit with the help of [`lesson-plan slides']({{ site.baseurl }}//files/placement/bhs/year10maths/stats/20180730_lesson_slides.pdf), simlar to the introductory activity, but with how I was still feeling a little  uncertain with the class I also had more indepth discussions with my mentor teacher and wrote up [a more detailed lesson plan/ notes]({{ site.baseurl }}//files/placement/bhs/year10maths/stats/lesson_outlines/20180730_lesson_plan.pdf)
 
@@ -31,7 +31,7 @@ In week 3 we helped them finish off their assignment, for which I wrote up a few
 ![Sample-2]({{ site.baseurl }}/files/placement/bhs/year10maths/stats/student_work/sample-2.PNG)
 
 
-# Wrap-up Activity (Workplace Data, end of Week 3)
+## Wrap-up Activity (Workplace Data, end of Week 3)
 
 On the last day of week 3, with the assignment done and handed up for most people, we did a final wrap-up activity for the stats topic before moving onto the next unit in week 4. The wrap-up activity involved looking at workplace employment data, which linked to what the students had been doing in care group for the previous week, and linked back to the initial video shown at the begging of the unit. See the instructions I posted to Daymap for the students, which also served as my lesson plan:
 
@@ -44,7 +44,7 @@ I showed them [an infographic showing the distribution of employment by industry
 In the above screenshot, I highlighted to the students the top 12 industries as ranked by the percentage of people employed in that industry who identify as indigenous. Then, that 69 of the 359 industries in these data report employing zero people who identify as Indigenous. I then showed them a disturbing sample of 34 of these industries (that these data show as having employed zero indigenous people in South Australia in 2017), which highlights a breathtaking and disturbingly stark inequality in our workforce.
 
 
-# What I would do differently next time.
+## What I would do differently next time.
 
 <span style="background-color: #FFFF00">
 If I was to deliver this unit again, I would start with the workplace data that I ended on. The students showed some interest in it as it relates to their future careers. I would then scrap the memory game assignment, and replace it with a similar assignment but based around this data. So each student would choose an industry relevant to them --- one they might be interested in joining when they leave school and join the workforce. I would then get them to look at trends over time for employment in that industry, but also to look at various demographics employed by that industry. This would include gender comparisons (for example, make a boxplot for the age of women employed in your industry, and another for the age of men on the same axes, to compare. This would then allow me to emphasise the comparison of Indigenous and Non-Indigenous employment in each industry. I could even look into getting some indigenous guest speakers to come in and talk about the issues they face in whatever industry they are employed in. Ideally, I could even draw on the parents and extended family of students in the class for this kind of contribution to the class investigation. At the end of the unit, we would share the results from the whole class with each other, to discuss overall trends, similarities, and this would be included in the overall assessment.

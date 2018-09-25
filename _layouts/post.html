@@ -21,6 +21,17 @@ layout: default
       {% if page.author %}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
       {% endif %}</p>
+	  
+	  <div class="tags">
+		{% if page.acara.size > 0 %}
+		  ACARA: 
+		  {% for cod in page.acara %}
+			<span class="tag" sep=",">
+			  <a href="https://www.australiancurriculum.edu.au/Search/?q={{ cod }}">{{ cod }}</a>
+			</span>
+		  {% endfor %}
+		{% endif %}
+	  </div>
   </header>
 
   
@@ -38,18 +49,6 @@ layout: default
 	  {% endfor %}
 	{% endif %}
   </div>
-
-  <div class="tags">
-	{% if page.acara.size > 0 %}
-	  ACARA: 
-	  {% for cod in page.acara %}
-		<span class="tag" sep=",">
-		  <a href="https://www.australiancurriculum.edu.au/Search/?q={{ cod }}">{{ cod }}</a>
-		</span>
-	  {% endfor %}
-	{% endif %}
-  </div>
-
 
   {% if site.disqus.shortname %}
     {% include disqus_comments.html %}
