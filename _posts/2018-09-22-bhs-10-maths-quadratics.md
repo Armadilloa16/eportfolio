@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title:  "Quadratics Unit & Non-Linear Functions (BHS Weeks 7-9: Year 10 Maths) [incomplete]"
+title:  "Quadratics Unit & Non-Linear Functions (BHS Weeks 7-9: Year 10 Maths)"
 date:   2018-09-22 12:00:00 +1030
 categories: MTeach bhsPlacement yr10maths
 tags: []
