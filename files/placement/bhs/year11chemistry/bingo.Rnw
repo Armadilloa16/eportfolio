@@ -1,0 +1,510 @@
+\documentclass[12pt]{article}
+\usepackage[left=1.7cm, right=1.7cm, top=1.7cm, bottom=1.7cm, landscape]{geometry}
+
+\usepackage{mhchem}
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+
+<<setup, cache=FALSE, include=FALSE, echo = FALSE>>=
+set.seed('20180915')
+chem = c( 'H_2SO_4', 'HCl', 'HNO_3', 'H_2CO_3', 'NaHCO_3', 'Na_2CO_3', 'H_3PO_4', 'H_2SO_3',
+          'SO_4^2-', 'NO_3^-',  'CO_3^2-', 'PO_4^3-', 'OH^-',
+          'NaOH', 'KOH', 'Cu(OH)_2', 
+          'Al_2O_3', 'CuO', 'SiO_2',
+          'CaCO_3',
+          'CO_2', 
+          'Cl_2', 'H_2',
+          'CH_4', 'CH_3COOH',
+          'HCN',
+          'NH_3', 'NH_4^+',
+          'H_2O',
+          'NaCl', 'CuCl_2' )
+nams = c('Sulfuric Acid', 'Hydrochloric Acid', 'Nitric Acid', 'Carbonic Acid', 'Sodium Hydrogen Carbonate', 'Potassium Carbonate', 'Phosphoric Acid', 'Sulfurous Acid', 'Sulfate', 'Nitrate', 'Carbonate', 'Phosphate', 'Hydroxide', 'Sodium Hydroxide', 'Copper (II) Hydroxide', 'Aluminium Chloride', 'Aluminium (III) Oxide', 'Copper (II) Oxide', 'Silicon Dioxide', 'Calcium Carbonate', 'Carbon Dioxide', 'Chlorine', 'Chloride', 'Hydrogen', 'Hydronium', 'Methane', 'Acetic Acid', 'Hydrogen Cyanide', 'Water', 'Copper (II) Chloride')
+chem = nams
+n = length(chem)
+@
+
+<<shuffle_0, cache=FALSE, include=FALSE, echo = FALSE>>=
+chem = sample(chem, n, replace = FALSE)
+@
+
+
+
+\begin{center}
+{\Large
+\begin{tabular}{|p{4.4cm}|p{4.4cm}|p{4.4cm}|p{4.4cm}|p{4.4cm}|}
+\hline
+& & & & \\
+{\Sexpr{chem[1]}} & {\Sexpr{chem[2]}} & {\Sexpr{chem[3]}} & {\Sexpr{chem[4]}} & {\Sexpr{chem[5]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[6]}} & {\Sexpr{chem[7]}} & {\Sexpr{chem[8]}} & {\Sexpr{chem[9]}} & {\Sexpr{chem[10]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[11]}} & {\Sexpr{chem[12]}} & {\Sexpr{chem[13]}} & {\Sexpr{chem[14]}} & {\Sexpr{chem[15]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[16]}} & {\Sexpr{chem[17]}} & {\Sexpr{chem[18]}} & {\Sexpr{chem[19]}} & {\Sexpr{chem[20]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[21]}} & {\Sexpr{chem[22]}} & {\Sexpr{chem[23]}} & {\Sexpr{chem[24]}} & {\Sexpr{chem[25]}} \\
+ & & & & \\ \hline
+\end{tabular}
+}
+\end{center}
+\pagebreak
+
+<<shuffle_1, cache=FALSE, include=FALSE, echo = FALSE>>=
+chem = sample(chem, n, replace = FALSE)
+@
+
+\begin{center}
+{\Large
+\begin{tabular}{|p{4.4cm}|p{4.4cm}|p{4.4cm}|p{4.4cm}|p{4.4cm}|}
+\hline
+& & & & \\
+{\Sexpr{chem[1]}} & {\Sexpr{chem[2]}} & {\Sexpr{chem[3]}} & {\Sexpr{chem[4]}} & {\Sexpr{chem[5]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[6]}} & {\Sexpr{chem[7]}} & {\Sexpr{chem[8]}} & {\Sexpr{chem[9]}} & {\Sexpr{chem[10]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[11]}} & {\Sexpr{chem[12]}} & {\Sexpr{chem[13]}} & {\Sexpr{chem[14]}} & {\Sexpr{chem[15]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[16]}} & {\Sexpr{chem[17]}} & {\Sexpr{chem[18]}} & {\Sexpr{chem[19]}} & {\Sexpr{chem[20]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[21]}} & {\Sexpr{chem[22]}} & {\Sexpr{chem[23]}} & {\Sexpr{chem[24]}} & {\Sexpr{chem[25]}} \\
+ & & & & \\ \hline
+\end{tabular}
+}
+\end{center}
+\pagebreak
+
+<<shuffle_2, cache=FALSE, include=FALSE, echo = FALSE>>=
+chem = sample(chem, n, replace = FALSE)
+@
+
+\begin{center}
+{\Large
+\begin{tabular}{|p{4.4cm}|p{4.4cm}|p{4.4cm}|p{4.4cm}|p{4.4cm}|}
+\hline
+& & & & \\
+{\Sexpr{chem[1]}} & {\Sexpr{chem[2]}} & {\Sexpr{chem[3]}} & {\Sexpr{chem[4]}} & {\Sexpr{chem[5]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[6]}} & {\Sexpr{chem[7]}} & {\Sexpr{chem[8]}} & {\Sexpr{chem[9]}} & {\Sexpr{chem[10]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[11]}} & {\Sexpr{chem[12]}} & {\Sexpr{chem[13]}} & {\Sexpr{chem[14]}} & {\Sexpr{chem[15]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[16]}} & {\Sexpr{chem[17]}} & {\Sexpr{chem[18]}} & {\Sexpr{chem[19]}} & {\Sexpr{chem[20]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[21]}} & {\Sexpr{chem[22]}} & {\Sexpr{chem[23]}} & {\Sexpr{chem[24]}} & {\Sexpr{chem[25]}} \\
+ & & & & \\ \hline
+\end{tabular}
+}
+\end{center}
+\pagebreak
+
+<<shuffle_3, cache=FALSE, include=FALSE, echo = FALSE>>=
+chem = sample(chem, n, replace = FALSE)
+@
+
+\begin{center}
+{\Large
+\begin{tabular}{|p{4.4cm}|p{4.4cm}|p{4.4cm}|p{4.4cm}|p{4.4cm}|}
+\hline
+& & & & \\
+{\Sexpr{chem[1]}} & {\Sexpr{chem[2]}} & {\Sexpr{chem[3]}} & {\Sexpr{chem[4]}} & {\Sexpr{chem[5]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[6]}} & {\Sexpr{chem[7]}} & {\Sexpr{chem[8]}} & {\Sexpr{chem[9]}} & {\Sexpr{chem[10]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[11]}} & {\Sexpr{chem[12]}} & {\Sexpr{chem[13]}} & {\Sexpr{chem[14]}} & {\Sexpr{chem[15]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[16]}} & {\Sexpr{chem[17]}} & {\Sexpr{chem[18]}} & {\Sexpr{chem[19]}} & {\Sexpr{chem[20]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[21]}} & {\Sexpr{chem[22]}} & {\Sexpr{chem[23]}} & {\Sexpr{chem[24]}} & {\Sexpr{chem[25]}} \\
+ & & & & \\ \hline
+\end{tabular}
+}
+\end{center}
+\pagebreak
+
+<<shuffle_4, cache=FALSE, include=FALSE, echo = FALSE>>=
+chem = sample(chem, n, replace = FALSE)
+@
+
+\begin{center}
+{\Large
+\begin{tabular}{|p{4.4cm}|p{4.4cm}|p{4.4cm}|p{4.4cm}|p{4.4cm}|}
+\hline
+& & & & \\
+{\Sexpr{chem[1]}} & {\Sexpr{chem[2]}} & {\Sexpr{chem[3]}} & {\Sexpr{chem[4]}} & {\Sexpr{chem[5]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[6]}} & {\Sexpr{chem[7]}} & {\Sexpr{chem[8]}} & {\Sexpr{chem[9]}} & {\Sexpr{chem[10]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[11]}} & {\Sexpr{chem[12]}} & {\Sexpr{chem[13]}} & {\Sexpr{chem[14]}} & {\Sexpr{chem[15]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[16]}} & {\Sexpr{chem[17]}} & {\Sexpr{chem[18]}} & {\Sexpr{chem[19]}} & {\Sexpr{chem[20]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[21]}} & {\Sexpr{chem[22]}} & {\Sexpr{chem[23]}} & {\Sexpr{chem[24]}} & {\Sexpr{chem[25]}} \\
+ & & & & \\ \hline
+\end{tabular}
+}
+\end{center}
+\pagebreak
+
+<<shuffle_5, cache=FALSE, include=FALSE, echo = FALSE>>=
+chem = sample(chem, n, replace = FALSE)
+@
+
+\begin{center}
+{\Large
+\begin{tabular}{|p{4.4cm}|p{4.4cm}|p{4.4cm}|p{4.4cm}|p{4.4cm}|}
+\hline
+& & & & \\
+{\Sexpr{chem[1]}} & {\Sexpr{chem[2]}} & {\Sexpr{chem[3]}} & {\Sexpr{chem[4]}} & {\Sexpr{chem[5]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[6]}} & {\Sexpr{chem[7]}} & {\Sexpr{chem[8]}} & {\Sexpr{chem[9]}} & {\Sexpr{chem[10]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[11]}} & {\Sexpr{chem[12]}} & {\Sexpr{chem[13]}} & {\Sexpr{chem[14]}} & {\Sexpr{chem[15]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[16]}} & {\Sexpr{chem[17]}} & {\Sexpr{chem[18]}} & {\Sexpr{chem[19]}} & {\Sexpr{chem[20]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[21]}} & {\Sexpr{chem[22]}} & {\Sexpr{chem[23]}} & {\Sexpr{chem[24]}} & {\Sexpr{chem[25]}} \\
+ & & & & \\ \hline
+\end{tabular}
+}
+\end{center}
+\pagebreak
+
+<<shuffle_6, cache=FALSE, include=FALSE, echo = FALSE>>=
+chem = sample(chem, n, replace = FALSE)
+@
+
+\begin{center}
+{\Large
+\begin{tabular}{|p{4.4cm}|p{4.4cm}|p{4.4cm}|p{4.4cm}|p{4.4cm}|}
+\hline
+& & & & \\
+{\Sexpr{chem[1]}} & {\Sexpr{chem[2]}} & {\Sexpr{chem[3]}} & {\Sexpr{chem[4]}} & {\Sexpr{chem[5]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[6]}} & {\Sexpr{chem[7]}} & {\Sexpr{chem[8]}} & {\Sexpr{chem[9]}} & {\Sexpr{chem[10]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[11]}} & {\Sexpr{chem[12]}} & {\Sexpr{chem[13]}} & {\Sexpr{chem[14]}} & {\Sexpr{chem[15]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[16]}} & {\Sexpr{chem[17]}} & {\Sexpr{chem[18]}} & {\Sexpr{chem[19]}} & {\Sexpr{chem[20]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[21]}} & {\Sexpr{chem[22]}} & {\Sexpr{chem[23]}} & {\Sexpr{chem[24]}} & {\Sexpr{chem[25]}} \\
+ & & & & \\ \hline
+\end{tabular}
+}
+\end{center}
+\pagebreak
+
+<<shuffle_7, cache=FALSE, include=FALSE, echo = FALSE>>=
+chem = sample(chem, n, replace = FALSE)
+@
+
+\begin{center}
+{\Large
+\begin{tabular}{|p{4.4cm}|p{4.4cm}|p{4.4cm}|p{4.4cm}|p{4.4cm}|}
+\hline
+& & & & \\
+{\Sexpr{chem[1]}} & {\Sexpr{chem[2]}} & {\Sexpr{chem[3]}} & {\Sexpr{chem[4]}} & {\Sexpr{chem[5]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[6]}} & {\Sexpr{chem[7]}} & {\Sexpr{chem[8]}} & {\Sexpr{chem[9]}} & {\Sexpr{chem[10]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[11]}} & {\Sexpr{chem[12]}} & {\Sexpr{chem[13]}} & {\Sexpr{chem[14]}} & {\Sexpr{chem[15]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[16]}} & {\Sexpr{chem[17]}} & {\Sexpr{chem[18]}} & {\Sexpr{chem[19]}} & {\Sexpr{chem[20]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[21]}} & {\Sexpr{chem[22]}} & {\Sexpr{chem[23]}} & {\Sexpr{chem[24]}} & {\Sexpr{chem[25]}} \\
+ & & & & \\ \hline
+\end{tabular}
+}
+\end{center}
+\pagebreak
+
+<<shuffle_8, cache=FALSE, include=FALSE, echo = FALSE>>=
+chem = sample(chem, n, replace = FALSE)
+@
+
+\begin{center}
+{\Large
+\begin{tabular}{|p{4.4cm}|p{4.4cm}|p{4.4cm}|p{4.4cm}|p{4.4cm}|}
+\hline
+& & & & \\
+{\Sexpr{chem[1]}} & {\Sexpr{chem[2]}} & {\Sexpr{chem[3]}} & {\Sexpr{chem[4]}} & {\Sexpr{chem[5]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[6]}} & {\Sexpr{chem[7]}} & {\Sexpr{chem[8]}} & {\Sexpr{chem[9]}} & {\Sexpr{chem[10]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[11]}} & {\Sexpr{chem[12]}} & {\Sexpr{chem[13]}} & {\Sexpr{chem[14]}} & {\Sexpr{chem[15]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[16]}} & {\Sexpr{chem[17]}} & {\Sexpr{chem[18]}} & {\Sexpr{chem[19]}} & {\Sexpr{chem[20]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[21]}} & {\Sexpr{chem[22]}} & {\Sexpr{chem[23]}} & {\Sexpr{chem[24]}} & {\Sexpr{chem[25]}} \\
+ & & & & \\ \hline
+\end{tabular}
+}
+\end{center}
+\pagebreak
+
+<<shuffle_9, cache=FALSE, include=FALSE, echo = FALSE>>=
+chem = sample(chem, n, replace = FALSE)
+@
+
+\begin{center}
+{\Large
+\begin{tabular}{|p{4.4cm}|p{4.4cm}|p{4.4cm}|p{4.4cm}|p{4.4cm}|}
+\hline
+& & & & \\
+{\Sexpr{chem[1]}} & {\Sexpr{chem[2]}} & {\Sexpr{chem[3]}} & {\Sexpr{chem[4]}} & {\Sexpr{chem[5]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[6]}} & {\Sexpr{chem[7]}} & {\Sexpr{chem[8]}} & {\Sexpr{chem[9]}} & {\Sexpr{chem[10]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[11]}} & {\Sexpr{chem[12]}} & {\Sexpr{chem[13]}} & {\Sexpr{chem[14]}} & {\Sexpr{chem[15]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[16]}} & {\Sexpr{chem[17]}} & {\Sexpr{chem[18]}} & {\Sexpr{chem[19]}} & {\Sexpr{chem[20]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[21]}} & {\Sexpr{chem[22]}} & {\Sexpr{chem[23]}} & {\Sexpr{chem[24]}} & {\Sexpr{chem[25]}} \\
+ & & & & \\ \hline
+\end{tabular}
+}
+\end{center}
+\pagebreak
+
+<<shuffle_10, cache=FALSE, include=FALSE, echo = FALSE>>=
+chem = sample(chem, n, replace = FALSE)
+@
+
+\begin{center}
+{\Large
+\begin{tabular}{|p{4.4cm}|p{4.4cm}|p{4.4cm}|p{4.4cm}|p{4.4cm}|}
+\hline
+& & & & \\
+{\Sexpr{chem[1]}} & {\Sexpr{chem[2]}} & {\Sexpr{chem[3]}} & {\Sexpr{chem[4]}} & {\Sexpr{chem[5]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[6]}} & {\Sexpr{chem[7]}} & {\Sexpr{chem[8]}} & {\Sexpr{chem[9]}} & {\Sexpr{chem[10]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[11]}} & {\Sexpr{chem[12]}} & {\Sexpr{chem[13]}} & {\Sexpr{chem[14]}} & {\Sexpr{chem[15]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[16]}} & {\Sexpr{chem[17]}} & {\Sexpr{chem[18]}} & {\Sexpr{chem[19]}} & {\Sexpr{chem[20]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[21]}} & {\Sexpr{chem[22]}} & {\Sexpr{chem[23]}} & {\Sexpr{chem[24]}} & {\Sexpr{chem[25]}} \\
+ & & & & \\ \hline
+\end{tabular}
+}
+\end{center}
+\pagebreak
+
+<<shuffle_11, cache=FALSE, include=FALSE, echo = FALSE>>=
+chem = sample(chem, n, replace = FALSE)
+@
+
+\begin{center}
+{\Large
+\begin{tabular}{|p{4.4cm}|p{4.4cm}|p{4.4cm}|p{4.4cm}|p{4.4cm}|}
+\hline
+& & & & \\
+{\Sexpr{chem[1]}} & {\Sexpr{chem[2]}} & {\Sexpr{chem[3]}} & {\Sexpr{chem[4]}} & {\Sexpr{chem[5]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[6]}} & {\Sexpr{chem[7]}} & {\Sexpr{chem[8]}} & {\Sexpr{chem[9]}} & {\Sexpr{chem[10]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[11]}} & {\Sexpr{chem[12]}} & {\Sexpr{chem[13]}} & {\Sexpr{chem[14]}} & {\Sexpr{chem[15]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[16]}} & {\Sexpr{chem[17]}} & {\Sexpr{chem[18]}} & {\Sexpr{chem[19]}} & {\Sexpr{chem[20]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[21]}} & {\Sexpr{chem[22]}} & {\Sexpr{chem[23]}} & {\Sexpr{chem[24]}} & {\Sexpr{chem[25]}} \\
+ & & & & \\ \hline
+\end{tabular}
+}
+\end{center}
+\pagebreak
+
+<<shuffle_12, cache=FALSE, include=FALSE, echo = FALSE>>=
+chem = sample(chem, n, replace = FALSE)
+@
+
+\begin{center}
+{\Large
+\begin{tabular}{|p{4.4cm}|p{4.4cm}|p{4.4cm}|p{4.4cm}|p{4.4cm}|}
+\hline
+& & & & \\
+{\Sexpr{chem[1]}} & {\Sexpr{chem[2]}} & {\Sexpr{chem[3]}} & {\Sexpr{chem[4]}} & {\Sexpr{chem[5]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[6]}} & {\Sexpr{chem[7]}} & {\Sexpr{chem[8]}} & {\Sexpr{chem[9]}} & {\Sexpr{chem[10]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[11]}} & {\Sexpr{chem[12]}} & {\Sexpr{chem[13]}} & {\Sexpr{chem[14]}} & {\Sexpr{chem[15]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[16]}} & {\Sexpr{chem[17]}} & {\Sexpr{chem[18]}} & {\Sexpr{chem[19]}} & {\Sexpr{chem[20]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[21]}} & {\Sexpr{chem[22]}} & {\Sexpr{chem[23]}} & {\Sexpr{chem[24]}} & {\Sexpr{chem[25]}} \\
+ & & & & \\ \hline
+\end{tabular}
+}
+\end{center}
+\pagebreak
+
+<<shuffle_13, cache=FALSE, include=FALSE, echo = FALSE>>=
+chem = sample(chem, n, replace = FALSE)
+@
+
+\begin{center}
+{\Large
+\begin{tabular}{|p{4.4cm}|p{4.4cm}|p{4.4cm}|p{4.4cm}|p{4.4cm}|}
+\hline
+& & & & \\
+{\Sexpr{chem[1]}} & {\Sexpr{chem[2]}} & {\Sexpr{chem[3]}} & {\Sexpr{chem[4]}} & {\Sexpr{chem[5]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[6]}} & {\Sexpr{chem[7]}} & {\Sexpr{chem[8]}} & {\Sexpr{chem[9]}} & {\Sexpr{chem[10]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[11]}} & {\Sexpr{chem[12]}} & {\Sexpr{chem[13]}} & {\Sexpr{chem[14]}} & {\Sexpr{chem[15]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[16]}} & {\Sexpr{chem[17]}} & {\Sexpr{chem[18]}} & {\Sexpr{chem[19]}} & {\Sexpr{chem[20]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[21]}} & {\Sexpr{chem[22]}} & {\Sexpr{chem[23]}} & {\Sexpr{chem[24]}} & {\Sexpr{chem[25]}} \\
+ & & & & \\ \hline
+\end{tabular}
+}
+\end{center}
+\pagebreak
+
+<<shuffle_14, cache=FALSE, include=FALSE, echo = FALSE>>=
+chem = sample(chem, n, replace = FALSE)
+@
+
+\begin{center}
+{\Large
+\begin{tabular}{|p{4.4cm}|p{4.4cm}|p{4.4cm}|p{4.4cm}|p{4.4cm}|}
+\hline
+& & & & \\
+{\Sexpr{chem[1]}} & {\Sexpr{chem[2]}} & {\Sexpr{chem[3]}} & {\Sexpr{chem[4]}} & {\Sexpr{chem[5]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[6]}} & {\Sexpr{chem[7]}} & {\Sexpr{chem[8]}} & {\Sexpr{chem[9]}} & {\Sexpr{chem[10]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[11]}} & {\Sexpr{chem[12]}} & {\Sexpr{chem[13]}} & {\Sexpr{chem[14]}} & {\Sexpr{chem[15]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[16]}} & {\Sexpr{chem[17]}} & {\Sexpr{chem[18]}} & {\Sexpr{chem[19]}} & {\Sexpr{chem[20]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[21]}} & {\Sexpr{chem[22]}} & {\Sexpr{chem[23]}} & {\Sexpr{chem[24]}} & {\Sexpr{chem[25]}} \\
+ & & & & \\ \hline
+\end{tabular}
+}
+\end{center}
+\pagebreak
+
+<<shuffle_15, cache=FALSE, include=FALSE, echo = FALSE>>=
+chem = sample(chem, n, replace = FALSE)
+@
+
+\begin{center}
+{\Large
+\begin{tabular}{|p{4.4cm}|p{4.4cm}|p{4.4cm}|p{4.4cm}|p{4.4cm}|}
+\hline
+& & & & \\
+{\Sexpr{chem[1]}} & {\Sexpr{chem[2]}} & {\Sexpr{chem[3]}} & {\Sexpr{chem[4]}} & {\Sexpr{chem[5]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[6]}} & {\Sexpr{chem[7]}} & {\Sexpr{chem[8]}} & {\Sexpr{chem[9]}} & {\Sexpr{chem[10]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[11]}} & {\Sexpr{chem[12]}} & {\Sexpr{chem[13]}} & {\Sexpr{chem[14]}} & {\Sexpr{chem[15]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[16]}} & {\Sexpr{chem[17]}} & {\Sexpr{chem[18]}} & {\Sexpr{chem[19]}} & {\Sexpr{chem[20]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[21]}} & {\Sexpr{chem[22]}} & {\Sexpr{chem[23]}} & {\Sexpr{chem[24]}} & {\Sexpr{chem[25]}} \\
+ & & & & \\ \hline
+\end{tabular}
+}
+\end{center}
+\pagebreak
+
+<<shuffle_16, cache=FALSE, include=FALSE, echo = FALSE>>=
+chem = sample(chem, n, replace = FALSE)
+@
+
+\begin{center}
+{\Large
+\begin{tabular}{|p{4.4cm}|p{4.4cm}|p{4.4cm}|p{4.4cm}|p{4.4cm}|}
+\hline
+& & & & \\
+{\Sexpr{chem[1]}} & {\Sexpr{chem[2]}} & {\Sexpr{chem[3]}} & {\Sexpr{chem[4]}} & {\Sexpr{chem[5]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[6]}} & {\Sexpr{chem[7]}} & {\Sexpr{chem[8]}} & {\Sexpr{chem[9]}} & {\Sexpr{chem[10]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[11]}} & {\Sexpr{chem[12]}} & {\Sexpr{chem[13]}} & {\Sexpr{chem[14]}} & {\Sexpr{chem[15]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[16]}} & {\Sexpr{chem[17]}} & {\Sexpr{chem[18]}} & {\Sexpr{chem[19]}} & {\Sexpr{chem[20]}} \\
+ & & & & \\ \hline
+ & & & & \\
+{\Sexpr{chem[21]}} & {\Sexpr{chem[22]}} & {\Sexpr{chem[23]}} & {\Sexpr{chem[24]}} & {\Sexpr{chem[25]}} \\
+ & & & & \\ \hline
+\end{tabular}
+}
+\end{center}
+\pagebreak
+
+
+
+
+
+\end{document}
