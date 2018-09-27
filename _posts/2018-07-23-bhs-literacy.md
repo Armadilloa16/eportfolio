@@ -6,7 +6,7 @@ categories: MTeach bhsPlacement
 ---
 
 
-TODO: Flesh out the discussion, and illustrate with evidence.
+TODO: Write up a reflection and add some evidence.
 
 
 

@@ -1,7 +1,7 @@
 ﻿---
 layout: post
 title:  "Year 11 General Maths (BHS)"
-date:   2018-08-13 12:00:00 +1030
+date:   2018-09-23 12:00:00 +1030
 categories: MTeach bhsPlacement stage1mathsGeneral
 ---
 
@@ -94,4 +94,7 @@ A week or two after i gave them the assignment, as I ramped up the pressure to g
 ### Networks Test
 
 At the end of week 9 right as I was leaving, the students where getting ready to hand up their networks assignment, and beggining to revise for the Networks test that they would get given in the following week. As everyone had been so happy with the job I did on the trigonometry re-test earlier in the term, and as I was willing, they asked me to write the networks test. So I did and I was pretty happy with the the outcome too. Here is [the networks test I wrote]({{ site.baseurl }}/files/placement/bhs/year11general/networks_test.pdf), (as well as [the source *.tex file]({{ site.baseurl }}/files/placement/bhs/year11general/networks_test.tex) is also available). 
+
+
+
 
