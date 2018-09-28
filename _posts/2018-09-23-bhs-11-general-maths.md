@@ -61,7 +61,15 @@ What follows are some student work samples from the test:
 
 A few students did not do well enough to get a passing grade on the initial test, and so I wrote up [a re-test]({{ site.baseurl }}/files/placement/bhs/year11general/trigonometry_re-test.pdf) ([word *.docx version also available]({{ site.baseurl }}/files/placement/bhs/year11general/trigonometry_re-test.docx)). I got very good feedback from the other teachers that they liked how I wrote the test, and this would lead to me writing more assessment items for them later in the term... the curse of competence, I suppose. The intension of this re-test was to allow these students the opportunity to demonstrate a passing standard for the topic. 
 
+What follows is the anonymised feedback and grades I reported back through Daymap jointly to the students and parents:
 
+![Feedback 1]({{ site.baseurl }}/files/placement/bhs/year11general/feedback/feedback-1.PNG)
+
+![Feedback 2]({{ site.baseurl }}/files/placement/bhs/year11general/feedback/feedback-2.PNG)
+
+![Feedback 3]({{ site.baseurl }}/files/placement/bhs/year11general/feedback/feedback-3.PNG)
+
+![Feedback 4]({{ site.baseurl }}/files/placement/bhs/year11general/feedback/feedback-4.PNG)
 
 
 

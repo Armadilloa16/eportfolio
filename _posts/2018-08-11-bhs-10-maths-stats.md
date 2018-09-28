@@ -30,6 +30,26 @@ In week 3 we helped them finish off their assignment, for which I wrote up a few
 
 ![Sample-2]({{ site.baseurl }}/files/placement/bhs/year10maths/stats/student_work/sample-2.PNG)
 
+### Marking and Feedback
+
+What follows is the anonymised feedback and grades I reported back through Daymap jointly to the students and parents:
+
+![Feedback 1]({{ site.baseurl }}/files/placement/bhs/year10maths/stats/memory_game/feedback/feedback-1.PNG)
+
+![Feedback 2]({{ site.baseurl }}/files/placement/bhs/year10maths/stats/memory_game/feedback/feedback-2.PNG)
+
+![Feedback 3]({{ site.baseurl }}/files/placement/bhs/year10maths/stats/memory_game/feedback/feedback-3.PNG)
+
+![Feedback 4]({{ site.baseurl }}/files/placement/bhs/year10maths/stats/memory_game/feedback/feedback-4.PNG)
+
+![Feedback 5]({{ site.baseurl }}/files/placement/bhs/year10maths/stats/memory_game/feedback/feedback-5.PNG)
+
+![Feedback 6]({{ site.baseurl }}/files/placement/bhs/year10maths/stats/memory_game/feedback/feedback-6.PNG)
+
+![Feedback 7]({{ site.baseurl }}/files/placement/bhs/year10maths/stats/memory_game/feedback/feedback-7.PNG)
+
+
+
 
 ## Wrap-up Activity (Workplace Data, end of Week 3)
 

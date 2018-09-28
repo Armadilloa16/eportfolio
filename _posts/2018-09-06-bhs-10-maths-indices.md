@@ -108,3 +108,19 @@ Once these assessments where completed I marked them, gave the students feedback
 
 ![Sample 6]({{ site.baseurl }}/files/placement/bhs/year10maths/indices/student_work/DI/sample-6.jpg)
 
+
+
+### Feedback
+
+What follows is the anonymised feedback and grades I reported back through Daymap jointly to the students and parents:
+
+![Feedback 1]({{ site.baseurl }}/files/placement/bhs/year10maths/indices/assessment/feedback/feedback-1.PNG)
+
+![Feedback 2]({{ site.baseurl }}/files/placement/bhs/year10maths/indices/assessment/feedback/feedback-2.PNG)
+
+![Feedback 3]({{ site.baseurl }}/files/placement/bhs/year10maths/indices/assessment/feedback/feedback-3.PNG)
+
+![Feedback 4]({{ site.baseurl }}/files/placement/bhs/year10maths/indices/assessment/feedback/feedback-4.PNG)
+
+
+
