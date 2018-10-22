@@ -3,10 +3,12 @@ layout: post
 title:  "SASTA Early Career Conference"
 date:   2018-10-12 17:00:00 +1030
 categories: PD
-tags: [7-4]
+tags: [2-1, 2-2, 3-2, 6-2, 7-4]
 ---
 
-Today I attended the SASTA Early Career Conference, and learnt some really good techniques and gained access to some really good resources. So I thought I would write brief reflections and provide links to the relevant resources here, mostly for my own future reference.
+Today I attended the SASTA Early Career Conference, and learnt some really good techniques and gained access to some really good resources. I thought I would write brief reflections and provide links to the relevant resources here while it is all fresh in my mind, mostly for my own future reference.
+
+I got [a participation certificate]({{ site.baseurl }}/files/PD/SASTA_ECTC18/participation_certificate.pdf) for attending, which can serve as evidence towards the <a href="{{ site.baseurl }}/apst">APST</a>.
 
 I attended five sessions, so below I will include the abstract, a breif reflection, and links to any relevant resources, for each of these five sessions. Finally, I'll include some comments on the other sessions (which I didn't personally attend).
 
@@ -62,7 +64,7 @@ Kate Dilger, SASTA
 </footer>
 </blockquote>
 
-Kate was awesome. She showed us some activities we could run to really emphasise science inquiry in exactly the kind of way that I would do it. In [one activity she gave us sealed boxes]({{ site.baseurl }}/files/resources/SASTA_ECTC18/Mystery_Boxes.pdf) and we had to make observations to form a hypothesis about what was in the box. We never got to open the boxes, and this activity served as a fantastic analogy for science --- scientists don't get to "look inside the box", they don't get to find out if they are "right". They can only make observations and provide evidence for their conclusions, and that is the end of it. The focus should be on the process of collecting and presenting evidence logically. We did two other activities too, one to do with the size of the earth and the moon, the other with a baloon filled with water not popping when exposed to a match. We also discussed how to introduce the concepts around variables, using a ["Variables Grid"]({{ site.baseurl }}/files/resources/SASTA_ECTC18/Variables_Grid.pdf), and an ["Investigation Planner"]({{ site.baseurl }}/files/resources/SASTA_ECTC18/Investigation_Planner.doc).
+Kate was awesome. She showed us some activities we could run to really emphasise science inquiry in exactly the kind of way that I would do it. In [one activity she gave us sealed boxes]({{ site.baseurl }}/files/PD/SASTA_ECTC18/Mystery_Boxes.pdf) and we had to make observations to form a hypothesis about what was in the box. We never got to open the boxes, and this activity served as a fantastic analogy for science --- scientists don't get to "look inside the box", they don't get to find out if they are "right". They can only make observations and provide evidence for their conclusions, and that is the end of it. The focus should be on the process of collecting and presenting evidence logically. We did two other activities too, one to do with the size of the earth and the moon, the other with a baloon filled with water not popping when exposed to a match. We also discussed how to introduce the concepts around variables, using a ["Variables Grid"]({{ site.baseurl }}/files/PD/SASTA_ECTC18/Variables_Grid.pdf), and an ["Investigation Planner"]({{ site.baseurl }}/files/PD/SASTA_ECTC18/Investigation_Planner.doc).
 
 
 
@@ -75,8 +77,8 @@ Lauren Brown, Wudinna Area School
 </footer>
 </blockquote>
 
-Lauren spoke about incorporating games into learning. One of the things that I thought was particularly cool was how she is currently having her year 10s design, playtest, and apply the engineering design process to [construct a game to help her teach the year 8s about cells and cell differentiation]({{ site.baseurl }}/files/resources/SASTA_ECTC18/Make_a_Boardgame.docx). The [end product game seems complicated, but awesome]({{ site.baseurl }}/files/resources/SASTA_ECTC18/Full-Lesson-Cell-differentiation-game.pdf). 
-Role playing took a major role in these games, and in other parts as well. One of the really cool things she produced was a simplified rule set roleplaying game, complete with [rulebook]({{ site.baseurl }}/files/resources/SASTA_ECTC18/Rules_Book.docx) and [character sheets]({{ site.baseurl }}/files/resources/SASTA_ECTC18/Character_Sheet.docx), for playing role-playing games with her students.
+Lauren spoke about incorporating games into learning. One of the things that I thought was particularly cool was how she is currently having her year 10s design, playtest, and apply the engineering design process to [construct a game to help her teach the year 8s about cells and cell differentiation]({{ site.baseurl }}/files/PD/SASTA_ECTC18/Make_a_Boardgame.docx). The [end product game seems complicated, but awesome]({{ site.baseurl }}/files/PD/SASTA_ECTC18/Full-Lesson-Cell-differentiation-game.pdf). 
+Role playing took a major role in these games, and in other parts as well. One of the really cool things she produced was a simplified rule set roleplaying game, complete with [rulebook]({{ site.baseurl }}/files/PD/SASTA_ECTC18/Rules_Book.docx) and [character sheets]({{ site.baseurl }}/files/PD/SASTA_ECTC18/Character_Sheet.docx), for playing role-playing games with her students.
 
 
 
@@ -89,7 +91,7 @@ Scott Spargo, Concordia College Highgate
 </footer>
 </blockquote>
 
-Scott spoke about a number of really effective formative assessment strategies. He ran his whole session off [a set of notes including links to resources]({{ site.baseurl }}/files/resources/SASTA_ECTC18/Formative_Assessment.pdf), which he provided to us. One of the key messages I took from it was the reinforced understanding of the importance of immediate feedback techniques and of recognising 'fixed' mindsets as opposed to 'growth mindsets' in our students, and ways to encourage this changing. I'm keen on the no-hands-up technique, and I really liked how he ran it with cards instead of paddlepop sticks. I really want to try that. IF-AT seems very cool and effective, if slightly expensive and as he mentioned, tricky to get good questions that prompt the right kind of discussion. Although he did also point towards a very good resource in that he used questions from [previous ICAS tests](http://www.vprogress.com.au/icas-past-practice-questions-download/). Kahoot and Google Quizzes also provided immediate feedback techniques. One of the things that really struck me though was his explanation of how simply having a personal whiteboard to write on instead of writing in a book could make students feel so much more comfortable suggesting approaches that might not immediately be correct, because they felt they could erase them and correct them. This is such a crucial way of thinking, that I'd really like to try it because that barrier is a tough one to breach in my experience.
+Scott spoke about a number of really effective formative assessment strategies. He ran his whole session off [a set of notes including links to resources]({{ site.baseurl }}/files/PD/SASTA_ECTC18/Formative_Assessment.pdf), which he provided to us. One of the key messages I took from it was the reinforced understanding of the importance of immediate feedback techniques and of recognising 'fixed' mindsets as opposed to 'growth mindsets' in our students, and ways to encourage this changing. I'm keen on the no-hands-up technique, and I really liked how he ran it with cards instead of paddlepop sticks. I really want to try that. IF-AT seems very cool and effective, if slightly expensive and as he mentioned, tricky to get good questions that prompt the right kind of discussion. Although he did also point towards a very good resource in that he used questions from [previous ICAS tests](http://www.vprogress.com.au/icas-past-practice-questions-download/). Kahoot and Google Quizzes also provided immediate feedback techniques. One of the things that really struck me though was his explanation of how simply having a personal whiteboard to write on instead of writing in a book could make students feel so much more comfortable suggesting approaches that might not immediately be correct, because they felt they could erase them and correct them. This is such a crucial way of thinking, that I'd really like to try it because that barrier is a tough one to breach in my experience.
 
 
 
@@ -99,7 +101,7 @@ Here I'll list some of the resources provided from other sessions which although
 
 ### Going from Graduate to Proficient
 
-There was a session I missed to do with going from Graduate to Proficient, from Provisional to Full TRB registration, and it seemed that some useful examples/ resources where provided in that sessions. Here are [the slides from the session]({{ site.baseurl }}/files/resources/SASTA_ECTC18/APST_slides.pdf), and some additional resources on [annotating evidence]({{ site.baseurl }}/files/resources/SASTA_ECTC18/Annotating_Evidence.pdf), and [examples of evidence]({{ site.baseurl }}/files/resources/SASTA_ECTC18/Examples_of_evidence.docx). They also when through the forms and conditions but I'm guessing that would all be available through the TRB and might be subject to changes so I didn't include those here.
+There was a session I missed to do with going from Graduate to Proficient, from Provisional to Full TRB registration, and it seemed that some useful examples/ resources where provided in that sessions. Here are [the slides from the session]({{ site.baseurl }}/files/PD/SASTA_ECTC18/APST_slides.pdf), and some additional resources on [annotating evidence]({{ site.baseurl }}/files/PD/SASTA_ECTC18/Annotating_Evidence.pdf), and [examples of evidence]({{ site.baseurl }}/files/PD/SASTA_ECTC18/Examples_of_evidence.docx). They also when through the forms and conditions but I'm guessing that would all be available through the TRB and might be subject to changes so I didn't include those here.
 
 
 
