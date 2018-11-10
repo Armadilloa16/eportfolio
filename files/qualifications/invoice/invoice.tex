@@ -1,0 +1,74 @@
+\documentclass[a4paper,12pt]{report} 
+
+\usepackage[top = 3.4cm, left = 2.4cm, right = 2.4cm, bottom = 2.6cm]{geometry}
+\usepackage{multicol}
+
+\usepackage{tikz}
+\usepackage{draftwatermark}
+\SetWatermarkText{
+\begin{tikzpicture}
+\draw[fill] (-1.4142, 0) -- (0, -1) -- (1.4142, 0) -- (0, 1) -- cycle;
+\end{tikzpicture}
+}
+\SetWatermarkHorCenter{2cm}
+\SetWatermarkVerCenter{2cm}
+\SetWatermarkColor[rgb]{0.35,0.65,0.9}
+
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+	urlcolor=black
+}
+
+
+
+\begin{document} 
+
+\begin{multicols}{2}
+\begin{flushleft}
+\begin{tabular}{l}
+Dr. Lyron Juan Winderbaum \\
+3 Hallett Avenue \\  
+Tranmere
+SA 5073 \\
+Australia
+\end{tabular}
+\end{flushleft}
+
+\begin{flushright}
+\begin{tabular}{ll}
+mobile: & (+61) 431 955 152 \\
+email: & \href{mailto:armadilloa16@gmail.com}{armadilloa16@gmail.com} \\
+\end{tabular}
+\end{flushright}
+\end{multicols}                                  
+
+\subsection*{Invoice To:}
+
+John Smith
+
+Generic Corporation
+
+\subsection*{Date:}
+
+\today
+
+\renewcommand{\arraystretch}{1.4}
+\begin{center}
+\begin{tabular}{lrrr}
+\hline
+\textbf{Description of Services} & \textbf{Quantity} & \textbf{Unit Price} & \textbf{Amount} \\ \hline
+\textbf{Private Tutoring} & & & \\
+October 3, 2018 & 2.00 hours & \$50.00 & \$100.00 \\ 
+October 4, 2018 & 1.00 hours & \$50.00 & \$50.00 \\ 
+October 5, 2018 & 2.00 hours & \$50.00 & \$100.00 \\ 
+October 10, 2018 & 3.00 hours & \$50.00 & \$150.00 \\ 
+October 11, 2018 & 3.00 hours & \$50.00 & \$150.00 \\ 
+
+\hline 
+\textbf{Balance Due} & 11.00 hours  & & \$550.00 \\
+\end{tabular}
+\end{center}
+
+
+\end{document}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6500 64-bit) (preloaded format=xelatex 2018.11.7)  7 NOV 2018 15:09
+This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6500 64-bit) (preloaded format=xelatex 2018.11.7)  8 NOV 2018 08:38
 entering extended mode
 **./paper.tex
 (paper.tex
@@ -519,11 +519,17 @@ File: t3enc.def 2001/12/31 T3 encoding
 . OpenDyslexic3-Bold scale = 0.7879342969654422.
 .................................................
 .................................................
+. fontspec info: "set-scale"
+. 
+. OpenDyslexic-Italic scale = 0.430999755859375.
+.................................................
+.................................................
 . fontspec info: "defining-font"
 . 
 . Font family 'OpenDyslexic3-Regular.ttf(0)' created for font
 . 'OpenDyslexic3-Regular.ttf' with options
-. [Scale=MatchLowercase,Ligatures=TeX,BoldFont={OpenDyslexic3-Bold.ttf}].
+. [Scale=MatchLowercase,Ligatures=TeX,BoldFont={OpenDyslexic3-Bold.ttf},ItalicF
+ont={OpenDyslexic-Italic.otf}].
 .  
 .  This font family consists of the following NFSS series/shapes:
 .  
@@ -533,6 +539,9 @@ File: t3enc.def 2001/12/31 T3 encoding
 . - 'bold' (bx/n) with NFSS spec.:
 . <->s*[0.7879342969654422]"[OpenDyslexic3-Bold.ttf]/OT:mapping=tex-text;"
 . - 'bold small caps'  (bx/sc) with NFSS spec.: 
+. - 'italic' (m/it) with NFSS spec.:
+. <->s*[0.430999755859375]"[OpenDyslexic-Italic.otf]/OT:mapping=tex-text;"
+. - 'italic small caps'  (m/itsc) with NFSS spec.: 
 .................................................
 LaTeX Info: Redefining \rmfamily on input line 10.
 LaTeX Font Info:    Font shape `TU/OpenDyslexic3-Regular.ttf(0)/m/n' will be
@@ -664,35 +673,35 @@ tly
 )
 \Hy@SectionHShift=\skip49
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 24.
+Package hyperref Info: Option `colorlinks' set `true' on input line 26.
 
 (paper.aux)
 \openout1 = `paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 29.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 31.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 31.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\tipa\t3cmr.fd"
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
 .................................................
 . fontspec info: "setup-math"
 . 
@@ -700,64 +709,64 @@ LaTeX Font Info:    ... okay on input line 29.
 .................................................
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 29.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 29.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 29.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 29.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 29.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 29.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 29.
-LaTeX Font Info:    Redeclaring math accent \check on input line 29.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 29.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 29.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 29.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 29.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 31.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 31.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 31.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 31.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 31.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 31.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 31.
+LaTeX Font Info:    Redeclaring math accent \check on input line 31.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 31.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 31.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 31.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 31.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 31.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 31.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 31.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 31.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 31.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 31.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 31.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 31.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 31.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 31.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 31.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 31.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 31.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 29.
+(Font)              `operators' in the math version `normal' on input line 31.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/OpenDyslexic3-Regular.ttf(0)/m/n on 
-input line 29.
+input line 31.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 29.
+(Font)              `operators' in the math version `bold' on input line 31.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/OpenDyslexic3-Regular.ttf(0)/m/n on
- input line 29.
+ input line 31.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/OpenDyslexic3-Regular.ttf(0)/m/n --> TU/OpenDyslexic
-3-Regular.ttf(0)/m/n on input line 29.
+3-Regular.ttf(0)/m/n on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/OpenDyslexic3-Regular.ttf(0)/m/it o
-n input line 29.
+n input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/OpenDyslexic3-Regular.ttf(0)/bx/n o
-n input line 29.
+n input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 29.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 29.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 31.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/OpenDyslexic3-Regular.ttf(0)/m/n --> TU/OpenDyslexic
-3-Regular.ttf(0)/bx/n on input line 29.
+3-Regular.ttf(0)/bx/n on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/OpenDyslexic3-Regular.ttf(0)/bx/it
- on input line 29.
+ on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 29.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 29.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 31.
 \AtBeginShipoutBox=\box47
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
@@ -769,7 +778,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: xetex.def on input line 147.
 )
-Package hyperref Info: Link coloring ON on input line 29.
+Package hyperref Info: Link coloring ON on input line 31.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -779,28 +788,28 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count193
 )
-LaTeX Info: Redefining \ref on input line 29.
-LaTeX Info: Redefining \pageref on input line 29.
-LaTeX Info: Redefining \nameref on input line 29.
+LaTeX Info: Redefining \ref on input line 31.
+LaTeX Info: Redefining \pageref on input line 31.
+LaTeX Info: Redefining \nameref on input line 31.
 
 (paper.out) (paper.out)
 \@outlinefile=\write3
 \openout3 = `paper.out'.
 
 LaTeX Font Info:    Font shape `TU/OpenDyslexic3-Regular.ttf(0)/m/n' will be
-(Font)              scaled to size 16.34174pt on input line 32.
+(Font)              scaled to size 16.34174pt on input line 34.
 LaTeX Font Info:    Font shape `TU/OpenDyslexic3-Regular.ttf(0)/m/n' will be
-(Font)              scaled to size 11.34622pt on input line 32.
+(Font)              scaled to size 11.34622pt on input line 34.
 LaTeX Font Info:    Font shape `TU/OpenDyslexic3-Regular.ttf(0)/m/n' will be
-(Font)              scaled to size 7.87933pt on input line 32.
+(Font)              scaled to size 7.87933pt on input line 34.
 LaTeX Font Info:    Font shape `TU/OpenDyslexic3-Regular.ttf(0)/m/n' will be
-(Font)              scaled to size 5.51553pt on input line 32.
+(Font)              scaled to size 5.51553pt on input line 34.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 32.
+(Font)              <14.4> on input line 34.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 32.
+(Font)              <7> on input line 34.
 LaTeX Font Info:    Font shape `TU/OpenDyslexic3-Regular.ttf(0)/bx/n' will be
-(Font)              scaled to size 9.4552pt on input line 35.
+(Font)              scaled to size 9.4552pt on input line 37.
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\se-ascii-print.def"
 File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
@@ -810,23 +819,32 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 
 ]
 LaTeX Font Info:    Font shape `TU/OpenDyslexic3-Regular.ttf(0)/m/n' will be
-(Font)              scaled to size 13.61548pt on input line 49.
+(Font)              scaled to size 13.61548pt on input line 51.
 LaTeX Font Info:    Font shape `TU/OpenDyslexic3-Regular.ttf(0)/bx/n' will be
-(Font)              scaled to size 13.61548pt on input line 49.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 63.
- [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 63.
+(Font)              scaled to size 13.61548pt on input line 51.
+
+
+LaTeX Warning: Citation `Marinus2016' on page 2 undefined on input line 53.
+
+No file paper.bbl.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 68.
+[2]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 68.
  (paper.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 63.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 63.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 63.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 68.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 68.
+
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 68.
  ) 
 Here is how much of TeX's memory you used:
- 20951 strings out of 427835
- 390203 string characters out of 3152454
- 458925 words of memory out of 3000000
- 24843 multiletter control sequences out of 15000+200000
- 531665 words of font info for 41 fonts, out of 3000000 for 9000
+ 20960 strings out of 427835
+ 390481 string characters out of 3152454
+ 459487 words of memory out of 3000000
+ 24848 multiletter control sequences out of 15000+200000
+ 531673 words of font info for 42 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  46i,6n,116p,10461b,342s stack positions out of 5000i,500n,10000p,200000b,50000s
 
