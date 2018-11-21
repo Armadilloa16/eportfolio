@@ -20,12 +20,15 @@
 \usepackage[none]{hyphenat}
 \usepackage{lipsum}
 
+\usepackage{graphicx}
+\usepackage{wrapfig}
 
 \makeatletter
 \let\l@chapternonum\l@chapter
 \newcounter{chapternonum}
 \renewcommand{\thechapternonum}{}
 \makeatother
+
 
 
 \begin{document}
@@ -163,11 +166,17 @@ We acknowledge and pay our respects to the Kaurna people, the traditional custod
 \section*{Keynote Speaker}
 \addcontentsline{toc}{section}{Keynote Speaker}
 
+\lipsum[1]
 
 \section*{Michael Cobung}
 \addcontentsline{toc}{section}{Michael Cobung}
 
-
+\begin{wrapfigure}{R}{0.3\textwidth}
+\centering
+\includegraphics[width=0.25\textwidth]{michael_colbung.jpeg}
+\end{wrapfigure}
+\lipsum[2]
+\vfill
 
 \pagebreak
 \section*{Pre-Service Teacher Presentations}
@@ -563,6 +572,9 @@ Betula has completed a Bachelor of Music (Majoring in Classical Performance) at 
 
 
 
-
+\vfill
+\includegraphics[scale=0.5]{colour_tree.png}
+\hfill
+\includegraphics[scale=1]{uoa-logo-col-horiz.png}
 
 \end{document}
