@@ -17,7 +17,7 @@ title: About Me
 author: Lyron Juan Winderbaum
 email: armadilloa16@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A Portfolio of my Teaching and Personal Development
+  A Portfolio of my Teaching and Professional Development
 baseurl: "/eportfolio" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 social_sites:
