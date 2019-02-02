@@ -1,0 +1,53 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+\documentclass[14pt]{memoir}
+
+\usepackage{lipsum}
+
+\usepackage{xltxtra, fontspec, xunicode}
+\defaultfontfeatures{Scale=MatchLowercase}
+\setmainfont{CMU Sans Serif}
+
+
+%\usepackage{natbib}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,       % false: boxed links; true: colored links
+    linkcolor=black,          % color of internal links (change box color with linkbordercolor)
+    citecolor=black,        % color of links to bibliography
+    filecolor=blue,      % color of file links
+    urlcolor=blue           % color of external links
+}
+
+\title{Research Proposal}
+\author{Lyron Winderbaum}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+
+\lipsum[1-2]
+
+\end{abstract}
+
+
+
+\section*{Literature Review (/1100 words)}
+
+\section*{Proposed research design/ methodology/ budget outline (/700 words)}
+
+\section*{Ethics Issues (/100 words)}
+
+\section*{Executive Summary (/100-150 words)}
+
+
+
+\bibliographystyle{abbrv}
+\bibliography{citations} 
+
+\end{document}
+
+
