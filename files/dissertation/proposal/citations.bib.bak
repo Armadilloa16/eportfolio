@@ -415,7 +415,7 @@ abstract = { Abstract The authors used correlational and confirmatory factor ana
 
 @Book{PISA2013,
   title     = {\gls{pisa} 2012 results: ready to learn: students' engagement, drive and self-beliefs (volume III): preliminary version},
-  publisher = {\gls{pisa}, \gls{oecd}, Paris, France},
+  publisher = {\gls{pisa}, OECD, Paris, France},
   year      = {2013},
   author    = {{\gls{oecd}}},
   note      = {viewed 4 Feb 2019},

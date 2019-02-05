@@ -1,16 +1,16 @@
-%!TEX TS-program = xelatex
-%!TEX encoding = UTF-8 Unicode
+
 \documentclass[14pt]{memoir}
 
+
+
+% Lorem Ipsum Text
 \usepackage{lipsum}
 
-\usepackage{xltxtra, fontspec, xunicode}
-\defaultfontfeatures{Scale=MatchLowercase}
-\setmainfont{CMU Sans Serif}
+% CMU sans serif font.
+\usepackage[T1]{fontenc}
+\renewcommand*\familydefault{\sfdefault}
 
-
-%\usepackage{natbib}
-
+% Hyperlinks
 \usepackage{hyperref}
 \hypersetup{
     colorlinks=true,       % false: boxed links; true: colored links
@@ -20,22 +20,84 @@
     urlcolor=blue           % color of external links
 }
 
-\title{Research Proposal}
+% APA 6 citation and bibliography style % Note: Must be loaded after hyperref
+\usepackage{apacite} 
+
+% Abbreviations
+\usepackage{glossaries}
+\makeglossaries
+
+\newacronym{pisa}{PISA}{Programme for International Student Assessment}
+\newacronym{oecd}{OECD}{Organisation for Economic Co-operation and Development}
+\newacronym{stem}{STEM}{Science, Technology, Engineering and Mathematics}
+\newacronym{fmri}{fMRI}{functional magnetic resonance imaging}
+\newacronym{naplan}{NAPLAN}{National Assessment Program --- Literacy and Numeracy}
+
+
+
+\title{Maths Anxiety: Theory to Practice}
 \author{Lyron Winderbaum}
+
+
 
 \begin{document}
 
+
+
 \maketitle
+
+
 
 \begin{abstract}
 
 \lipsum[1-2]
 
 \end{abstract}
+% 100-150 words
 
 
-
+\glsresetall
 \section*{Literature Review (/1100 words)}
+
+% Prevalence
+Maths anxiety is hugely prevalent. The \citeA{PISA2013} 2012 \gls{pisa} report states that across \gls{oecd} countries, over 30\% of 15 year old students ``get very nervous doing mathematics problems'', and over 60\% of students ``worry about getting poor grades in mathematics''. 
+% ``Across OECD countries, 59\% of students reported that they often worry that it will be difficult for them in mathematics classes; 33\% reported that they get very tense when they have to do mathematics homework; 31\% that they get very nervous doing mathematics problems; 30\% that they feel helpless when doing a mathematics problem, and 61\% that they worry about getting poor grades in mathematics''.  
+
+\subsection*{Why is Maths Anxiety Important?}
+
+It is my view that as teachers our foremost concern should be for the wellbeing of our students. \citeA{Lyons2012pain} used \gls{fmri} to demonstrate that students categorised as having a high level of maths anxiety will often experience the anticipation of a maths task as viceral pain. Moral imperative (and ethical duty of care) requries for us to take every step possible to protect our students from this experience.
+
+Beyond the clear and overwhelming wellbeing concerns, it is also important to recognise the connection between maths anxiety and performance, and the complex web of stakeholders surrounding a students academic success in maths. \citeA{Foley2017} discuss the negative correlation between maths anxiety and performance shown in the 2012 \gls{pisa} \cite{PISA2013} report, and also note the rising demand for \gls{stem} professionals worldwide. It has been shown that when a student has low self-concept (correlated with high maths anxiety), they will tend not to enroll in maths beyond the minimum requirements for graduation \cite{Ashcraft2007}. Beyond highschool graduation, it has been shown that students affect towards maths can predict their university major \cite{LeFevre1992}. So although many governments and industries around the world are recognising their need for more mathematics-qualified graduates, addressing maths anxiety may be a key peice to the puzzle in order to fill this demand.
+
+Maths performance, and hence the maths anxiety-performance link is important to many other stakeholders as well. Parents who want their children to acheive academic success in maths, students themselves feeding back into their own self-concept and self-efficacy, and schools which are often ranked and funded based on their students academic acheivement, with maths being a recurring problem subject for many schools. In an Australian context one important way in which schools and ranked and funded is through \gls{naplan}. Ultimately it is difficult to seperate any maths anxiety research from the concept of maths performance, for better or for worse.
+
+\subsection*{Milestones in our Understanding of Maths Anxiety}
+The history of maths anxiety research is nicely summarised in the review by \cite{Pellicioni2016}.
+
+
+\subsection*{Causes, Models, Interventions, and Gaps in the Literature}.
+
+Causes of maths anxiety are nicely explored in the review by \cite{Ramirez2018}.
+
+
+\cite{Faust1996} show a anxiety-complexity effect in which low and high maths anxiety groups perform similarly on low complexity problems, but in high complexity problems the high anxiety groups performance is impacted. The possible mechanisms for this are also discussed, but one of the important implications is that experiencing success and self-competance can potentially combat the negative effects of maths anxiety on performance. However, the results of \cite{Jansen2013} imply that the causal effects here may be confounded. Specifically, \cite{Jansen2013} showed that although if students are given more successful experiences in maths they will perform better, this effect actually largely seems to be confounded by number of practice problems attempted: if given more experience of success, students attempt more problems, and perform better, but their improved performance is almost completely predicted by the number of problems they attempted, not their experience of success. Furthermore, although this intervention had a significant impact on maths performance, it did not appear to have any effect on maths anxiety. 
+
+This raises an important question as to our goal when implementing interventions: are we trying to raise students maths performance, or to influence them to have a more positive affect in the classroom? These are certainly not equivalent, although there may be specific areas where they might overlap, and this coulld be a good place to aim for due to the complex community of  stakeholders involved in the classroom. The work of \cite{Wang2015} shows the role of intrinsic motivation in mediating the relationshop between maths anxiety and performance --- specifically that although in students with low intrinsic motivation a direct negative correlation was observed between math anxiety and performance, in high intrinsic motivation students this was not the case, instead a inverted U-shape association was observed, implying that a moderate amount of anxiety was correlated to improved performance for these students. The proposed interpretation for this more or less lies int he area of `productive struggle'. 
+
+
+Key items implied by the literature to be the most promising avenues to pursue as far as interventions to address maths anxiety are concerned':
+\begin{itemize}
+	\item Modelling the process of struggling with maths, and overcoming that. Not claiming that maths can always be fun but that sometimes it is difficult, and that that is ok.
+	\item Providing oppurtunities for students to express their naratives and hence process their feelings about maths through expressive writing.
+	\item 
+\end{itemize}
+
+ 
+
+
+
+
+
 
 \section*{Proposed research design/ methodology/ budget outline (/700 words)}
 
@@ -45,7 +107,10 @@
 
 
 
-\bibliographystyle{abbrv}
+\printglossaries
+
+\glsresetall
+\bibliographystyle{apacite}
 \bibliography{citations} 
 
 \end{document}
