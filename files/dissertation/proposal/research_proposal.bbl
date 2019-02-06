@@ -34,6 +34,93 @@ Ashcraft, M\BPBI H.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Bai%
+}{%
+Bai%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+Bai2011}
+\APACinsertmetastar {%
+Bai2011}%
+\begin{APACrefauthors}%
+Bai, H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Cross-Validating a Bidimensional Mathematics Anxiety
+  Scale} {Cross-validating a bidimensional mathematics anxiety scale}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Assessment}{18}{1}{115-122}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.1177/1073191110364312}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{PMID: 20212074}
+\newblock
+\begin{APACrefDOI} \doi{10.1177/1073191110364312} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Bai%
+, Wang%
+, Pan%
+\BCBL {}\ \BBA {} Frey%
+}{%
+Bai%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2009}}%
+}]{%
+Bai2009}
+\APACinsertmetastar {%
+Bai2009}%
+\begin{APACrefauthors}%
+Bai, H.%
+, Wang, L.%
+, Pan, W.%
+\BCBL {}\ \BBA {} Frey, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2009}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Measuring mathematics anxiety: Psychometric analysis of
+  a bidimensional affective scale.} {Measuring mathematics anxiety:
+  Psychometric analysis of a bidimensional affective scale.}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Instructional Psychology}{36}{3}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Dreger%
+\ \BBA {} Aiken~Jr%
+}{%
+Dreger%
+\ \BBA {} Aiken~Jr%
+}{%
+{\protect \APACyear {1957}}%
+}]{%
+Dreger1957}
+\APACinsertmetastar {%
+Dreger1957}%
+\begin{APACrefauthors}%
+Dreger, R\BPBI M.%
+\BCBT {}\ \BBA {} Aiken~Jr, L\BPBI R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1957}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The identification of number anxiety in a college
+  population.} {The identification of number anxiety in a college
+  population.}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Educational Psychology}{48}{6}{344}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Faust%
 }{%
 Faust%
@@ -92,6 +179,32 @@ Foley, A\BPBI E.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Hembree%
+}{%
+Hembree%
+}{%
+{\protect \APACyear {1990}}%
+}]{%
+Hembree1990}
+\APACinsertmetastar {%
+Hembree1990}%
+\begin{APACrefauthors}%
+Hembree, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1990}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The Nature, Effects, and Relief of Mathematics Anxiety}
+  {The nature, effects, and relief of mathematics anxiety}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal for Research in Mathematics
+  Education}{21}{1}{33--46}.
+\newblock
+\begin{APACrefURL} \url{http://www.jstor.org/stable/749455} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Jansen%
 \ \protect \BOthers {.}}{%
 Jansen%
@@ -126,6 +239,41 @@ Jansen, B\BPBI R.%
 \newblock
 \begin{APACrefDOI} \doi{https://doi.org/10.1016/j.lindif.2012.12.014}
   \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kazelskis%
+\ \protect \BOthers {.}}{%
+Kazelskis%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2000}}%
+}]{%
+Kazelskis2000}
+\APACinsertmetastar {%
+Kazelskis2000}%
+\begin{APACrefauthors}%
+Kazelskis, R.%
+, Reeves, C.%
+, Kersh, M\BPBI E.%
+, Bailey, G.%
+, Cole, K.%
+, Larmon, M.%
+\BDBL {}Holliday, D\BPBI C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2000}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Mathematics Anxiety and Test Anxiety: Separate
+  Constructs?} {Mathematics anxiety and test anxiety: Separate
+  constructs?}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{The Journal of Experimental Education}{68}{2}{137-146}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.1080/00220970009598499}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1080/00220970009598499} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -164,7 +312,38 @@ Lyons%
 \ \BBA {} Beilock%
 }{%
 {\protect \APACyear {2012}}%
-}]{%
+{\protect \APACexlab {{\protect \BCnt {1}}}}}]{%
+Lyons2012}
+\APACinsertmetastar {%
+Lyons2012}%
+\begin{APACrefauthors}%
+Lyons, I\BPBI M.%
+\BCBT {}\ \BBA {} Beilock, S\BPBI L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012{\protect \BCnt {1}}}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Mathematics Anxiety: Separating the Math from the
+  Anxiety} {Mathematics anxiety: Separating the math from the anxiety}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Cerebral Cortex}{22}{9}{2102-2110}.
+\newblock
+\begin{APACrefURL} \url{http://dx.doi.org/10.1093/cercor/bhr289}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1093/cercor/bhr289} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Lyons%
+\ \BBA {} Beilock%
+}{%
+Lyons%
+\ \BBA {} Beilock%
+}{%
+{\protect \APACyear {2012}}%
+{\protect \APACexlab {{\protect \BCnt {2}}}}}]{%
 Lyons2012pain}
 \APACinsertmetastar {%
 Lyons2012pain}%
@@ -174,7 +353,7 @@ Lyons, I\BPBI M.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{2012}{}{}.
+\APACrefYearMonthDay{2012{\protect \BCnt {2}}}{}{}.
 \newblock
 {\BBOQ}\APACrefatitle {When math hurts: math anxiety predicts pain network
   activation in anticipation of doing math} {When math hurts: math anxiety
@@ -240,6 +419,32 @@ Ramirez, G.%
   interventions, and a new interpretation framework}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Educational Psychologist}{}{}{1--20}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Richardson%
+\ \BBA {} Suinn%
+}{%
+Richardson%
+\ \BBA {} Suinn%
+}{%
+{\protect \APACyear {1972}}%
+}]{%
+Richardson1972}
+\APACinsertmetastar {%
+Richardson1972}%
+\begin{APACrefauthors}%
+Richardson, F\BPBI C.%
+\BCBT {}\ \BBA {} Suinn, R\BPBI M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1972}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The mathematics anxiety rating scale: psychometric
+  data.} {The mathematics anxiety rating scale: psychometric data.}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of counseling Psychology}{19}{6}{551}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -312,6 +517,40 @@ Wang, Z.%
 \APACrefnote{PMID: 26518438}
 \newblock
 \begin{APACrefDOI} \doi{10.1177/0956797615602471} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Young%
+, Wu%
+\BCBL {}\ \BBA {} Menon%
+}{%
+Young%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2012}}%
+}]{%
+Young2012}
+\APACinsertmetastar {%
+Young2012}%
+\begin{APACrefauthors}%
+Young, C\BPBI B.%
+, Wu, S\BPBI S.%
+\BCBL {}\ \BBA {} Menon, V.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The Neurodevelopmental Basis of Math Anxiety} {The
+  neurodevelopmental basis of math anxiety}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Psychological Science}{23}{5}{492-501}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.1177/0956797611429134}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{PMID: 22434239}
+\newblock
+\begin{APACrefDOI} \doi{10.1177/0956797611429134} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}

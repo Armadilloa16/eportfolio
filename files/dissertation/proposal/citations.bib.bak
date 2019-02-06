@@ -415,7 +415,7 @@ abstract = { Abstract The authors used correlational and confirmatory factor ana
 
 @Book{PISA2013,
   title     = {\gls{pisa} 2012 results: ready to learn: students' engagement, drive and self-beliefs (volume III): preliminary version},
-  publisher = {\gls{pisa}, OECD, Paris, France},
+  publisher = {\gls{pisa}, \gls{oecd}, Paris, France},
   year      = {2013},
   author    = {{\gls{oecd}}},
   note      = {viewed 4 Feb 2019},
@@ -507,6 +507,17 @@ abstract = { Abstract The authors used correlational and confirmatory factor ana
   number    = {3},
   issn      = {0008-400X},
   address   = {[Washington, D.C.] :},
+  publisher = {American Psychological Association},
+}
+
+@Article{Dreger1957,
+  author    = {Dreger, Ralph Mason and Aiken Jr, Lewis R},
+  title     = {The identification of number anxiety in a college population.},
+  journal   = {Journal of Educational Psychology},
+  year      = {1957},
+  volume    = {48},
+  number    = {6},
+  pages     = {344},
   publisher = {American Psychological Association},
 }
 
