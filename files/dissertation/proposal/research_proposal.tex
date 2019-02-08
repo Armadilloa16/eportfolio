@@ -9,15 +9,20 @@
 \renewcommand\thesection{\arabic{section}}
 \usepackage{chngcntr}
 \counterwithout{figure}{chapter}
+\counterwithout{table}{chapter}
 
 % Referencing Commands
 \newcommand{\refsec}[1]{\hyperref[sec:#1]{Section~\ref{sec:#1}}}
 \newcommand{\reffig}[1]{\hyperref[fig:#1]{Figure~\ref{fig:#1}}}
+\newcommand{\reftab}[1]{\hyperref[tab:#1]{Table~\ref{tab:#1}}}
 
 %TiKz
 \usepackage{tikz}
 \usetikzlibrary{arrows}
 \usetikzlibrary{shapes}
+
+%SidewaysFigure
+\usepackage{rotating}
 
 % CMU sans serif font.
 \usepackage[T1]{fontenc}
@@ -131,7 +136,7 @@ Should write a wrap-up of the lit. review.
 
 \section{Proposed research design/ methodology/ budget outline (/700 words)}
 
-I propose a four-fold approach for addressing maths anxiety:
+Because of how the broad view of the research on the maths anxiety-performance link seems to give the two directional cyclic relationship described by the ``Interpretation Account'' shown in \reffig{ramirez}, I hypothesise that part of the reason for the lack of long-term effectiveness of the interventions trialled is that any given intervention focuses on breaking one particular link in the cycle, leaving the others in place to re-engage once the intervention is over. I propose a multi-pronged intervention in which multiple links in the cycle are attacked simultaneously to disrupt the maths anxiety-performance link, and I hypothesise that this approach will result in a longer term sustained effect on both students wellbeing, reducing their negative affect towards maths and their maths anxiety, but also an improvement in maths performance. 
 
 \begin{itemize}
 	\item An intensive tutoring program to boost students math abilities, along the same lines as that of \citeA{Supekar2015}.
@@ -140,13 +145,37 @@ I propose a four-fold approach for addressing maths anxiety:
 	\item Teacher coaching and visiting expert demonstrations on how to engage in ``productive struggle''.
 \end{itemize}
 
-My hypothesis is that there will be an interaction effect between these different approaches, that where one approach may fail for a particular student, a combined approach could succeed. 
+\subsection*{Methodology}
 
-To test this hypothesis we will do an initial trial, and then follow the participants longitudinally to identify potential longterm effects
-caused by changed mindset towards mathematics by trajectory analysis. 
+This research is predicated on collaborating with a school and the maths faculty therein. There will be two key components to the study: an intensive tutoring program in which the students will have private tutors hired to help boost their maths skills, and a professional development program for the teachers. This professionsal development program for teachers will help the teachers, with the occasional help of guest speakers, will modify their teaching in a number of key ways:
+\begin{itemize}
+	\item Incorporate examples of productive struggle into the classrooms.
+	\item Coach students on how to reappraise physiological signs of stress as a response to a challenge to be overcome.
+	\item Expressive writing takss to help guide students naratives about their math abilities.
+\end{itemize}
 
-Hello
+ Throughout there will be 5 primary forms of data collection:
+ \begin{itemize}
+ 	\item  During school holidays there will be social teacher debrefiing sessions in which the teachers will be asked to provide feedback on their perspectives on the effects of the interventions.
+ 	\item Assessment results for students academic performance will be collated for an entire three year period including a year prior to the interventions and a year afterwards.
+ 	\item Students will complete self-surveys on both maths anxiety, and maths self-concept/ efficacy the year prior, during, and the year after the interventions.
+ 	\item The expressive writing tasks will yield written work from each student describing their narative view of their journey learning maths, which can also be used to assess their self-concept/ efficacy in a deeper way.
+ \end{itemize}
+ 
+ 
 
+ \begin{sidewaysfigure}
+ \includegraphics[scale=0.7]{Gantt_Chart.PNG}
+\caption{Gantt Chart \label{fig:gantt}}
+\end{sidewaysfigure}
+
+
+\begin{table}
+\begin{center}
+\includegraphics{Budget.PNG}
+\end{center}
+\caption{Budget \label{tab:budget}}
+\end{table}
 
 
 

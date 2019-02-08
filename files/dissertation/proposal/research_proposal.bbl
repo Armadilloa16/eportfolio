@@ -2,6 +2,64 @@
 
 \bibitem [\protect \citeauthoryear {%
 Ashcraft%
+\ \BBA {} Kirk%
+}{%
+Ashcraft%
+\ \BBA {} Kirk%
+}{%
+{\protect \APACyear {2001}}%
+}]{%
+Ashcraft2001}
+\APACinsertmetastar {%
+Ashcraft2001}%
+\begin{APACrefauthors}%
+Ashcraft, M\BPBI H.%
+\BCBT {}\ \BBA {} Kirk, E\BPBI P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2001}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The relationships among working memory, math anxiety,
+  and performance.} {The relationships among working memory, math anxiety, and
+  performance.}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of experimental psychology:
+  General}{130}{2}{224}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ashcraft%
+\ \BBA {} Krause%
+}{%
+Ashcraft%
+\ \BBA {} Krause%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+Ashcraft2007}
+\APACinsertmetastar {%
+Ashcraft2007}%
+\begin{APACrefauthors}%
+Ashcraft, M\BPBI H.%
+\BCBT {}\ \BBA {} Krause, J\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{Apr}{01}.
+\newblock
+{\BBOQ}\APACrefatitle {Working memory, math performance, and math anxiety}
+  {Working memory, math performance, and math anxiety}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Psychonomic Bulletin {\&} Review}{14}{2}{243--248}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.3758/BF03194059} \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.3758/BF03194059} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ashcraft%
 , Krause%
 \BCBL {}\ \BBA {} Hopko%
 }{%
@@ -9,9 +67,9 @@ Ashcraft%
 \ \protect \BOthers {.}}{%
 {\protect \APACyear {2007}}%
 }]{%
-Ashcraft2007}
+Ashcraft2007book}
 \APACinsertmetastar {%
-Ashcraft2007}%
+Ashcraft2007book}%
 \begin{APACrefauthors}%
 Ashcraft, M\BPBI H.%
 , Krause, J\BPBI A.%
@@ -94,6 +152,42 @@ Bai, H.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Becker%
+, Darius%
+\BCBL {}\ \BBA {} Schaumberg%
+}{%
+Becker%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2007}}%
+}]{%
+Becker2007}
+\APACinsertmetastar {%
+Becker2007}%
+\begin{APACrefauthors}%
+Becker, C\BPBI B.%
+, Darius, E.%
+\BCBL {}\ \BBA {} Schaumberg, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {An analog study of patient preferences for exposure
+  versus alternative treatments for posttraumatic stress disorder} {An analog
+  study of patient preferences for exposure versus alternative treatments for
+  posttraumatic stress disorder}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Behaviour Research and Therapy}{45}{12}{2861 - 2873}.
+\newblock
+\begin{APACrefURL}
+  \url{http://www.sciencedirect.com/science/article/pii/S0005796707001118}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.1016/j.brat.2007.05.006}
+  \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Dreger%
 \ \BBA {} Aiken~Jr%
 }{%
@@ -142,6 +236,39 @@ Faust, M\BPBI W.%
   addition}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Mathematical Cognition}{2}{1}{25--62}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Foa%
+\ \protect \BOthers {.}}{%
+Foa%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2005}}%
+}]{%
+Foa2005}
+\APACinsertmetastar {%
+Foa2005}%
+\begin{APACrefauthors}%
+Foa, E\BPBI B.%
+, Hembreee, E\BPBI A.%
+, Cahill, S\BPBI P.%
+, Rauch, S\BPBI A\BPBI M.%
+, Riggs, D\BPBI S.%
+, Feeny, N\BPBI C.%
+\BCBL {}\ \BBA {} Yadin, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2005}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Randomized trial of prolonged exposure for posttraumatic
+  stress disorder with and without cognitive restructuring: outcome at academic
+  and community clinics.} {Randomized trial of prolonged exposure for
+  posttraumatic stress disorder with and without cognitive restructuring:
+  outcome at academic and community clinics.}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of consulting and clinical
+  psychology.}{73}{5}{}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -202,6 +329,71 @@ Hembree, R.%
   Education}{21}{1}{33--46}.
 \newblock
 \begin{APACrefURL} \url{http://www.jstor.org/stable/749455} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hiebert%
+\ \BBA {} Grouws%
+}{%
+Hiebert%
+\ \BBA {} Grouws%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+Hiebert2007}
+\APACinsertmetastar {%
+Hiebert2007}%
+\begin{APACrefauthors}%
+Hiebert, J.%
+\BCBT {}\ \BBA {} Grouws, D\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The effects of classroom mathematics teaching on
+  students’ learning} {The effects of classroom mathematics teaching on
+  students’ learning}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Second handbook of research on mathematics teaching and
+  learning}{1}{}{371--404}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Jamieson%
+, Peters%
+, Greenwood%
+\BCBL {}\ \BBA {} Altose%
+}{%
+Jamieson%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+Jamieson2016}
+\APACinsertmetastar {%
+Jamieson2016}%
+\begin{APACrefauthors}%
+Jamieson, J\BPBI P.%
+, Peters, B\BPBI J.%
+, Greenwood, E\BPBI J.%
+\BCBL {}\ \BBA {} Altose, A\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Reappraising Stress Arousal Improves Performance and
+  Reduces Evaluation Anxiety in Classroom Exam Situations} {Reappraising stress
+  arousal improves performance and reduces evaluation anxiety in classroom exam
+  situations}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Social Psychological and Personality
+  Science}{7}{6}{579-587}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.1177/1948550616644656}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1177/1948550616644656} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -305,6 +497,40 @@ LeFevre, J\BHBI A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Lin-Siegler%
+, Ahn%
+, Chen%
+, Fang%
+\BCBL {}\ \BBA {} Luna-Lucero%
+}{%
+Lin-Siegler%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+Lin-Siegler2016}
+\APACinsertmetastar {%
+Lin-Siegler2016}%
+\begin{APACrefauthors}%
+Lin-Siegler, X.%
+, Ahn, J\BPBI N.%
+, Chen, J.%
+, Fang, F\BHBI F\BPBI A.%
+\BCBL {}\ \BBA {} Luna-Lucero, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Even Einstein struggled: Effects of learning about great
+  scientists’ struggles on high school students’ motivation to learn
+  science.} {Even einstein struggled: Effects of learning about great
+  scientists’ struggles on high school students’ motivation to learn
+  science.}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Educational Psychology}{108}{3}{314}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Lyons%
 \ \BBA {} Beilock%
 }{%
@@ -363,6 +589,41 @@ Lyons, I\BPBI M.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Ma%
+\ \BBA {} Xu%
+}{%
+Ma%
+\ \BBA {} Xu%
+}{%
+{\protect \APACyear {2004}}%
+}]{%
+Ma2004}
+\APACinsertmetastar {%
+Ma2004}%
+\begin{APACrefauthors}%
+Ma, X.%
+\BCBT {}\ \BBA {} Xu, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The causal ordering of mathematics anxiety and
+  mathematics achievement: a longitudinal panel analysis} {The causal ordering
+  of mathematics anxiety and mathematics achievement: a longitudinal panel
+  analysis}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Adolescence}{27}{2}{165 - 179}.
+\newblock
+\begin{APACrefURL}
+  \url{http://www.sciencedirect.com/science/article/pii/S0140197103001064}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.1016/j.adolescence.2003.11.003}
+  \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 {\gls{oecd}}%
 }{%
 {\gls{oecd}}%
@@ -391,6 +652,34 @@ PISA2013}%
   \end{APACrefURL}
 \newblock
 \APACrefnote{viewed 4 Feb 2019}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Park%
+, Ramirez%
+\BCBL {}\ \BBA {} Beilock%
+}{%
+Park%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2014}}%
+}]{%
+Park2014}
+\APACinsertmetastar {%
+Park2014}%
+\begin{APACrefauthors}%
+Park, D.%
+, Ramirez, G.%
+\BCBL {}\ \BBA {} Beilock, S\BPBI L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The role of expressive writing in math anxiety.} {The
+  role of expressive writing in math anxiety.}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of experimental psychology. Applied}{20
+  2}{}{103-11}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -480,6 +769,41 @@ Su{\'a}rez-Pellicioni, M.%
   \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.3758/s13415-015-0370-7} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Supekar%
+, Iuculano%
+, Chen%
+\BCBL {}\ \BBA {} Menon%
+}{%
+Supekar%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2015}}%
+}]{%
+Supekar2015}
+\APACinsertmetastar {%
+Supekar2015}%
+\begin{APACrefauthors}%
+Supekar, K.%
+, Iuculano, T.%
+, Chen, L.%
+\BCBL {}\ \BBA {} Menon, V.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Remediation of Childhood Math Anxiety and Associated
+  Neural Circuits through Cognitive Tutoring} {Remediation of childhood math
+  anxiety and associated neural circuits through cognitive tutoring}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Neuroscience}{35}{36}{12574--12583}.
+\newblock
+\begin{APACrefURL} \url{http://www.jneurosci.org/content/35/36/12574}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1523/JNEUROSCI.0786-15.2015} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
