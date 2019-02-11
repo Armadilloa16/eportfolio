@@ -188,30 +188,41 @@ Becker, C\BPBI B.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Dreger%
-\ \BBA {} Aiken~Jr%
+Chang%
+\ \BBA {} Beilock%
 }{%
-Dreger%
-\ \BBA {} Aiken~Jr%
+Chang%
+\ \BBA {} Beilock%
 }{%
-{\protect \APACyear {1957}}%
+{\protect \APACyear {2016}}%
 }]{%
-Dreger1957}
+Chang2016}
 \APACinsertmetastar {%
-Dreger1957}%
+Chang2016}%
 \begin{APACrefauthors}%
-Dreger, R\BPBI M.%
-\BCBT {}\ \BBA {} Aiken~Jr, L\BPBI R.%
+Chang, H.%
+\BCBT {}\ \BBA {} Beilock, S\BPBI L.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{1957}{}{}.
+\APACrefYearMonthDay{2016}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {The identification of number anxiety in a college
-  population.} {The identification of number anxiety in a college
-  population.}{\BBCQ}
+{\BBOQ}\APACrefatitle {The math anxiety-math performance link and its relation
+  to individual and environmental factors: a review of current behavioral and
+  psychophysiological research} {The math anxiety-math performance link and its
+  relation to individual and environmental factors: a review of current
+  behavioral and psychophysiological research}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{Journal of Educational Psychology}{48}{6}{344}.
+\APACjournalVolNumPages{Current Opinion in Behavioral Sciences}{10}{}{33 - 38}.
+\newblock
+\begin{APACrefURL}
+  \url{http://www.sciencedirect.com/science/article/pii/S2352154616300882}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{Neuroscience of education}
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.1016/j.cobeha.2016.04.011}
+  \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -303,6 +314,31 @@ Foley, A\BPBI E.%
   \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.1177/0963721416672463} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Harter%
+}{%
+Harter%
+}{%
+{\protect \APACyear {1982}}%
+}]{%
+Harter1982}
+\APACinsertmetastar {%
+Harter1982}%
+\begin{APACrefauthors}%
+Harter, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1982}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The Perceived Competence Scale for Children} {The
+  perceived competence scale for children}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Child Development}{53}{1}{87--97}.
+\newblock
+\begin{APACrefURL} \url{http://www.jstor.org/stable/1129640} \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -431,41 +467,6 @@ Jansen, B\BPBI R.%
 \newblock
 \begin{APACrefDOI} \doi{https://doi.org/10.1016/j.lindif.2012.12.014}
   \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Kazelskis%
-\ \protect \BOthers {.}}{%
-Kazelskis%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2000}}%
-}]{%
-Kazelskis2000}
-\APACinsertmetastar {%
-Kazelskis2000}%
-\begin{APACrefauthors}%
-Kazelskis, R.%
-, Reeves, C.%
-, Kersh, M\BPBI E.%
-, Bailey, G.%
-, Cole, K.%
-, Larmon, M.%
-\BDBL {}Holliday, D\BPBI C.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2000}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Mathematics Anxiety and Test Anxiety: Separate
-  Constructs?} {Mathematics anxiety and test anxiety: Separate
-  constructs?}{\BBCQ}
-\newblock
-\APACjournalVolNumPages{The Journal of Experimental Education}{68}{2}{137-146}.
-\newblock
-\begin{APACrefURL} \url{https://doi.org/10.1080/00220970009598499}
-  \end{APACrefURL}
-\newblock
-\begin{APACrefDOI} \doi{10.1080/00220970009598499} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -620,6 +621,41 @@ Ma, X.%
   \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{https://doi.org/10.1016/j.adolescence.2003.11.003}
+  \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+McNally%
+}{%
+McNally%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+McNally2007}
+\APACinsertmetastar {%
+McNally2007}%
+\begin{APACrefauthors}%
+McNally, R\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Mechanisms of exposure therapy: How neuroscience can
+  improve psychological treatments for anxiety disorders} {Mechanisms of
+  exposure therapy: How neuroscience can improve psychological treatments for
+  anxiety disorders}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Clinical Psychology Review}{27}{6}{750 - 759}.
+\newblock
+\begin{APACrefURL}
+  \url{http://www.sciencedirect.com/science/article/pii/S0272735807000074}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{New Approaches to the Study of Change in Cognitive Behavioral
+  Therapies}
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.1016/j.cpr.2007.01.003}
   \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 

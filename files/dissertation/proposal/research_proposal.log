@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.4)  8 FEB 2019 13:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.4)  11 FEB 2019 13:50
 entering extended mode
 **./research_proposal.tex
 (research_proposal.tex
@@ -1395,81 +1395,74 @@ LaTeX Info: Redefining \BHBI on input line 130.
 \openout5 = `research_proposal.ist'.
 
 {C:/Users/Lyron/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
-[3] [4] [5] [6]
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 142
+[3]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4]
+Underfull \vbox (badness 4899) has occurred while \output is active []
+
+ [5]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 143
 .
-LaTeX Font Info:    No file OMScmss.fd. on input line 142.
+LaTeX Font Info:    No file OMScmss.fd. on input line 143.
 
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 142.
+(Font)              for symbol `textbullet' on input line 143.
 
-
-Class memoir Warning: The material used in the headers is too large
-(34.99998pt) for the given head height (17.5pt), it is recommended to
-either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 144.
-
-
-Overfull \vbox (17.49998pt too high) has occurred while \output is active []
-
-
-[7] [8]
-<Gantt_Chart.PNG, id=227, 769.37437pt x 493.845pt>
+[7]
+<Gantt_Chart.PNG, id=214, 769.37437pt x 493.845pt>
 File: Gantt_Chart.PNG Graphic file (type png)
 <use Gantt_Chart.PNG>
-Package pdftex.def Info: Gantt_Chart.PNG  used on input line 168.
+Package pdftex.def Info: Gantt_Chart.PNG  used on input line 166.
 (pdftex.def)             Requested size: 538.5584pt x 345.68913pt.
-<Budget.PNG, id=229, 353.82187pt x 332.74312pt>
+<Budget.PNG, id=216, 353.82187pt x 332.74312pt>
 File: Budget.PNG Graphic file (type png)
 <use Budget.PNG>
-Package pdftex.def Info: Budget.PNG  used on input line 175.
-(pdftex.def)             Requested size: 353.821pt x 332.7423pt.
- (research_proposal.gls [9] [10 <./Gantt_Chart.PNG>] [11 <./Budget.PNG>] [12
+Package pdftex.def Info: Budget.PNG  used on input line 172.
+(pdftex.def)             Requested size: 424.5841pt x 399.28973pt.
+ [8] [9 <./Gantt_Chart.PNG>] [10 <./Budget.PNG>] [11] [12]
+(research_proposal.gls [13] [14
 
 ]) (research_proposal.bbl
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 56.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\t1cmtt.fd"
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [13
+) [15
 
-] [14] [15]
-Underfull \hbox (badness 1478) in paragraph at lines 637--656
+] [16] [17]
+Underfull \hbox (badness 1478) in paragraph at lines 673--692
 \T1/cmss/m/it/14.4 iii): pre-lim-i-nary ver-sion\T1/cmss/m/n/14.4 .  [][][]PISA
 [][], [][][]OECD[][], Paris, France.  Re-trieved
  []
 
-[16])
-
-Class memoir Warning: The material used in the headers is too large
-(34.99998pt) for the given head height (17.5pt), it is recommended to
-either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 194.
-
-[17]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 194.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 194.
+[18]) [19]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 227.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 227.
  (research_proposal.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 194.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 194.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 227.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 227.
 Package rerunfilecheck Info: File `research_proposal.out' has not changed.
-(rerunfilecheck)             Checksum: 70DF7FB20D19F38C654B1A8F3413E1B8;365.
+(rerunfilecheck)             Checksum: 2075924CF5457CCEB35816E7BC3FC4D7;264.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 194.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 227.
  ) 
 Here is how much of TeX's memory you used:
- 36105 strings out of 492946
- 682943 string characters out of 3135528
- 1080002 words of memory out of 3000000
- 39446 multiletter control sequences out of 15000+200000
+ 36110 strings out of 492946
+ 682984 string characters out of 3135528
+ 1081041 words of memory out of 3000000
+ 39448 multiletter control sequences out of 15000+200000
  545885 words of font info for 51 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,11n,67p,2006b,1026s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,11n,67p,2000b,1026s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Lyron\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
 ectt1440.pk> <C:\Users\Lyron\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/
 ec/dpi600\ecsx1440.pk> <C:\Users\Lyron\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
@@ -1483,12 +1476,11 @@ pk> <C:\Users\Lyron\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600
 \ecsx1200.pk> <C:\Users\Lyron\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen
 /ec/dpi600\ecss1728.pk> <C:\Users\Lyron\AppData\Local\MiKTeX\2.9\fonts/pk/ljfou
 r/jknappen/ec/dpi600\ecss2488.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
-y10.pfb>
-Output written on research_proposal.pdf (17 pages, 287516 bytes).
+c/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb>
+Output written on research_proposal.pdf (19 pages, 284458 bytes).
 PDF statistics:
- 743 PDF objects out of 1000 (max. 8388607)
- 70 named destinations out of 1000 (max. 500000)
+ 757 PDF objects out of 1000 (max. 8388607)
+ 73 named destinations out of 1000 (max. 500000)
  63 words of extra memory for PDF output out of 10000 (max. 10000000)
 
