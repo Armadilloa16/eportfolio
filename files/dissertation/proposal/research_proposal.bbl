@@ -747,32 +747,6 @@ Ramirez, G.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Richardson%
-\ \BBA {} Suinn%
-}{%
-Richardson%
-\ \BBA {} Suinn%
-}{%
-{\protect \APACyear {1972}}%
-}]{%
-Richardson1972}
-\APACinsertmetastar {%
-Richardson1972}%
-\begin{APACrefauthors}%
-Richardson, F\BPBI C.%
-\BCBT {}\ \BBA {} Suinn, R\BPBI M.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1972}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {The mathematics anxiety rating scale: psychometric
-  data.} {The mathematics anxiety rating scale: psychometric data.}{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Journal of counseling Psychology}{19}{6}{551}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Su{\'a}rez-Pellicioni%
 , N{\'u}{\~{n}}ez-Pe{\~{n}}a%
 \BCBL {}\ \BBA {} Colom{\'e}%
