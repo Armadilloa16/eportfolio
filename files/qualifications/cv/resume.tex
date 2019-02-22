@@ -1,5 +1,3 @@
-% LaTeX file for resume 
-% This file uses the resume document class (res.cls)
 
 \documentclass[a4paper,12pt]{report} 
 
@@ -23,18 +21,24 @@
 	urlcolor=black
 }
 
+\usepackage{natbib}
+%\usepackage{apacite}
+%\bibliographystyle{apacite}
+\usepackage{bibentry}
+\nobibliography*
+
 \begin{document} 
 
 \begin{multicols}{2}
 [
 \begin{center}
-{\Large \textbf{Dr. Lyron Juan Winderbaum}} \\ \vspace{4mm}
+{\Large \textbf{Lyron Winderbaum}} \\ \vspace{4mm}
 \end{center}
 ]
 
 \begin{flushleft}
 \begin{tabular}{ll}
-\textbf{Details} & \\ 
+%\textbf{Details} & \\ 
 mobile: & (+61) 431 955 152 \\
 email: & \href{mailto:armadilloa16@gmail.com}{armadilloa16@gmail.com} \\
 \end{tabular}
@@ -42,97 +46,213 @@ email: & \href{mailto:armadilloa16@gmail.com}{armadilloa16@gmail.com} \\
 
 \begin{flushright}
 \begin{tabular}{l}
-\textbf{Address} \\
-3 Hallett Avenue \\  
-Tranmere
-SA 5073 \\
-Australia
+%\textbf{Address} \\
+%3 Hallett Avenue \\  
+address: Tranmere, South Australia \\
+%Australia \\
+website: \href{https://armadilloa16.github.io/eportfolio/}{armadilloa16.github.io/eportfolio/} \\
+{}
 \end{tabular}
 \end{flushright}
 \end{multicols}                                  
 
-\subsection*{Employment History}
+\vspace{-0.4cm}
+\hrule
+\vspace{-0.2cm}
+%\vspace{0.4cm}
 
-\subsubsection*{Tutor \hfill Mar 2012 - Present} \vspace{-6pt}
-(Maths Learning Centre, The University of Adelaide) \\[4pt]
-This role involves presenting complex information to people from a diverse range of backgrounds. It requires a high level of interpersonal skills and the ability to adapt material to different cultures and learning styles.
+%Highly qualified \textbf{Statistician} and \textbf{Bioinformatician} with extensive experience in machine learning and reproducible reporting. Academic training in statistics, with an emphasis on classification algorithms in the context of applied biological imaging data. Strong skills in research and programming, with extensive experience using R, \LaTeX, and knitr to develop, implement, test, and report on results in a reproducible manner.
+%
+%\vspace{0.4cm}
+%\hrule
 
-\subsubsection*{Postdoctoral Research Associate  \hfill Jan 2017 - Dec 2017} \vspace{-6pt}
-(Future Industries Institute, University of South Australia) \\[4pt]
-Extensive experience collaborating with experts in different fields and adapting statistical analyses to fulfill their needs.
-Experience leading and mentoring colleagues to implement improved data storage and reporting techniques to ensure a high standard of transparency and accountability.
-Role required high level analytical, research, and communication skills were required in order to develop, implement, and report on various multivariate statistical data analyses.
-
-\subsubsection*{Research Associate  \hfill Aug 2015 - Dec 2016} \vspace{-6pt}
-(Adelaide Proteomics Centre, The University of Adelaide) \\[4pt]
-This role involved working under time-constraints to provide a high standard of service for customers. Experience developing and implementing software to improve work efficiency and provide quality assurance to customers. Also extensive collaboration with experts in different fields, particularly biomedical research, and adapting statistical analyses to different scenarios. Role required high level analytical, research, and communication skills were required in order to develop, implement, and report on various multivariate statistical data analyses.
-
-\subsubsection*{Tutor \hfill Mar 2012 - July 2015} \vspace{-6pt}
-(School of Mathematical Sciences, The University of Adelaide) \\[4pt]
-Experience teaching tutorials, supervising computer practicals, and marking assignments and exams under time-constraints.
-
-\subsubsection*{Storeperson \hfill Feb 2007 - Feb 2012} \vspace{-6pt}
-(Coles Supermarkets) \\[4pt]
-Retail and customer service experience. \\
-
-\subsection*{Education (The University of Adelaide)}
+\section*{Education (The University of Adelaide)}
 
 \subsubsection*{Master of Teaching \hfill Jan 2018 - Present}
 
 \subsubsection*{Doctor of Philosophy in Statistics \hfill Conferred: Dec 2016} \vspace{-6pt}
-Thesis titled "Statistical Treatment of Proteomic Imaging Mass Spectrometry Data" investigated datasets related to various cancers using statistical techniques such as principal component analysis, k-means clustering, and discriminant analysis. Collaboration with surgeons and biochemists resulting in the development of statistical methods relevant in their fields.
+%Thesis: "Statistical Treatment of Proteomic Imaging Mass Spectrometry Data", supervised by Professor Inge Koch and Professor Peter Hoffmann.
 
 \subsubsection*{Honours in Statistics \hfill Conferred: Dec 2011} \vspace{-6pt}
-Thesis titled "Multivariate Analysis of Trace Elements in Pyrite" developed methods through collaboration with geochemistry experts to investigate the relationships of interest to them. Methods such as hierarchical agglomerative cluster analysis and bootstrapping were adapted to produce results that were meaningful to the geologists.
+%Thesis: "Multivariate Analysis of Trace Elements in Pyrite", supervised by Associate Professor Andrew Metcalfe, Professor Nigel Cook, and Dr. Cristiana Ciobanu.
 
 \subsubsection*{Bachelor of Science (Chemistry) \hfill Conferred: Mar 2011}
 
 \subsubsection*{Bachelor of Computer and Mathematical Sciences \hfill Conferred: Dec 2010 \\ (Pure Mathematics and Statistics)}
 
+%\vspace{0.4cm}
+%\hrule
+%
+%\vspace{1cm}
+%\section*{Additional Qualifications}
+%
+%\subsubsection*{Understanding Aboriginality Webinar \hfill attended: 10 May 2018}
+%
+%\subsubsection*{Keeping Safe: Child Protection Curriculum Training \hfill completed: 19 Apr 2018}
+%
+%\subsubsection*{Youth Mental Health First Aid \hfill accredited: 5 Mar 2018}
+%
+%\subsubsection*{Literacy and Numeracy Test for Initial Teacher Education Students \hfill standard achieved: 3 Mar 2018}
+%
+%\subsubsection*{Responding to Abuse and Neglect Course \hfill completed: 22 Feb 2018}
+%
+%\subsubsection*{Department for Communities and Social Inclusion Child-Related Employment Screening \hfill cleared: 16 Jan 2018}
+%
+%\subsubsection*{Basic Emergency Life Support (HLTAID002) \hfill accredited: 16 Jun 2017}
+
+
+
+
+
+\vspace{0.2cm}
+\hrule
+
+\vspace{0.5cm}
+\section*{Professional Experience}
+
+\subsubsection*{Postdoctoral Research Associate  \hfill Jan 2017 - Dec 2017} \vspace{-6pt}
+(Future Industries Institute, University of South Australia) \\[4pt]
+\vspace{-0.6cm}
+
+\subsubsection*{Research Associate  \hfill Aug 2015 - Dec 2016} \vspace{-6pt}
+(Adelaide Proteomics Centre, The University of Adelaide) \\[4pt]
+\vspace{-0.6cm}
+
+\subsubsection*{Tutor \hfill Mar 2012 - Present} \vspace{-6pt}
+(Maths Learning Centre, The University of Adelaide) \\[4pt]
+\vspace{-0.6cm}
+
+\subsubsection*{Private Tutor \hfill Mar 2018 - Present} \vspace{-6pt}
+(sub-contracted through Tutoring for Excellence) \\[4pt]
+\vspace{-0.6cm}
+
+\subsubsection*{Tutor \hfill Mar 2012 - July 2015} \vspace{-6pt}
+(School of Mathematical Sciences, The University of Adelaide) \\[4pt]
+\vspace{-0.6cm}
+
+\subsubsection*{Storeperson \hfill Feb 2007 - Feb 2012} \vspace{-6pt}
+(Coles Supermarkets) \\[4pt]
+
+%\vspace{0.4cm}
+%\hrule
+%
+%\vspace{1cm}
+%\section*{Awards}
+%
+%\subsubsection*{Australian Postgraduate Award Scholarship \hfill Conferred: 2012}
+%
+%\subsubsection*{The Applied Probability Trust Prize \hfill Conferred: 2011}
+%
+%\subsubsection*{Australian Bureau of Statistics Scholarship \hfill Conferred: 2008}
+
+\hrule
+
+\vspace{0.4cm}
 \subsection*{Programming and Computer Skills}          
 \begin{itemize}
 	\item Extensive experience with MATLAB, \LaTeX, and R.
-	\item Competency with Python, Java, Golang, C\#, Ruby, Perl and Git. 
-	\item Familiarity with other popular software such as SAS/ SPSS.
+	\item Familiarity with Python, Java, Golang, C\#, Ruby, Perl, Git, and other software such as SAS/ SPSS. 
 \end{itemize}
 
-\subsection*{Interests}          
-Rockclimbing, hiking, cycling, puzzles and problem solving, go/igo/weiqi/baduk, machine learning, and reproducible reporting. 
+%\subsection*{Publications}          
+%
+%\begin{itemize}
+%	\item \bibentry{Gustafsson2018}
+%	\item \bibentry{Gustafsson2018a}
+%	\item \bibentry{Arentz2017}
+%	\item \bibentry{Mittal2017}
+%	\item \bibentry{Zammit2016}
+%	\item \bibentry{Zhang2016}
+%	\item \bibentry{Mittal2016}
+%	\item \bibentry{Winderbaum2016}
+%	\item \bibentry{Winderbaum2015}
+%	\item \bibentry{Gustafsson2015}
+%	\item \bibentry{Winderbaum2012}
+%\end{itemize}
+%
+%
+%\hrule
 
 
+%\subsection*{Presentations}          
+%
+%\begin{itemize}
+%	\item Poster Presentation, Australian Proteomics Society Annual Lorne Symposium, 2015
+%	\item Oral Presentation, Australian Statistican Conference/ Institute of Mathematical Statistics Annual Meeting, Sydney, 2014
+%	\item Oral Presentation, Young Statisticians Conference, Brisbane, 2013
+%\end{itemize}
+%
+%
+%\hrule
+%
 
-\begin{multicols}{2}
-[
-\subsection*{References}
-]
+%\begin{multicols}{2}
+%[
+%\subsection*{References}
+%]
+%
+%\begin{flushleft}
+%\textbf{Professor Inge Koch} \\[2pt]
+%\begin{tabular}{ll}
+%%Position: & Executive Director, \\
+%%	    & Choose Maths \\
+%Relation: & PhD Supervisor, \\
+%               & Collaborator, Colleague \\
+%%Phone:    & +61 3 8344 9859 \\
+%Phone:    & +61 412 672 852 \\
+%Email:      & \href{mailto:inge@amsi.org.au}{inge@amsi.org.au} \\
+%\end{tabular}
+%\end{flushleft}
+%
+%
+%\begin{flushleft}
+%\vspace{0.6cm}
+%\textbf{Dr. Johan Gustafsson} \\[2pt]
+%\begin{tabular}{ll}
+%%Position: & Senior Research Associate, \\
+%%	    & Future Industries Institute, \\
+%%	    & University of South Australia \\
+%Relation: & Senior Colleague at \\
+%               & Future Industries Institute, \\
+%               & University of South Australia \\
+%Phone:    & +61 422 220 861 \\
+%Email:      & \href{mailto:scientician31@gmail.com}{scientician31@gmail.com} \\
+%\end{tabular}
+%\end{flushleft}
+%
+%
+%
+%\begin{flushleft}
+%\textbf{Dr. David Butler} \\[4pt]
+%\begin{tabular}{ll}
+%%Position: & Coordinator, \\
+%%	    & Maths Learning Centre \\
+%Relation: & Current Employer, Coordinator at \\
+%               & Maths Learning Centre, \\
+%               & The University of Adelaide \\
+%%Phone:    & +61 8 8313 5862 \\
+%Phone:    & +61 408 693 398 \\
+%Email:      & \href{mailto:mathslearning@adelaide.edu.au}{mathslearning@adelaide.edu.au } \\
+%\end{tabular}
+%\end{flushleft}
+%
+%\begin{flushleft}
+%\vspace{4pt}
+%\begin{tabular}{ll}
+% & \\
+% & \\
+% & \\
+% & \\
+% & \\
+%\end{tabular}
+%\end{flushleft}
+%
+%
+%\end{multicols}
 
-\begin{flushleft}
-\textbf{Associate Professor Inge Koch} \\[2pt]
-\begin{tabular}{ll}
-Position: & Executive Director, \\
-	    & Choose Maths \\
-Relation: & PhD Supervisor \\
-%Phone:    & +61 3 8344 9859 \\
-Phone:    & +61 412 672 852 \\
-Email:      & \href{mailto:inge@amsi.org.au}{inge@amsi.org.au} \\
-\end{tabular}
-\end{flushleft}
 
-
-\begin{flushleft}
-\textbf{Dr. David Butler} \\[4pt]
-\begin{tabular}{ll}
-Position: & Coordinator, \\
-	    & Maths Learning Centre \\
-Relation: & Current Employer \\
-%Phone:    & +61 8 8313 5862 \\
-Phone:    & +61 408 693 398 \\
-Email:      & \href{mailto:mathslearning@adelaide.edu.au}{mathslearning@adelaide.edu.au } \\
-\end{tabular}
-\end{flushleft}
-
-\end{multicols}
-
-
+%\bibliographystyle{plain}
+%\bibliographystyle{plainnat}
+%\nobibliography{publications}
 
 \end{document}

@@ -1,7 +1,19 @@
-% LaTeX file for resume 
-% This file uses the resume document class (res.cls)
 
-\documentclass{res} 
+\documentclass[a4paper,12pt]{report} 
+
+\usepackage[top = 3.4cm, left = 2.4cm, right = 2.4cm, bottom = 2.6cm]{geometry}
+\usepackage{multicol}
+
+\usepackage{tikz}
+\usepackage{draftwatermark}
+\SetWatermarkText{
+\begin{tikzpicture}
+\draw[fill] (-1.4142, 0) -- (0, -1) -- (1.4142, 0) -- (0, 1) -- cycle;
+\end{tikzpicture}
+}
+\SetWatermarkHorCenter{2cm}
+\SetWatermarkVerCenter{2cm}
+\SetWatermarkColor[rgb]{0.35,0.65,0.9}
 
 \usepackage{hyperref}
 \hypersetup{
@@ -9,65 +21,255 @@
 	urlcolor=black
 }
 
+\usepackage{natbib}
+%\usepackage{apacite}
+%\bibliographystyle{apacite}
+\usepackage{bibentry}
+\nobibliography*
+
 \begin{document} 
 
-\name{LYRON JUAN WINDERBAUM \\[24pt]}
+\begin{multicols}{2}
+[
+\begin{center}
+{\Large \textbf{Lyron Winderbaum}} \\ \vspace{4mm}
+\end{center}
+]
 
-\address{\bf DETAILS \\ 
-		mobile: (+61) 431 955 152 \\
-		email: \href{mailto:armadilloa16@gmail.com}{armadilloa16@gmail.com} \\
-		eportfolio: \href{https://armadilloa16.github.io/eportfolio/}{armadilloa16.github.io/eportfolio}
-}
-\address{\bf ADDRESS \\
-		3 Hallett Avenue \\  
-		Tranmere
-		SA 5073 \\
-		Australia}
-                                  
-\begin{resume}
+\begin{flushleft}
+\begin{tabular}{ll}
+%\textbf{Details} & \\ 
+mobile: & (+61) 431 955 152 \\
+email: & \href{mailto:armadilloa16@gmail.com}{armadilloa16@gmail.com} \\
+\end{tabular}
+\end{flushleft}
 
-\section{EDUCATION (The University of Adelaide)} 
-{\bf Bachelor of Science } (Chemistry) \hfill Conferred: Mar 2011 \\
-{\bf Bachelor of Computer and Mathematical Sciences } \hfill Conferred: Dec 2010 \\ 
-(Pure Mathematics and Statistics) \\ % \hfill GPA: 6.023 \\ \vspace{-0.7cm}
-{\bf Honours } (Multivariate Analysis of Trace Elements in Pyrite) \hfill Conferred: Dec 2011  \\
-%{\color{white}Hoo} \hfill GPA: 7.0 \\ \vspace{-0.7cm}
-{\bf Doctor of Philosophy } (Statistical Analysis of Biochemistry Data) \hfill Conferred: Dec 2016  \\ %\vspace{-0.7cm}
-{\bf Master of Teaching} \hfill Jan 2018 - Present  \\ \vspace{-0.5cm}
+\begin{flushright}
+\begin{tabular}{l}
+%\textbf{Address} \\
+%3 Hallett Avenue \\  
+address: Tranmere, South Australia \\
+%Australia \\
+website: \href{https://armadilloa16.github.io/eportfolio/}{armadilloa16.github.io/eportfolio/} \\
+{}
+\end{tabular}
+\end{flushright}
+\end{multicols}                                  
+
+\hrule
+\vspace{0.4cm}
+
+Highly qualified \textbf{Statistician} and \textbf{Bioinformatician} with extensive experience in machine learning and reproducible reporting. Academic training in statistics, with an emphasis on classification algorithms in the context of applied biological imaging data. Strong skills in research and programming, with extensive experience using R, \LaTeX, and knitr to develop, implement, test, and report on results in a reproducible manner.
+
+\vspace{0.4cm}
+\hrule
+
+\section*{Education and Credentials}
+(The University of Adelaide)
+
+\subsubsection*{Master of Teaching \hfill Jan 2018 - Present}
+
+\subsubsection*{Doctor of Philosophy in Statistics \hfill Conferred: Dec 2016} \vspace{-6pt}
+Thesis: "Statistical Treatment of Proteomic Imaging Mass Spectrometry Data", supervised by Professor Inge Koch and Professor Peter Hoffmann.
+
+Developed, implemented and aided interpretation of results from processing and analysis of data from imaging mass spectrometry experiments. Methods used included principal component analysis, k-means clustering, and discriminant analysis, and broadly fit under the umbrella of machine learning. Datasets related to a variety of contexts but primarily biomedical applications to gynacological cancer treatement. The work done towards this degree involved a significant component of software development in MATLAB and R, and writing in \LaTeX using  \href{https://yihui.name/knitr/}{knitr}.
+
+\subsubsection*{Honours in Statistics \hfill Conferred: Dec 2011} \vspace{-6pt}
+Thesis: "Multivariate Analysis of Trace Elements in Pyrite", supervised by Associate Professor Andrew Metcalfe, Professor Nigel Cook, and Dr. Cristiana Ciobanu.
+
+Developed methods through collaboration with geochemistry experts to investigate the relationships of interest to them. Methods such as hierarchical agglomerative cluster analysis and bootstrapping were adapted to produce results that were meaningful to the geologists.
 
 
-\section{ACADEMIC AWARDS AND SCHOLARSHIPS}
-Australian Bureau of Statistics Scholarship \hfill Conferred: 2008 \\
+\subsubsection*{Bachelor of Science (Chemistry) \hfill Conferred: Mar 2011}
+
+\subsubsection*{Bachelor of Computer and Mathematical Sciences \hfill Conferred: Dec 2010 \\ (Pure Mathematics and Statistics)}
+
+\vspace{0.4cm}
+\hrule
+
+\section*{Additional Qualifications}
+
+\subsubsection*{Understanding Aboriginality Webinar \hfill attended: 10 May 2018}
+
+\subsubsection*{Keeping Safe: Child Protection Curriculum Training \hfill completed: 19 Apr 2018}
+
+\subsubsection*{Youth Mental Health First Aid \hfill accredited: 5 Mar 2018}
+
+\subsubsection*{Literacy and Numeracy Test for Initial Teacher Education Students \hfill standard achieved: 3 Mar 2018}
+
+\subsubsection*{Responding to Abuse and Neglect Course \hfill completed: 22 Feb 2018}
+
+\subsubsection*{Department for Communities and Social Inclusion Child-Related Employment Screening \hfill cleared: 16 Jan 2018}
+
+\subsubsection*{Basic Emergency Life Support (HLTAID002) \hfill accredited: 16 Jun 2017}
+
+
+
+
+
+
+\vspace{0.4cm}
+\hrule
+
+\vspace{1cm}
+\section*{Professional Experience}
+
+\subsubsection*{Postdoctoral Research Associate  \hfill Jan 2017 - Dec 2017} \vspace{-6pt}
+(Future Industries Institute, University of South Australia) \\[4pt]
+
+Extensive collaboration with experts in different fields and adapting statistical
+analyses to fullfil their needs. Led and mentored colleagues to implement
+improved data storage and reporting techniques to ensure a high standard of transparency
+and accountability. Used high level analytical, research, and communication skills to develop, 
+implement, and report on various multivariate statistical data analyses.
+
+\subsubsection*{Research Associate  \hfill Aug 2015 - Dec 2016} \vspace{-6pt}
+(Adelaide Proteomics Centre, The University of Adelaide) \\[4pt]
+
+Developed and implemented software solutions to improve work efficiency
+and provide quality assurance to customers. Collaboration with colleagues and experts
+in different fields, particularly biomedical research, and adaption statistical analyses to
+different scenarios. Role required high level analytical, research, and communication skills
+were required in order to develop, implement, and report on various multivariate statistical
+data analyses.
+
+\subsubsection*{Tutor \hfill Mar 2012 - Present} \vspace{-6pt}
+(Maths Learning Centre, The University of Adelaide) \\[4pt]
+
+\subsubsection*{Private Tutor \hfill Mar 2018 - Present} \vspace{-6pt}
+(sub-contracted through Tutoring for Excellence) \\[4pt]
+
+Present complex information to people from a diverse range of backgrounds. Requires a high level of interpersonal skills and the ability to adapt material to different cultures and learning styles. Consulted research students from accross every dicipline in the university on statistical analyses needed for their projects. Delivered the statistics component of third year medical students research methods component. Communicated mathematics and statistics to a wide variety of learners, from year 7 school students to higher degree research students, with adjustments to their individual perspectives and needs.
+
+\subsubsection*{Tutor \hfill Mar 2012 - July 2015} \vspace{-6pt}
+(School of Mathematical Sciences, The University of Adelaide) \\[4pt]
+
+Experience teaching tutorials, supervising computer practicals, and marking assignments and exams under time-constraints.
+
+\subsubsection*{Storeperson \hfill Feb 2007 - Feb 2012} \vspace{-6pt}
+(Coles Supermarkets) \\[4pt]
+
+Retail and customer service experience.
+
+
+\vspace{1cm}
+\hrule
+
+\subsection*{Awards}
+Australian Postgraduate Award Scholarship \hfill Conferred: 2012 \\ 
 The Applied Probability Trust Prize \hfill Conferred: 2011 \\
-Australian Postgraduate Award Scholarship \hfill Conferred: 2012 \\ \vspace{-0.5cm}
+Australian Bureau of Statistics Scholarship \hfill Conferred: 2008 \\
 
-\section{OTHER QUALIFICATIONS}
-Basic Emergency Life Support (First Aid) \hfill Accredited: 16 Jun 2017 \\
-DCSI Child-Related Employment Screening \hfill Cleared: 16 Jan 2018 \\ \vspace{-0.5cm}
-Responding to Abuse and Neglect (RAN) Course \hfill Completed: 22 Feb 2018 \\
+\hrule
 
-
-\section{EMPLOYMENT HISTORY}
-{\bf Storeperson} (Coles) \hfill Feb 2007 - Feb 2012 \\
-{\bf Tutor} (School of Mathematical Sciences, University of Adelaide) \hfill Mar 2012 - July 2015 \\
-Teaching tutorials, supervising computer practicals, and marking assignments. \\
-{\bf Tutor} (Maths Learning Centre, University of Adelaide) \hfill Mar 2012 - Present \\
-One-on-one tutoring for every level of undergraduate mathematics (and statistics). \\
-{\bf Research Associate } (Adelaide Proteomics Centre, University of Adelaide) \hfill Aug 2016 - Dec 2017 \\
-Bioinformatics mostly, in imaging mass spectrometry and proteomics applications. \\ \vspace{-0.5cm}
+\subsection*{Programming and Computer Skills}          
+\begin{itemize}
+	\item Extensive experience with MATLAB, \LaTeX, and R.
+	\item Familiarity with Python, Java, Golang, C\#, Ruby, Perl, Git, and other software such as SAS/ SPSS. 
+\end{itemize}
 
 
+\hrule
 
-\section{COMPUTER SKILLS}          
-Extensive experience with MATLAB, \LaTeX, and R.
-Intermediate familiarity with Python, Java, Golang, C\#, Ruby, Perl, Git, 
-and Microsoft Office. \\ \vspace{-0.5cm}
- 
-\section{EXTRA-CURRICULAR INTERESTS}
-{\bf Rockclimbing, Hiking, Camping, Rogaining and Cycling}.
-Member in the Adelaide University Mountain Club, the University of South Australia Climbing Club, and the Climbing Club of South Australia (2013 - 2015), and continues to participate in club events to present. Active member of the South Australian Rogaining Association (2016 - Present).  \\
-{\bf Go} (a board game also called Baduk or Weiqi in Korean or Chinese respectively). Was the president of Adelaide University Go Club (2008-2009) and the Go Representative for Adelaide University Chess Club (2011--2012), and continues to play regularly by correspondence with some old friends. \\
-{\bf Puzzles}. Has been an active member in the Adelaide University's Puzzle Club also known as 100! or One Hundred Factorial (2011 - Present). \\
+\subsection*{Publications}          
 
-\end{resume}
+\begin{itemize}
+	\item \bibentry{Gustafsson2018}
+	\item \bibentry{Gustafsson2018a}
+	\item \bibentry{Arentz2017}
+	\item \bibentry{Mittal2017}
+	\item \bibentry{Zammit2016}
+	\item \bibentry{Zhang2016}
+	\item \bibentry{Mittal2016}
+	\item \bibentry{Winderbaum2016}
+	\item \bibentry{Winderbaum2015}
+	\item \bibentry{Gustafsson2015}
+	\item \bibentry{Winderbaum2012}
+\end{itemize}
+
+
+\hrule
+
+
+\subsection*{Presentations}          
+
+\begin{itemize}
+	\item Poster Presentation, Australian Proteomics Society Annual Lorne Symposium, 2015
+	\item Oral Presentation, Australian Statistican Conference/ Institute of Mathematical Statistics Annual Meeting, Sydney, 2014
+	\item Oral Presentation, Young Statisticians Conference, Brisbane, 2013
+\end{itemize}
+
+
+\hrule
+
+
+\begin{multicols}{2}
+[
+\subsection*{References}
+]
+
+\begin{flushleft}
+\textbf{Professor Inge Koch} \\[2pt]
+\begin{tabular}{ll}
+%Position: & Executive Director, \\
+%	    & Choose Maths \\
+Relation: & PhD Supervisor, \\
+               & Collaborator, Colleague \\
+%Phone:    & +61 3 8344 9859 \\
+Phone:    & +61 412 672 852 \\
+Email:      & \href{mailto:inge@amsi.org.au}{inge@amsi.org.au} \\
+\end{tabular}
+\end{flushleft}
+
+
+\begin{flushleft}
+\vspace{0.6cm}
+\textbf{Dr. Johan Gustafsson} \\[2pt]
+\begin{tabular}{ll}
+%Position: & Senior Research Associate, \\
+%	    & Future Industries Institute, \\
+%	    & University of South Australia \\
+Relation: & Senior Colleague at \\
+               & Future Industries Institute, \\
+               & University of South Australia \\
+Phone:    & +61 422 220 861 \\
+Email:      & \href{mailto:scientician31@gmail.com}{scientician31@gmail.com} \\
+\end{tabular}
+\end{flushleft}
+
+
+
+\begin{flushleft}
+\textbf{Dr. David Butler} \\[4pt]
+\begin{tabular}{ll}
+%Position: & Coordinator, \\
+%	    & Maths Learning Centre \\
+Relation: & Current Employer, Coordinator at \\
+               & Maths Learning Centre, \\
+               & The University of Adelaide \\
+%Phone:    & +61 8 8313 5862 \\
+Phone:    & +61 408 693 398 \\
+Email:      & \href{mailto:mathslearning@adelaide.edu.au}{mathslearning@adelaide.edu.au } \\
+\end{tabular}
+\end{flushleft}
+
+\begin{flushleft}
+\vspace{4pt}
+\begin{tabular}{ll}
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+\end{tabular}
+\end{flushleft}
+
+
+\end{multicols}
+
+
+%\bibliographystyle{plain}
+\bibliographystyle{plainnat}
+\nobibliography{publications}
+
 \end{document}

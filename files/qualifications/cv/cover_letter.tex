@@ -1,0 +1,51 @@
+\documentclass[a4paper, 12pt]{letter}
+
+\usepackage{geometry}[a4paper, top = 0cm]
+\usepackage{enumerate}
+
+\usepackage{tikz}
+\usepackage{draftwatermark}
+\SetWatermarkText{
+\begin{tikzpicture}
+\draw[fill] (-1.4142, 0) -- (0, -1) -- (1.4142, 0) -- (0, 1) -- cycle;
+\end{tikzpicture}
+}
+\SetWatermarkHorCenter{2cm}
+\SetWatermarkVerCenter{2cm}
+\SetWatermarkColor[rgb]{0.35,0.65,0.9}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,       % false: boxed links; true: colored links
+    linkcolor=black,          % color of internal links (change box color with linkbordercolor)
+    urlcolor=black           % color of external links
+}
+
+\newcommand{\capability}[1]{{\bf#1}}
+%\newcommand{\capability}[1]{}
+
+\signature{Lyron Winderbaum}
+%\address{Tranmere 5073 \\ SA, Australia }
+
+\begin{document}
+
+
+\begin{letter}{LBT Innovations}
+
+\opening{Dear Sir or Madam,}
+
+I am writing to apply for the [job title] position with [company/ institution]. As an acomplished statistician and bioinformatician, I am confident that my qualifications and credentials make me an ideal fit for the role. I have enclosed my CV for your review. I have most recently served as a Postdoctoral Research Associate at the Future Industries Institute, University of South Australia, where I developed, implemented, and communicated the results of statistical analyses for a variety of projects. Most of the projects I worked on where biomedical projects with a focus on the use of imaging mass spectrometry to improve clinical outcomes for patients with gynacological cancers. In this role, and prior to that during my PhD candidature, I developed a passion for reproducible research, which resulted in me writing my thesis using knitr to ensure all compuations could be easily reproduced. These experiences have left me with extensive familiarity with not only machine learning algorithms such as classification or discriminant analysis, but also with R, \LaTeX, Rmarkdown, and \href{https://yihui.name/knitr/}{\texttt{knitr}} for documenting and reporting results. In addition, my research experience has all been focused on multidiciplinary collaborations through which I have learnt to work in a team of experts from a variety of widely different fields, and I find this kind of work very rewarding. These skills and experiences position me ideally to excell in this position. I look forward to discussing the position, and any questions you might have, in detail. In the interim, thank you for your time and consideration.
+
+I look forward to your reply.
+
+\closing{Kind Regards,}
+
+%\ps
+%
+%P.S. You can find the full text of GFDL license at
+%\url{http://www.gnu.org/copyleft/fdl.html}.
+%
+%\encl{Copyright permission form}
+
+\end{letter}
+\end{document}
