@@ -1,31 +1,27 @@
 
 \documentclass[twoside,12pt,a4paper]{report}
 
+% Math
+\usepackage{amsfonts}
+\usepackage{amsmath}
 
-% Lorem Ipsum Text
-\usepackage{lipsum}
+% Margins
+\usepackage[top=2.4cm,bottom=2.4cm,outer=2.4cm,inner=4.2cm]{geometry}
 
-% Table of Contents
-%\usepackage[nottoc]{tocbibind}
-
-% Section and Figure Numbering
-%\renewcommand\thesection{\arabic{section}}
-%\usepackage{chngcntr}
-%\counterwithout{figure}{chapter}
-%\counterwithout{table}{chapter}
-
-% Referencing Commands
-\newcommand{\refsec}[1]{\hyperref[sec:#1]{Section~\ref{sec:#1}}}
-\newcommand{\reffig}[1]{\hyperref[fig:#1]{Figure~\ref{fig:#1}}}
-\newcommand{\reftab}[1]{\hyperref[tab:#1]{Table~\ref{tab:#1}}}
+% Standalone
+\usepackage{standalone}
 
 %TiKz
 \usepackage{tikz}
+\usetikzlibrary{positioning}
 \usetikzlibrary{arrows}
 \usetikzlibrary{shapes}
 
-%SidewaysFigure
+% SidewaysFigure
 \usepackage{rotating}
+
+% Multi-page Tables
+\usepackage{longtable}
 
 % CMU sans serif font.
 \usepackage[T1]{fontenc}
@@ -47,7 +43,6 @@
 % Abbreviations
 \usepackage{glossaries}
 \makeglossaries
-
 \newacronym{pisa}{PISA}{Programme for International Student Assessment}
 \newacronym{oecd}{OECD}{Organisation for Economic Co-operation and Development}
 \newacronym{stem}{STEM}{Science, Technology, Engineering and Mathematics}
@@ -57,32 +52,277 @@
 \newacronym{mas-r}{MAS-R}{Maths Anxiety Scale --- Revised}
 \newacronym{ptsd}{PTSD}{Post-Traumatic Stress Disorder}
 
+\newacronym{ac}{AC}{Australian Curriculum}
+\newacronym{sace}{SACE}{South Australian Certificate of Education}
 
 
-\title{University Mathematics Bridging Courses: Their Importance, Appropriate Pedagogy, and Moving Forward.}
+
+% Date by Month for Title Page
+\usepackage{datetime}
+\newdateformat{monthyeardate}{%
+  \monthname[\THEMONTH], \THEYEAR}
+
+% Intentionally Blank Page
+\newcommand*{\intentionallyblankpage}{
+  \vspace*{\fill}
+  {\centering \textit{This page intentionally left blank.} \par}
+  \vspace{\fill}}
+\makeatletter
+\renewcommand*{\cleardoublepage}{\clearpage\if@twoside \ifodd\c@page\else
+  \intentionallyblankpage
+  % \thispagestyle{empty}
+  \newpage
+  \if@twocolumn\hbox{}\newpage\fi\fi\fi}
+\makeatother
+
+% Lorem Ipsum Text
+\usepackage{lipsum}
+
+% Table of Contents
+%\usepackage[nottoc]{tocbibind}
+
+% Section and Figure Numbering
+%\renewcommand\thesection{\arabic{section}}
+%\usepackage{chngcntr}
+%\counterwithout{figure}{chapter}
+%\counterwithout{table}{chapter}
+
+% Referencing Commands
+\newcommand{\refchap}[1]{\hyperref[chap:#1]{Chapter~\ref{chap:#1}}}
+\newcommand{\refsec}[1]{\hyperref[sec:#1]{Section~\ref{sec:#1}}}
+\newcommand{\reffig}[1]{\hyperref[fig:#1]{Figure~\ref{fig:#1}}}
+\newcommand{\reftab}[1]{\hyperref[tab:#1]{Table~\ref{tab:#1}}}
+
+% Meta Data
+\title{}
 \author{Lyron Winderbaum}
+
+
 
 
 
 \begin{document}
 
+%-----beginning of title page -----------------------------
+\begin{titlepage}
+
+\begin{flushleft}
+\null
+\vspace{2 cm}
+\hrule
+\vspace{1 cm}
+{\huge{\bf University Mathematics Bridging Courses: MathStart, MathTrack, A Review of Existing Approaches and Recommendations for Moving Forward.}}
+\vspace*{2cm}
+\vspace{5.5 cm}
+{\large by Dr. Lyron Juan Winderbaum}\\
+\vspace{1 cm}
+{\large Primary Supervisor: Dr. Igusti Darmawan}\\
+\vspace{0.5 cm}
+{\large Co - Supervisors: Dr. David Butler and Nicholas Crouch}\\
+\vspace{2 cm}
+{ Thesis submitted for the degree of Master of Teaching }\\
+\vspace{0.5 cm}
+\end{flushleft}
+
+\begin{flushright}
+{\monthyeardate\today }
+\end{flushright}
+
+\vspace{0.5 cm}
+\hrule
+\vspace{0.65cm}
+
+\begin{flushleft}
+\textbf{SCHOOL OF EDUCATION}
+\end{flushleft}
+\vspace{-1.5cm}
+% University of Adelaide Crest
+\begin{flushright}
+\includegraphics[scale=0.75]{./files/UoA_logo_col_vert.png}
+\end{flushright}
+\vspace{-2 cm}
+
+\end{titlepage}
+%---------- end of title page -------------------------------
 
 
-\maketitle
+\pagenumbering{roman}
 
 
+%---------------- table of contents -------------------------
+\setcounter{page}{2}
+\intentionallyblankpage
+\newpage
+\intentionallyblankpage
+\cleardoublepage
+\tableofcontents
 
-\begin{abstract}
+%---------------- Glossary ----------------------------------
+% \setglossarystyle{mcolindex}
+\glsaddall
+\newpage
+\intentionallyblankpage
+\printglossaries
+\addcontentsline{toc}{chapter}{Glossary}
+%---------------- end of Glossary ---------------------------
 
-The longterm effectiveness of maths anxiety interventions is in some question, and this is a recognised need for research in this area \cite{Pellicioni2016,Chang2016}. Several critical links between maths anxiety and performance have been identified, but \citeA{Ramirez2018} propose a convincing model that fits these links together into a cycle. The model of \citeA{Ramirez2018} imples that interventions targeting only a single link may be ineffective in the longterm, as even if the targetted link is disrupted, the others will restablish the cycle. I propose a longitudinal study of an intervention targetting multiple links simultaneously. This multifaceted approach has not been trialled to my knowledge, and if it successfully disrupts the cycle it has the potential to yield improved longterm outcomes.
-
-\end{abstract}
-% 100-150 words
-
-
-\pagebreak
+% --------------- Abstract ----------------------------------
 \glsresetall
-\section{Literature Review}
+\cleardoublepage
+\chapter*{Abstract}
+\addcontentsline{toc}{chapter}{Abstract}
+
+\lipsum[1]
+
+% --------------- end of abstract ---------------------------
+
+
+
+%---------- publications page -------------------------------
+% \cleardoublepage
+% \chapter*{Publications and Presentations}
+% \addcontentsline{toc}{chapter}{Publications and Presentations}
+% 
+% \lipsum[1-3]
+%---------- end of publications -----------------------------
+
+
+
+%---------- declaration page --------------------------------
+\cleardoublepage
+\chapter*{Declaration}
+\addcontentsline{toc}{chapter}{Declaration}
+
+I certify that this work contains no material which has 
+been accepted for the award of any other degree or 
+diploma in my name in any university or other tertiary 
+institution and, to the best of my knowledge and 
+belief, contains no material previously published or 
+written by another person, except where due reference 
+has been made in the text. 
+In addition, I certify that no part of this work will, 
+in the future, be used in a submission in my name for 
+any other degree or diploma in any university or other 
+tertiary institution without the prior approval of the 
+University of Adelaide and where applicable, any 
+partner institution responsible for the joint award of 
+this degree.
+
+I give consent to this copy of my thesis, when 
+deposited in the University Library, being made 
+available for loan and photocopying, subject to the 
+provisions of the Copyright Act 1968.
+
+I also give permission for the digital version of my 
+thesis to be made available on the web, via the 
+University's digital research repository, the Library 
+Search and also through web search engines, unless 
+permission has been granted by the University to 
+restrict access for a period of time.
+
+% Except where stated this thesis is, to  the best of my knowledge,  my own work and my supervisor has approved its submission.
+
+\vspace{2cm}
+
+\begin{flushleft}
+Signed:  \\[15 pt]
+Date:
+\end{flushleft}
+
+% \vspace{20 pt}
+% \begin{flushleft}
+% Signed  by supervisor:\\[15 pt]
+% Date:
+% \end{flushleft}
+%---------- end of declaration page -------------------------
+
+
+
+%---------- acknowledgements page ---------------------------
+\cleardoublepage
+\chapter*{Acknowledgements}
+\addcontentsline{toc}{chapter}{Acknowledgements}
+
+\lipsum[2-4]
+
+%---------- end of acknowledgments page ---------------------
+
+
+
+
+\glsresetall
+\cleardoublepage
+\chapter{Introduction}
+\label{chap:intro}
+
+% Main Body LaTeX settings
+% \setlength{\parindent}{0pt}
+% \setlength{\parskip}{2ex plus 0.5ex minus 0.5ex}
+\pagenumbering{arabic}
+
+University mathematics bridging courses serve an important stop-gap role in the Australian educational system, and other educational systems internationally. 
+
+This project can be thought of as consisting of two broad bodies of work: 
+\begin{itemize}
+	\item A review of Australian mathematics bridging courses, a state of the field of research in this area, and commentary on the role, purpose, and approaches important to implementing effective and impactful mathematics bridging courses in Australia and internationally.
+	\item A focus on the bridging courses offered by the University of Adelaide through the Maths Learning Centre: MathStart and MathTrack. Placing these in the broader context, and taking lessons learnt from the broader literature and applying them in practice. In this component, I have implemented several improvements which can be immediately useful to the bridging programs offered at the Unviersity of Adelaide.
+\end{itemize}
+
+This thesis will be structured as follows:
+\begin{itemize}
+	\item The remainder of this introductory chapter (\refchap{intro}), I will give a broad overview of the concepts, challenges, and setting for this project.
+	\item In \refchap{literature_review} I will provide a indepth discussion of the existing literature, what is known, approaches attempted in the past both in Australia and internationally, and some deeper discssion on some of the particularly relevant related concepts, such as maths anxiety.
+	\item In \refchap{curriculum_mapping} I will map the \gls{ac} to \gls{sace} to the content currently in MathStart and MathTrack, the mathematics bridging courses offered at the University of Adelaide through the Maths Learning Centre. I will also include a discussion of how this content aligns with the biggest first-year mathematics courses at the University of Adelaide. I will identify gaps and mis-alignment, discuss the tension between different perspectives on the role of university mathematics bridging courses and how this impacts on content, and I will suggest modifications to the bridging courses that would allow them to be more closely aligned with the \gls{ac} should that be wanted.
+	\item Finally, I will wrap up with commentary on what is being done well, reccomendations for how to improve, and a summary of the work I have done outside of this thesis to generate resources and content that can be used to improve these programs moving forward in \refchap{recommendations}.
+\end{itemize}
+
+
+
+\section{The Role of University Mathematics Bridging Courses}
+
+Students will usually enroll in university mathematics bridging courses because they are required to demonstrate a certain level of mathematical knowledge/ competance before commencing study at university, but either do not meet those requirements, or do but feel a lack of confidence in their abilites and feel like they need to refresh/ revise/ learn the mathematics prior to commencing their studies.
+
+Many of these students will be adult-entry students, and reasons why these students do not either meet the entry requirements, or feel a lack of confidence in their abilities can be quite varied:
+\begin{itemize}
+	\item A long period of time may have passed since they last studied mathematics (or studied at all).
+	\item They may have performed poorly in mathematics in highschool.
+	\item They may have chosen not to study mathematics at a higher level in highschool.
+	\item They may suffer from maths anxiety (which would make them likely to fit into the above two categories as well).
+\end{itemize}
+	
+The role of mathematics bridging courses is to take these students, and:
+\begin{itemize}
+	\item Bridge their content knowledge so they are prepared for university entry.
+	\item Support the growth of their confidence and self-efficacy surrounding mathematics.
+	\item Ultimately prepare them to be successful in a university context.
+\end{itemize}
+
+From the perspective of content, what content should be taught in a university bridging course is actually a question that has dramatically different answers from different perspectives on the role of such a course:
+\begin{itemize}
+	\item If you take the perspective that the role of such a course is to fill in the gaps in student's knowledge left from an incomplete or maths-light highschool education, then the content that should be taught should be up to and including the advanced year 12 australian curriculum. This is particularly appropriate if you do not know the direction of the students, or if they are potentially just doing the bridging course with you and they are planning on studying a degree at a different university say, interstate.
+	\item If you take the perspective that the role of such a course is to prepare students for entry into the particular courses they are about to commence studying, the content relevant to them will be dramatically differnet. The senior mathematics australian curriculum is extremely generalist and contains many topics that would be completely irrelevant to any particular field of study. 
+\end{itemize}
+In terms of choosing what content to teach in a university bridging course, the above two competing perspectives will often be at odds with each other. 
+
+
+\cleardoublepage
+\chapter{Literature Review}
+\label{chap:literature}
+
+
+\section{Bridging Courses}
+
+\begin{itemize}
+	\item \cite{Gordon2013} describes the perspectives of students enrolled in an Australian university bridging course.
+	\item \cite{Johnson2016} describes the impact of a bridging course on students maths anxiety and self-efficacy in Ireland.
+	\item \cite{Poladian2013} Conference proceedings analysing the impact of bridging course on students success in first year university level calculus courses.
+	\item \cite{Nicholas2015} is very relevant but I can't find the actual paper, just references too it.
+\end{itemize}
+
+
+
+
+\section{Maths Anxiety}
 
 
 \subsection*{Why is Maths Anxiety Important?}
@@ -92,23 +332,21 @@ Maths anxiety is hugely prevalent, the 2012 \gls{pisa} report states that across
 Even if the wellbeing issue was not enough, there is also a clear maths anxiety-performance connection, and all the stakeholders in a students academic success in maths. One example of this is highlighted by \citeA{Foley2017} who juxtaposes the internationally rising demand for \gls{stem} professionals with the negative correlation between maths anxiety and performance shown in the 2012 \gls{pisa} report \cite{PISA2013} to highlight the relevance of addressing maths anxiety in filling this demand. The relationship between maths anxiety and maths-qualified professionals in the workforce is supported throughout the literature: when a student has low self-concept (correlated with high maths anxiety), they will tend not to enroll in maths beyond the minimum requirements for graduation \cite{Ashcraft2007book}, and students affect towards maths can predict their university major \cite{LeFevre1992}. Beyond this example, the list of stakeholders in a students academic success in maths goes on and on: parents; the student's themselves; schools (which are often funded based on the results of standardised testing such as \gls{naplan}), and teachers amongst them. 
 
 
+\subsection*{Maths Anxiety as Distinct from General Anxiety}
+
+The existence of maths anxiety as ``emotional disturbances in the presence of mathematics'' has been noted as early as the 1950's, \citeA{Dreger1957} even postulated that what he tentatively designated ``Number Anxiety'' and later became to be known as Maths Anxiety could be a distinct syndrome from general anxiety. Later the landmark meta-study of \citeA{Hembree1990} supported this hypothesis, showing a correlation of only $0.38$ between maths anxiety and general anxiety. In more recent times, this hypothesis has also been confirmed by \citeA{Young2012} using \gls{fmri} to show that the brain activity in a person experiencing maths anxiety is measurably distinct from that in a person suffering general anxiety. These later studies, as well as the the work of \citeA{Kazelskis2000} and more, have also delineated maths anxiety from test anxiety, and these different anxieties exisitng as meaningfully distinct constructs is now quite well accepted. For more on the history of maths anxiety, \citeA{Pellicioni2016} offers a more detailed review.
+
 
 \subsection*{Frameworks for Understanding Maths Anxiety}.
 
 Only a few studies focus on maths anxiety itself (primarily \gls{fmri} studies such as those of  \citeA{Young2012} or \citeA{Lyons2012pain}). Instead the bulk of the literature is focused on the maths anxiety-performance link.  Specifically, there seem to be two distinct theories being pursued and I will adopt the terminology of \citeA{Ramirez2018} to describe them: the ``Disruption Account'' and the ``Reduced Competency Account''. \citeA{Ramirez2018} go on to make a convincing argument that although these two theories might seem to compete, they are not actually mutually exclusive and instead quite compatible with each other. \citeA{Ramirez2018} suggests a third ``Interpretation Account'' which encapsulates observations made by both lines of research, see \reffig{ramirez}.
 
-\begin{figure}[b]
+\begin{figure}
 \begin{center}
-\begin{tikzpicture}[->,>=stealth',auto,node distance=3cm,thick,main node/.style={ellipse,draw,font=\sffamily\Large\bfseries}]
-  	\node[main node] (a) {Maths Anxiety};
- 	\node[main node] (b) [below of=a] {Maths Performance};
-
-	\path	(a) edge[bend right] node [left] {Disruption Account} (b)
-		(b) edge[bend right] node [right] {Reduced Competancy Account} (a);
-\end{tikzpicture}
-\end{center}
+\input{./figures/ramirez_interpretation_account}
 \caption{The Interpretation Account of Ramirez et al. (2018) for the maths anxiety-performance link showing how the Disruption Account and the Reduced Competency Account can be compatible.
 \label{fig:ramirez}}
+\end{center}
 \end{figure}
 
 First, a little more detail on the existing theories. The ``Disruption Account'', spearheaded by the work of Ashcraft et al., is centered around the concept of working memory \cite{Ashcraft2001, Ashcraft2007}. Specifically that anxiety about maths takes up students working memory, which prevents them from using that working memory to complete maths tasks and thereby impacts their performance. The ``Reduced Competency Account'' on the other hand proposes the opposite causality: that lower ability in maths leads to negative experiences associated to maths, which in turn cause maths anxiety to develop. There is also a significant body of work to support this hypothesis, including the milestone meta-analysis of \citeA{Hembree1990} and the longitudinal study of \citeA{Ma2004} which found that although past maths anxiety was correlated with future maths performance it was a small effect, while past maths performance had a strong effect on future maths anxiety.
@@ -125,20 +363,6 @@ The work of \citeA{Wang2015} showed the role that intrinsic motivation has media
 
 One of the implications of the ``Interpretation Account'' is that if an intervention targets only one of these two possible links in the cycle (see \reffig{ramirez}), the cycle may re-establish itself after the intervention is over and negate any potential longterm effects. However there is only a very limited amount of research out there on such longterm effects, and several authors have discussed the need for further research into this \cite{Pellicioni2016,Chang2016}. My hypothesis is that a multi-faceted approach targetting both directions simultaneously could disrupt the cycle shown in \reffig{ramirez} and result in significant longterm effects.
 
-
-
-\section{Research Proposal}
-
-I propose a multifaceted intervention in which multiple links in the cycle (see \reffig{ramirez}) are attacked simultaneously to disrupt the maths anxiety-performance link. I hypothesise that this approach will result in a more longlived effect on both students wellbeing (anxiety mediated by self-concept) and maths performance. The four facets of the proposed intervention are:
-\begin{itemize}
-	\item An intensive tutoring program to boost students math abilities, similar to the approach of \citeA{Supekar2015}.
-	\item Coaching around reappraisal of physiological signs of stress (increased heart rate, sweaty palms, etc.) similar to the approach of \citeA{Jamieson2016}.
-	\item Guided expressive writing, similar to the approach of \citeA{Park2014}.
-	\item Coaching perception of learning maths towards a viewpoint including ``productive struggle'' \cite{Hiebert2007}.
-\end{itemize}
-
-The intensive tutoring program will be delivered by separate tutors, but the other interventions will be delivered by the classes regular teachers. Hence, a critical component to this design will be a professional development course running ``Teacher Coaching Sessions'' throughout the study, in which the classroom teachers will be explained the principles of the interventions, and more importantly will be able to ask questions in an ongoing manner throughout the study to continue to modify and improve their pedagogy.
-
 \subsection*{Instruments for Measuring Maths Anxiety}
 
 In order to track the effectiveness of these interventions, we will be collating assessment results as a measure of performance, but will also want to measure maths anxiety and maths affect/ self-concept. Significant work has been done over the years to develop psychometrics to measure maths anxiety, almost exclusively consisting of self-reporting surveys (with the exception of some more modern \gls{fmri} work, such as that of \citeA{Lyons2012}). We will use a recently developed scale: the \gls{mas-r} of \citeA{Bai2009}, which has been shown to be remarkably self consistent by incorporating both positive and negative affect items \cite{Bai2011}. It is short, easy to implement, and cheap in comparison to \gls{fmri} methods. In order to measure maths self-concept, \citeA{Jansen2013} modified the Perceived Competence Scale for Children of \citeA{Harter1982} to measure ``Math Competance''. The methodological process imployed by \citeA{Jansen2013} was quite rigorous and so we will use their instrument, or a minor modification thereof (we will do it in English), to measure maths self-concept.
@@ -151,15 +375,108 @@ In order to track the effectiveness of these interventions, we will be collating
 
 
 
-%\subsection*{Maths Anxiety as Distinct from General Anxiety}
-%
-%The existence of maths anxiety as ``emotional disturbances in the presence of mathematics'' has been noted as early as the 1950's, \citeA{Dreger1957} even postulated that what he tentatively designated ``Number Anxiety'' and later became to be known as Maths Anxiety could be a distinct syndrome from general anxiety. Later the landmark meta-study of \citeA{Hembree1990} supported this hypothesis, showing a correlation of only $0.38$ between maths anxiety and general anxiety. In more recent times, this hypothesis has also been confirmed by \citeA{Young2012} using \gls{fmri} to show that the brain activity in a person experiencing maths anxiety is measurably distinct from that in a person suffering general anxiety. These later studies, as well as the the work of \citeA{Kazelskis2000} and more, have also delineated maths anxiety from test anxiety, and these different anxieties exisitng as meaningfully distinct constructs is now quite well accepted. For more on the history of maths anxiety, \citeA{Pellicioni2016} offers a more detailed review.
 
 
 
-\pagebreak
-\printglossaries
+\cleardoublepage
+\chapter{Curriculum Mapping}
+\label{chap:curriculum}
 
+One of the important roles of university mathematics bridging courses is to fill the content knowledge gap for students who did not complete Mathematical Methods or Specialist Mathematics in highschool. What exact content knowledge is expected from having competed Mathematical Methods and/ or Specialist Mathematics can also vary from state to state in Australia, and will vary even more dramatically internationally. The terms themselves ``Mathematical Methods'' and ``Specialist Mathematics'' even vary, but essentially these correspond with the highest levels of mathematics in the final year of highschool, which is often required for entry into many university programs. 
+
+This chapter will examine the alignment of the content of MathStart and MathTrack (the mathematics bridging courses offered at the university of adelaide) with the \gls{ac} and \gls{sace}, see \reffig{curriculum_mapping}. Beyond that, this chapter will also briefly discuss the alignment of these bridging courses to first year university mathematics courses and bridging courses offered by other universities in Australia, and the relationship between the seeming gaps in alignment between the \gls{ac} and \gls{sace} and the bridging courses and the requirements of these first year university courses. However, overall the focus is on the alignment of the bridging courses and \gls{ac}/ \gls{sace}, rather than their alignment to the first year university courses for one clear and important reason: not all students enrolling in these bridging courses are commencing these first year university courses, or may be doing so at a different university in which their first year content is different. Hence, it is most fair to attempt to align the content with the \gls{ac}/\gls{sace} as this is the content other students should be covering in highschool prior to enrolling in university in any case, and hence puts people at a fair standing with those students, and also being aligned with the \gls{ac} in particular is useful for guaranteeing a certain level of knowledge for enrollment in universities interstate. 
+
+\section{\gls{ac}-\gls{sace}-MathStart-MathTrack Alignment}
+
+Each senior highschool curriculum being considered here is broken down into topics, and within each topic sub-topics.
+\reffig{curriculum_mapping} shows the topic-level alignment between the \gls{ac} (senior mathematical methods and specialist mathematics), \gls{sace} (mathematical methods and specialist mathematics), MathStart and MathTrack. Although sub-topic alignment within these topic alignments is not always perfect, it is fairly strong in each case but individual cases will be discussed in more detail below.
+
+The notation used in \reffig{curriculum_mapping} is as follows:
+\begin{itemize}
+	\item \gls{ac}:
+	\begin{itemize}
+		\item ``MMu[\#1]t[\#2]'': Senior Mathematical Methods Unit [\#1], Topic [\#2].
+		\item ``MMu[\#1]t[\#2]'': Senior Specialist Mathematics Unit [\#1], Topic [\#2].
+	\end{itemize}
+	
+	\item \gls{sace}:
+	\begin{itemize}
+		\item ``S1M[\#]'': Stage 1 Mathematics, Topic [\#].
+		\item ``S2MM[\#]'': Stage 2 Mathematical Methods, Topic [\#].
+		\item ``S2SM[\#]'': Stage 2 Specialist Mathematics, Topic [\#].
+	\end{itemize}
+	
+	\item Univesity of Adelaide Bridging Courses:
+	\begin{itemize}
+		\item ``MS[\#]'': Maths Start, Topic (Booklet) [\#].
+		\item ``MT[\#]'': Maths Track, Topic (Booklet) [\#].
+	\end{itemize}
+\end{itemize}
+
+Table [...?...] lists the names of these topics, including a brief summary of the key sub-topics/ content knowledge.
+
+
+
+\begin{figure}[p]
+\begin{center}
+\input{./figures/curriculum_mapping}
+\caption{Curriculum Mapping
+\label{fig:curriculum_mapping}}
+\end{center}
+\end{figure}
+
+ \gls{ac} has four levels of mathmatics, including also essential and general mathematics. Mathematical Methods and Specialist Mathematics are the two highest level mathematics, intended (partly) for preparation to university entry.
+
+
+\begin{longtable}{lp{.22\textwidth}p{.66\textwidth}}
+\caption{Description of \gls{ac} Mathematical Methods and Specialist Mathematics Topics. For brevity I use a code for each topic, see ... } \\
+%\multicolumn{3}{c}{\gls{ac} Senior Mathematics} \\ 
+Code & Name & Description \\ \hline
+MMu1t1 & Functions I & Lines, Quadratics, Inverse Proportions, Polynomials, Relations, Translations and Dilations \\
+MMu1t2 & Trigonometry I & Unit Circle, Radians, SOH CAH TOA, Sine Rule, Exact Values, Amplitude/ Period/ Phase, Sum of Angles Identities \\
+MMu1t3 & Combinatorics I & Binomial Coefficients, Set Complement Intersection and Union, Probability, $P(A\cup{}B) = P(A) + P(B) - P(A\cap{}B)$, Conditional Probability, Independance \\
+MMu2t1 & Exponentials & Index Laws, Fractional Indices, Functions, Asymptotes, Graphs \\
+MMu2t2 & Sequences & Arithmetic and Geometric Sequences as Recurrence Relations, Limiting Behaviour, and Partial Sum Formulae, Growth and Decay \\
+MMu2t3 & Differentiation I & Average Rate of Change, First Principles, Leibniz Notation, Instantaneous Rate of Change, Slope of Tangent, Derivitive of Polynomials, Linearity of Differentiation, Optimisation, Anti-Derivitives, Interpret Position-Time Graphs \\
+MMu3t1 & Differentiation II & Define $e$ as $a$ s.t. $\lim_{h \to 0} \frac{a^h - 1}{h} = 1$, Derivitives of $e^x$ $\sin(x)$ and $\cos(x)$, Chain Product and Quotient Rules, Second Derivitives \\
+MMu3t2 & Integration I & Integrate Polynomial Exponential and Trigonometric Functions, Linearity of Integration,  Determine Displacement given Velocity, Definite Integrals, Fundamental Theorem of Calculus, (signed) Area Under a Curve \\
+MMu3t3 & {\raggedright Discrete Random Variables} & Frequencies, General Properties, Expected Value, Variance, Standard Deviation, Bernoulli and Binomial Distribtions \\
+MMu4t1 & Logarithms & Logs as Inverse of Exponentials, Log-Scales, Log Function Graphs, Natural Log, $\frac{d}{dx}\ln{x} = \frac{1}{x}$, $\int \frac{1}{x}dx = \ln{x} + c$ for $x > 0$ \\
+MMu4t2 & {\raggedright Continuous Random Variables} & Probability Density Function, Cumulative Distribution Function, Probabilites Expected Value, Variance and Standard Deviation as Integrals, Linear Transformation of Random Variables, Normal Distribution using Technology \\
+MMu4t3 & Confidence Interval for Proportions & Simple Random Sampling, Bias, Sample Proportion, Normal Approximation to the Binomial Proportion, Wald Confidence Interval, Trade-Off Between Width and Level of Confidence \\ \hline
+& & \\ \hline
+SMu1t1 & Combinatorics II & Multiplication of Possibilities, Factorial Notation, Permutations with and without Repeated Objects, Union of Three Sets, Pigeon-Hole Principle, Combinations, Pascals Triangle \\
+SMu1t2 & Vectors in $\mathbb{R}^2$ & Magnetude and Direction, Scalar Multiplication, Addition and Substraction as a Triangle, Vector Notation, $a\textbf{i} + b\textbf{j}$ Notation, Scalar Dot Product, Projection, Parallel and Perpendicular Vectors \\
+SMu1t3 & Geometry & Notation for Implication ($\Rightarrow$) and Equivalence ($\Leftrightarrow$), Converse ($B \Rightarrow A$) Negation ($\neg A \Rightarrow \neg B$) and Contrapositive ($\neg B \Rightarrow \neg A$), Proof by Contradiction, $\forall$ and $\exists$ Notation, Counter-Examples, Circle Theorems, Quadrilateral Proofs in $\mathbb{R}^2$ \\
+SMu2t1 & Trigonometry II & Graph and Solve Trig Functions, Prove Various Trig Indentities, Reciprocal Trig Functions \\
+SMu2t2 & Matrices & Notation, Addition and Scalar Multiplication of Matrices, Multiplicative Identity and Inverse, Determinant, Matrices as Transformations \\
+SMu2t3 & $\mathbb{Q}$, $\mathbb{R} \setminus \mathbb{Q}$, and $\mathbb{C}$ & Rationality and Irrationality, Induction, $i = \sqrt{-1}$, Complex Numbers $a + bi$ and Arithmetic ($+$, $-$, $\times$, $\div$), Complex Conjugates, Complex Plane,  Complex Conjugate Roots of Polynomials\\
+SMu3t1 & Complex Numbers & Modulus and Argument, Arithmetic ($\times$, $\div$, and $z^n$) in Polar Form, Convert between Polar and Cartesian Form, De Moivre's Theorem, Roots of Complex Numbers, Factorising Polynomials \\
+SMu3t2 & Functions II & Composition of Functions, One-to-One, Inverse Functions, Absolute Value Function, Rational Functions \\
+SMu3t3 & Vectors in $\mathbb{R}^3$ & $a\textbf{i} + b\textbf{j} + c\textbf{k}$ Notation, Equation for Spheres, Parameterised Vector Equations, Equations of Lines, the Cross Product, Equation for a Plane, Systems of Linear Equation (Elimination Method) and Geometric Interpretation of Solutions, Kinematics via Differentiation of Vector Equations, Projectile and Circular Motion \\
+SMu4t1 & Integration II & Substitution, $\int \frac{1}{x}dx = \ln{|x|} + c$ for $x \neq 0$, Inverse Trig Functions and their Derivitives, Integrate $\frac{\pm1}{\sqrt{a^2-x^2}}$ and $\frac{a}{a^2 + x^2}$, Partial Fractions, Integration by Parts, Volume of Solids of Revolution, Numerical Integration using Technology \\
+SMu4t2 & {\raggedright Differential Equations} & Implicit Differentiation, First-Order Seperable Differential Equations, The Logistic Equation, Kinematics (Rates of Change) \\
+SMu4t3 & Inference & Central Limit Theorem and the Resulting Confidence Interval for a Mean\\
+\end{longtable}
+
+\cleardoublepage
+\chapter{Moving Forward: Improvements} 
+\label{chap:recommendations}
+
+\lipsum[1-2]
+
+\cleardoublepage
+\chapter*{Conclusions and Reccomendations}
+\addcontentsline{toc}{chapter}{Conclusions and Reccomendations}
+
+With respect to the bridging courses run through the university of adelaide's maths learning centre: MathsStart and MathsTrack,
+\begin{itemize}
+	\item The self-paced and feedback focused approach to assessment is certainly the highlight of the programs, should be continued, encouraged, potentially further resourced, expanded, and reccomended to other bridging course facilitators.
+	\item The role of bridging courses as what is often student's first experience at university implies that potentially students wellbeing and retention could be improved by structuring the programs to provide more opportunities for students to meet each other and work together: either in the maths learning center drop-in area, or a seperate area, but potentially assigning a certain time on a certain day perhaps weekly or fortnightly during which students are encouraged to come and work together, could allow them to make freinds, build social networks, and better aclimitise them to the university environment in order to better prepare them for success in their studies.
+	\item The smallest but perhaps easiest to implement improvement could be to better align the course content with curriculum, both the highschool curriculum (\gls{ac}/ \gls{sace}) in the case of students doing the bridging course to then comence study interstate or overseas, or with specific first year entry level courses, to better match the potential gaps in knowledge students may encounter.
+\end{itemize}
+
+% Bibliography/ References
 \glsresetall
 \bibliographystyle{apacite}
 \bibliography{citations} 

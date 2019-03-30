@@ -1,0 +1,16 @@
+\documentclass[tikz]{standalone}
+\usetikzlibrary{arrows}
+\usetikzlibrary{shapes}
+
+\usepackage[T1]{fontenc}
+\renewcommand*\familydefault{\sfdefault}
+
+\begin{document}
+\begin{tikzpicture}[->,>=stealth',auto,node distance=3cm,thick,main node/.style={ellipse,draw,font=\sffamily\Large\bfseries}]
+  	\node[main node] (a) {Maths Anxiety};
+ 	\node[main node] (b) [below of=a] {Maths Performance};
+
+	\path	(a) edge[bend right] node [left] {Disruption Account} (b)
+		(b) edge[bend right] node [right] {Reduced Competancy Account} (a);
+\end{tikzpicture}
+\end{document}
