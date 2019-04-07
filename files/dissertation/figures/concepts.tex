@@ -11,6 +11,9 @@
 \usepackage[T1]{fontenc}
 \renewcommand*\familydefault{\sfdefault}
 
+% Hyperlinks
+\usepackage{hyperref}
+
 \begin{document}
 \begin{longtable}{lp{.85\textwidth}}
 Code & \textbf{Name} and Key Concepts \\ \hline
@@ -25,7 +28,7 @@ MMu2t3 & \textbf{Introduction to differential calculus} Average Rate of Change, 
 MMu3t1 & \textbf{Further differentiation and applications}: Define $e$ as $a$ s.t. $\lim_{h \to 0} \frac{a^h - 1}{h} = 1$, Derivitives of $e^x$ $\sin(x)$ and $\cos(x)$, Chain Product and Quotient Rules, Second Derivitives \\
 MMu3t2 & \textbf{Integrals}: Integrate Polynomial Exponential and Trigonometric Functions, Linearity of Integration,  Determine Displacement given Velocity, Definite Integrals, Fundamental Theorem of Calculus, (signed) Area Under a Curve \\
 MMu3t3 & \textbf{Discrete random variables}: Frequencies, General Properties, Expected Value, Variance, Standard Deviation, Bernoulli and Binomial Distribtions \\
-MMu4t1 & \textbf{The logarithmic function}: Logs as Inverse of Exponentials, Log-Scales, Log Function Graphs, Natural Log, $\frac{d}{dx}\ln{x} = \frac{1}{x}$, $\int \frac{1}{x}dx = \ln{x} + c$ for $x > 0$ \\
+MMu4t1 & \textbf{The logarithmic function}: Logs as Inverse of Exponentials, Log-Scales, Log Function Graphs, Natural Log, $\frac{d}{dx}\ln(x) = \frac{1}{x}$, $\int{\frac{1}{x}dx} = \ln(x) + c$ for $x > 0$ \\
 MMu4t2 & \textbf{Continuous random variables and the normal distribution}: Probability Density Function, Cumulative Distribution Function, Probabilites Expected Value, Variance and Standard Deviation as Integrals, Linear Transformation of Random Variables, Normal Distribution using Technology \\
 MMu4t3 & \textbf{Interval estimates for proportions} Simple Random Sampling, Bias, Sample Proportion, Normal Approximation to the Binomial Proportion, Wald Confidence Interval, Trade-Off Between Width and Level of Confidence \\
 & \\
@@ -39,39 +42,39 @@ SMu2t3 & \textbf{Real and complex numbers}: Rationality and Irrationality, Induc
 SMu3t1 & \textbf{Complex numbers}: Modulus and Argument, Arithmetic ($\times$, $\div$, and $z^n$) in Polar Form, Convert between Polar and Cartesian Form, De Moivre's Theorem, Roots of Complex Numbers, Factorising Polynomials \\
 SMu3t2 & \textbf{Functions and sketching graphs}: Composition of Functions, One-to-One, Inverse Functions, Absolute Value Function, Rational Functions \\
 SMu3t3 & \textbf{Vectors in three dimensions}: $a\textbf{i} + b\textbf{j} + c\textbf{k}$ Notation, Equation for Spheres, Parameterised Vector Equations, Equations of Lines, the Cross Product, Equation for a Plane, Systems of Linear Equation (Elimination Method) and Geometric Interpretation of Solutions, Kinematics via Differentiation of Vector Equations, Projectile and Circular Motion \\
-SMu4t1 & \textbf{Integration and applications of integration} Substitution, $\int \frac{1}{x}dx = \ln{|x|} + c$ for $x \neq 0$, Inverse Trig Functions and their Derivitives, Integrate $\frac{\pm1}{\sqrt{a^2-x^2}}$ and $\frac{a}{a^2 + x^2}$, Partial Fractions, Integration by Parts, Volume of Solids of Revolution, Numerical Integration using Technology \\
+SMu4t1 & \textbf{Integration and applications of integration} Substitution, $\int{\frac{1}{x}dx} = \ln{|x|} + c$ for $x \neq 0$, Inverse Trig Functions and their Derivitives, Integrate $\frac{\pm1}{\sqrt{a^2-x^2}}$ and $\frac{a}{a^2 + x^2}$, Partial Fractions, Integration by Parts, Volume of Solids of Revolution, Numerical Integration using Technology \\
 SMu4t2 & \textbf{Rates of change and differential equations}: Implicit Differentiation, First-Order Seperable Differential Equations, The Logistic Equation, Kinematics (Rates of Change) \\
 SMu4t3 & \textbf{Statistical inference}: Central Limit Theorem and the Resulting Confidence Interval for a Mean \\
 & \\
 %\multicolumn{2}{l}{\gls{sace} Stage 1 Mathematics} \\ 
 S1M1 & \textbf{Functions and graphs}: Equations for a Line, Slope, y-intercept, Intersection of Lines, Reciprocal Function, Asymptotes, Functions vs Relations, Domain, Range, Function Notation \\
 S1M2 & \textbf{Polynomials}: Quadratic Equations in Vertex and Factorised Forms, Quadratic Formula, Completing the Square, The Leading Coefficient and Degree of a Polynomials, Cubics, Quartics\\
-S1M3 & \textbf{Trigonometry}: Pythagoras, SOH CAH TOA, Cosine Rule, Sine Rule, Unit Circle, Sine and Cosine Functions, Radians, Length of Arc, Area of Sector, Amplitude, Period, Phase, $\tan{x} = \frac{\sin{x}}{\cos{x}}$ \\
+S1M3 & \textbf{Trigonometry}: Pythagoras, SOH CAH TOA, Cosine Rule, Sine Rule, Unit Circle, Sine and Cosine Functions, Radians, Length of Arc, Area of Sector, Amplitude, Period, Phase, $\tan(x) = \frac{\sin(x)}{\cos(x)}$ \\
 S1M4 & \textbf{Counting and statistics}: Factorial, Permutations, Multiplication Principle, Combinations, Discrete vs Continuous Random Variables, Mean, Median, Mode, Range, Interquartile Range, Standard Deviation, Normal Distribution, \\
 S1M5 & \textbf{Growth and decay}: Index and Logarithm Laws, Exponential Functions and their Graphs \\
 S1M6 & \textbf{Introduction to differential calculus}: Average Rate of Change, First Principles, Notation $f'(x) = \frac{df}{dx}$, $\frac{d}{dx}x^n = nx^{n-1}$, Linearity of Differentiation, Slope of Tangent, Increasing vs Decreasing, Local and Global Maxima and Minima, Stationary Points, Sign Diagram \\
-S1M7 & \textbf{Arithmetic and geometric sequences and series}: \\
-S1M8 & \textbf{Geometry}: \\
-S1M9 & \textbf{Vectors in the plane}: \\
-S1M10 & \textbf{Further Trigonometry}: \\
-S1M11 & \textbf{Matrices}: \\
-S1M12 & \textbf{Real and complex numbers}: \\
+S1M7 & \textbf{Arithmetic and geometric sequences and series}: Arithmetic and Geometric Series as Recurrance Relations and Explicit Expressions, Partial Sums, Limiting Behaviour  \\
+S1M8 & \textbf{Geometry}: \href{https://prezi.com/view/vpmCHdeFbIV2xlYHhZiK}{Circle Properties}, Proofs (Direct, Contradiction, and Contrapositive) \\
+S1M9 & \textbf{Vectors in the plane}: Component (column) vs $ai + bj$ Notation, Length and Direction, Linear Combinations of Vectors, Scalar Dot Product, Projection, Angle Between Two Vectors and Parallel/ Perpendicular, Geometric Proof \\
+S1M10 & \textbf{Further Trigonometry}: Sketch Trigonometric Functions with Translations and Dilations, Solve for Angles, Trigonometric Identities, Reciprocal Trigonometric Functions\\
+S1M11 & \textbf{Matrices}: Linear Combinations of Matrices, Matrix Multiplication, The Identity, Inverse Matrices, The $2 \times 2$ Inverse, The $2 \times 2$ Determinant, Linear Transformations (including rotations, reflections and composition) \\
+S1M12 & \textbf{Real and complex numbers}: Rationals, Irrationals, Interval Notation, Induction, $i = \sqrt{-1}$, Real and Imaginary Components, Complex Conjugates and Arithmetic, Argand Diagram, Modulus, Complex Roots of Polynomals \\
 & \\
 %\multicolumn{2}{l}{\gls{sace} Stage 2 Mathematical Methods} \\ 
-S1MM1 & \textbf{Further differentiation and applications}: \\
-S1MM2 & \textbf{Discrete random variables}: \\
-S1MM3 & \textbf{Integral calculus}: \\
-S1MM4 & \textbf{Logarithmic functions}: \\
-S1MM5 & \textbf{Continuous random variables and the normal distribution}: \\
-S1MM6 & \textbf{Sampling and confidence intervals}: \\
+S2MM1 & \textbf{Further differentiation and applications}: S1M6, Chain Product and Quotient Rules, $e = 2.718...$, $\frac{d}{dx}e^x = e^x$,  $\frac{d}{dx}\sin(x) = \cos(x)$, $\frac{d}{dx}\cos(x) = -\sin(x)$, Second Derivatives, Concavity and Points of Inflection \\
+S2MM2 & \textbf{Discrete random variables}: Random Variables, Discrete vs Continuous, Probability Functions and Distributions, Properties of Probabilities, Frequency, Expected Value $E[X] = \sum{xp(x)} = \mu_X$, Standard Deviation $\sigma_X = \sqrt{\sum{(x-\mu_X)^2p(x)}}$, Uniform Bernoulli and Binomial Distributions \\
+S2MM3 & \textbf{Integral calculus}: Anti-differentiation, If $F'(x) = f(x)$ then $\int{f(x)dx} = F(x) + c$, Reversing Chain Rule for $\int{f(ax + b)dx}$, Linearity of Integration, Finding the Constant of Integration, Area Under the Curve as Upper and Lower Sum Approximations, Definite Integral, Area Between Two Functions and Between a Negative Function and the x-axis, Fundamental Theorem of Calculus,  \\
+S2MM4 & \textbf{Logarithmic functions}: Sketching $y = a\ln(b(x-c))$, $\frac{d}{dx}\ln(x) = \frac{1}{x}$, For $x > 0$ $\int{\frac{1}{x}dx} = \ln(x) + c$ \\
+S2MM5 & \textbf{Continuous random variables and the normal distribution}: $P(X = x) = 0$, Probability Density Function, $\mu_X = \int_{-\infty}^{\infty}{xf(x)dx}$, $\sigma_X = \int_{-\infty}^{\infty}{(x - \mu_X)^2f(x)dx}$, $f(x) = \frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{1}{2}\left( \frac{x-\mu}{\sigma}\right)^2}$, Standard Normal $Z = \frac{X - \mu}{\sigma}$, Simple Random Sampling, For $X \sim (\mu, \sigma)$ and $X_i \sim iid X$ Sampling Distributions of $S_n = \Sigma_{i = 1}^{n}{X_i}$ $(n\mu,\sigma\sqrt{n})$ and $\bar{X}_n = \frac{S_n}{n}$ $(\mu,\frac{\sigma}{\sqrt{n}})$, If $X$ is Normally Distributed, then so are $S_n$ and $\bar{X}_n$, Central Limit Theorem (CLT) \\
+S2MM6 & \textbf{Sampling and confidence intervals}: Confidence Interval for a Mean using CLT $\left(\bar{x} - z^*\frac{s}{\sqrt{n}} \right) \leq \mu \leq \left( \bar{x} + z^*\frac{s}{\sqrt{n}}\right)$, Wald Interval for a Proportion  \\
 & \\
 %\multicolumn{2}{l}{\gls{sace} Stage 2 Specialist Mathematics} \\ 
-S1SM1 & \textbf{Mathematical induction}: \\
-S1SM2 & \textbf{Complex numbers}: \\
-S1SM3 & \textbf{Functions and sketching graphs}: \\
-S1SM4 & \textbf{Vectors in three dimensions}: \\
-S1SM5 & \textbf{Integration techniques and applications}: \\
-S1SM6 & \textbf{Rates of change and differential equations}: \\
+S2SM1 & \textbf{Mathematical induction}: Initial Case and Induction Step \\
+S2SM2 & \textbf{Complex numbers}: \\
+S2SM3 & \textbf{Functions and sketching graphs}: \\
+S2SM4 & \textbf{Vectors in three dimensions}: \\
+S2SM5 & \textbf{Integration techniques and applications}: \\
+S2SM6 & \textbf{Rates of change and differential equations}: \\
 & \\
 %\multicolumn{2}{l}{UofA MathStart} \\ 
 MS1 & \textbf{Numbers \& Functions}: \\
