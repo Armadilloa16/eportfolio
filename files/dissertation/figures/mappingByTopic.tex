@@ -53,84 +53,68 @@
   	
 	% SACE
 	\node[font=\Large\bfseries] (sace) [left=2.4cm of ms] {SACE};
+	% Functions and Graphs
   	\node[topic node] (ss1m1) [below of=sace] {S1M1};
   	\node[topic node] (ss1m2) [below of=ss1m1] {S1M2};
-  	\node[topic node] (ss1m3) [below of=ss1m2] {S1M3};
-  	\node[topic node] (ss1m4) [below of=ss1m3] {S1M4};
-  	\node[topic node] (ss1m5) [below of=ss1m4] {S1M5};
-  	\node[topic node] (ss1m6) [below of=ss1m5] {S1M6};
-  	\node[topic node] (ss1m7) [below of=ss1m6] {S1M7};
-  	\node[topic node] (ss1m8) [below of=ss1m7] {S1M8};
-  	\node[topic node] (ss1m9) [below of=ss1m8] {S1M9};
-  	\node[topic node] (ss1m10) [below of=ss1m9] {S1M10};
-  	\node[topic node] (ss1m11) [below of=ss1m10] {S1M11};
-  	\node[topic node] (ss1m12) [below of=ss1m11] {S1M12};
-%  	\node[topic node] (ss1m1) [below of=sace] {Functions I};
-%  	\node[topic node] (ss1m2) [below of=ss1m1] {Polynomials};
-%  	\node[topic node] (ss1m3) [below of=ss1m2] {Trigonometry I};
-%  	\node[topic node] (ss1m4) [below of=ss1m3] {Combinatorics};
-%  	\node[topic node] (ss1m5) [below of=ss1m4] {Exponentials};
-%  	\node[topic node] (ss1m6) [below of=ss1m5] {Differentiation I};
-%  	\node[topic node] (ss1m7) [below of=ss1m6] {Sequences};
-%  	\node[topic node] (ss1m8) [below of=ss1m7] {Circle Theorems};
-%  	\node[topic node] (ss1m9) [below of=ss1m8] {Vectors ($\mathbb{R}^2$)};
-%  	\node[topic node] (ss1m10) [below of=ss1m9] {Trigonometry II};
-%  	\node[topic node] (ss1m11) [below of=ss1m10] {Matrices};
-%  	\node[topic node] (ss1m12) [below of=ss1m11] {Complex ($\mathbb{C}$) I};
-  	
-  	\node[topic node] (ss2mm1) [below=0.7cm of ss1m12] {S2MM1};
-  	\node[topic node] (ss2mm2) [below of=ss2mm1] {S2MM2};
-  	\node[topic node] (ss2mm3) [below of=ss2mm2] {S2MM3};
-  	\node[topic node] (ss2mm4) [below of=ss2mm3] {S2MM4};
-  	\node[topic node] (ss2mm5) [below of=ss2mm4] {S2MM5};
+  	\node[topic node] (ss2sm3) [below of=ss1m2] {S2SM3};
+  	\node[topic node] (ss1m5) [below of=ss2sm3] {S1M5};
+  	\node[topic node] (ss1m7) [below of=ss1m5] {S1M7};
+  	\node[topic node] (ss2mm4) [below of=ss1m7] {S2MM4};
+  	\node[topic node] (ss1m3) [below of=ss2mm4] {S1M3};
+  	\node[topic node] (ss1m10) [below of=ss1m3] {S1M10};
+	% Calculus
+  	\node[topic node] (ss1m6) [below=0.7cm of ss1m10] {S1M6};
+  	\node[topic node] (ss2mm1) [below of=ss1m6] {S2MM1};
+  	\node[topic node] (ss2sm6) [below of=ss2mm1] {S2SM6};  	
+  	\node[topic node] (ss2mm3) [below of=ss2sm6] {S2MM3};
+  	\node[topic node] (ss2sm5) [below of=ss2mm3] {S2SM5};
+	% Geometry and Linear Algebra
+  	\node[topic node] (ss1m8) [below=0.7cm of ss2sm5] {S1M8};
+	\node[topic node] (ss1m9) [below of=ss1m8] {S1M9};
+  	\node[topic node] (ss2sm4) [below of=ss1m9] {S2SM4};
+  	\node[topic node] (ss1m11) [below of=ss2sm4] {S1M11};
+  	% Complex Numbers
+  	\node[topic node] (ss2sm1) [below=0.7cm of ss1m11] {S2SM1};
+  	\node[topic node] (ss1m12) [below of=ss2sm1] {S1M12};
+  	\node[topic node] (ss2sm2) [below of=ss1m12] {S2SM2};
+	% Probability and Statistics	
+  	\node[topic node] (ss1m4) [below=0.7cm of ss2sm2] {S1M4};
+  	\node[topic node] (ss2mm2) [below of=ss1m4] {S2MM2}; 	
+  	\node[topic node] (ss2mm5) [below of=ss2mm2] {S2MM5};
   	\node[topic node] (ss2mm6) [below of=ss2mm5] {S2MM6};
-%  	\node[topic node] (ss2mm1) [below=1cm of ss1m12] {Differentiation II};
-%  	\node[topic node] (ss2mm2) [below of=ss2mm1] {Discrete RV};
-%  	\node[topic node] (ss2mm3) [below of=ss2mm2] {Integration I};
-%  	\node[topic node] (ss2mm4) [below of=ss2mm3] {Logarithms};
-%  	\node[topic node] (ss2mm5) [below of=ss2mm4] {Continuous RV};
-%  	\node[topic node] (ss2mm6) [below of=ss2mm5] {Sampling};
   	
-  	\node[topic node] (ss2sm1) [below=0.7cm of ss2mm6] {S2SM1};
-  	\node[topic node] (ss2sm2) [below of=ss2sm1] {S2SM2};
-  	\node[topic node] (ss2sm3) [below of=ss2sm2] {S2SM3};
-  	\node[topic node] (ss2sm4) [below of=ss2sm3] {S2SM4};
-  	\node[topic node] (ss2sm5) [below of=ss2sm4] {S2SM5};
-  	\node[topic node] (ss2sm6) [below of=ss2sm5] {S2SM6};  	
-%  	\node[topic node] (ss2sm1) [below=1cm of ss2mm6] {Induction};
-%  	\node[topic node] (ss2sm2) [below of=ss2sm1] {Complex ($\mathbb{C}$) II};
-%  	\node[topic node] (ss2sm3) [below of=ss2sm2] {Functions II};
-%  	\node[topic node] (ss2sm4) [below of=ss2sm3] {Vectors ($\mathbb{R}^3$)};
-%  	\node[topic node] (ss2sm5) [below of=ss2sm4] {Integration II};
-%  	\node[topic node] (ss2sm6) [below of=ss2sm5] {DEs};  	
   	
 	% Australian Curriculum
 	\node[font=\Large\bfseries, text width = 3.6cm, align=center] (ac) [left=2.4cm of sace] {Australian Curriculum};
+	% Functions and Graphs
   	\node[topic node] (acmmmu1t1) [below=0cm of ac] {MMu1t1};
-  	\node[topic node] (acmmmu1t2) [below of=acmmmu1t1] {MMu1t2};
-  	\node[topic node] (acmmmu1t3) [below of=acmmmu1t2] {MMu1t3};
-  	\node[topic node] (acmmmu2t1) [below of=acmmmu1t3] {MMu2t1};
+  	\node[topic node] (acmsmu3t2) [below of=acmmmu1t1] {SMu3t2};
+  	\node[topic node] (acmmmu2t1) [below of=acmsmu3t2] {MMu2t1};
   	\node[topic node] (acmmmu2t2) [below of=acmmmu2t1] {MMu2t2};
-  	\node[topic node] (acmmmu2t3) [below of=acmmmu2t2] {MMu2t3};
+  	\node[topic node] (acmmmu4t1) [below of=acmmmu2t2] {MMu4t1};
+  	\node[topic node] (acmmmu1t2) [below of=acmmmu4t1] {MMu1t2};
+  	\node[topic node] (acmsmu2t1) [below of=acmmmu1t2] {SMu2t1};
+	% Calculus
+  	\node[topic node] (acmmmu2t3) [below=0.7cm of acmsmu2t1] {MMu2t3};
   	\node[topic node] (acmmmu3t1) [below of=acmmmu2t3] {MMu3t1};
-  	\node[topic node] (acmmmu3t2) [below of=acmmmu3t1] {MMu3t2};
-  	\node[topic node] (acmmmu3t3) [below of=acmmmu3t2] {MMu3t3};
-  	\node[topic node] (acmmmu4t1) [below of=acmmmu3t3] {MMu4t1};
-  	\node[topic node] (acmmmu4t2) [below of=acmmmu4t1] {MMu4t2};
-  	\node[topic node] (acmmmu4t3) [below of=acmmmu4t2] {MMu4t3};
-  	
-  	\node[topic node] (acmsmu1t1) [below=0.7cm of acmmmu4t3] {SMu1t1};
-  	\node[topic node] (acmsmu1t2) [below of=acmsmu1t1] {SMu1t2};
-  	\node[topic node] (acmsmu1t3) [below of=acmsmu1t2] {SMu1t3};
-  	\node[topic node] (acmsmu2t1) [below of=acmsmu1t3] {SMu2t1};
-  	\node[topic node] (acmsmu2t2) [below of=acmsmu2t1] {SMu2t2};
-  	\node[topic node] (acmsmu2t3) [below of=acmsmu2t2] {SMu2t3};
+  	\node[topic node] (acmsmu4t2) [below of=acmmmu3t1] {SMu4t2};
+  	\node[topic node] (acmmmu3t2) [below of=acmsmu4t2] {MMu3t2};
+  	\node[topic node] (acmsmu4t1) [below of=acmmmu3t2] {SMu4t1};
+	% Geometry and Linear Algebra
+  	\node[topic node] (acmsmu1t3) [below=0.7cm of acmsmu4t1] {SMu1t3};
+  	\node[topic node] (acmsmu1t2) [below of=acmsmu1t3] {SMu1t2};
+  	\node[topic node] (acmsmu3t3) [below of=acmsmu1t2] {SMu3t3};
+  	\node[topic node] (acmsmu2t2) [below of=acmsmu3t3] {SMu2t2};
+	% Complex Numbers
+  	\node[topic node] (acmsmu2t3) [below=0.7cm of acmsmu2t2] {SMu2t3};
   	\node[topic node] (acmsmu3t1) [below of=acmsmu2t3] {SMu3t1};
-  	\node[topic node] (acmsmu3t2) [below of=acmsmu3t1] {SMu3t2};
-  	\node[topic node] (acmsmu3t3) [below of=acmsmu3t2] {SMu3t3};
-  	\node[topic node] (acmsmu4t1) [below of=acmsmu3t3] {SMu4t1};
-  	\node[topic node] (acmsmu4t2) [below of=acmsmu4t1] {SMu4t2};
-  	\node[topic node] (acmsmu4t3) [below of=acmsmu4t2] {SMu4t3};
+	% Probability and Statistics
+  	\node[topic node] (acmmmu1t3) [below=0.7cm of acmsmu3t1] {MMu1t3};
+  	\node[topic node] (acmsmu1t1) [below of=acmmmu1t3] {SMu1t1};
+  	\node[topic node] (acmmmu3t3) [below of=acmsmu1t1] {MMu3t3};
+  	\node[topic node] (acmmmu4t2) [below of=acmmmu3t3] {MMu4t2};
+  	\node[topic node] (acmmmu4t3) [below of=acmmmu4t2] {MMu4t3};
+  	\node[topic node] (acmsmu4t3) [below of=acmmmu4t3] {SMu4t3};
 
 	% Australian Curriculum -- SACE links
 	\draw (ss1m1.west) -- (acmmmu1t1.east);
