@@ -14,42 +14,27 @@
 \begin{document}
 \begin{tikzpicture}[node distance=0.9cm,thick,topic node/.style={ellipse,draw,font=\footnotesize},unit node/.style={ellipse,draw,font=\large}]
 
-	% MathsStart
+	% MathsStart and MathsTrack
 	\node[font=\Large\bfseries, text width = 3.6cm, align=center] (ms) {MathsStart MathsTrack};
+	% Functions and Graphs
   	\node[unit node] (ms1) [below=0.2cm of ms] {MS1};
   	\node[unit node] (ms2) [below=0.2cm of ms1] {MS2};
   	\node[unit node] (ms3) [below=0.2cm of ms2] {MS3};
   	\node[unit node] (ms4) [below=0.2cm of ms3] {MS4};
-  	\node[unit node] (ms5) [below=0.2cm of ms4] {MS5};
-  	\node[unit node] (ms6) [below=0.2cm of ms5] {MS6};
-  	\node[unit node] (ms7) [below=0.2cm of ms6] {MS7};
+  	\node[unit node] (mt1) [below=0.2cm of ms4] {MT1};
+  	\node[unit node] (ms7) [below=0.2cm of mt1] {MS7};
   	\node[unit node] (ms8) [below=0.2cm of ms7] {MS8};
-%  	\node[unit node] (ms1) [below=0.2cm of ms] {Functions};
-%  	\node[unit node] (ms2) [below=0.2cm of ms1] {Linear};
-%  	\node[unit node] (ms3) [below=0.2cm of ms2] {Quadratic};
-%  	\node[unit node] (ms4) [below=0.2cm of ms3] {Rational};
-%  	\node[unit node] (ms5) [below=0.2cm of ms4] {Trigonometry I};
-%  	\node[unit node] (ms6) [below=0.2cm of ms5] {Trigonometry II};
-%  	\node[unit node] (ms7) [below=0.2cm of ms6] {Exponential};
-%  	\node[unit node] (ms8) [below=0.2cm of ms7] {Logarithm};
-
-	% MathsTrack
-  	\node[unit node] (mt1) [below=0.7cm of ms8] {MT1};
-  	\node[unit node] (mt2) [below=0.2cm of mt1] {MT2};
-  	\node[unit node] (mt3) [below=0.2cm of mt2] {MT3};
-  	\node[unit node] (mt4) [below=0.2cm of mt3] {MT4};
-  	\node[unit node] (mt6) [below=0.2cm of mt4] {MT6};
+  	\node[unit node] (ms5) [below=0.2cm of ms8] {MS5};
+  	\node[unit node] (ms6) [below=0.2cm of ms5] {MS6};
+	% Calculus
+  	\node[unit node] (mt6) [below=0.7cm of ms6] {MT6};
   	\node[unit node] (mt7) [below=0.2cm of mt6] {MT7};
   	\node[unit node] (mt8) [below=0.2cm of mt7] {MT8};
   	\node[unit node] (mt9) [below=0.2cm of mt8] {MT9};
-%  	\node[unit node] (mt1) [below=0.8cm of ms8] {Polynomials};
-%  	\node[unit node] (mt2) [below=0.2cm of mt1] {Matrices};
-%  	\node[unit node] (mt3) [below=0.2cm of mt2] {Vectors};
-%  	\node[unit node] (mt4) [below=0.2cm of mt3] {Systems of Eqns};
-%  	\node[unit node] (mt6) [below=0.2cm of mt4] {Differentiation};
-%  	\node[unit node] (mt7) [below=0.2cm of mt6] {Differentiation Apps};
-%  	\node[unit node] (mt8) [below=0.2cm of mt7] {Exp and Log};
-%  	\node[unit node] (mt9) [below=0.2cm of mt8] {Integration};
+	% Geometry and Linear Algebra	
+  	\node[unit node] (mt2) [below=0.7cm of mt9] {MT2};
+  	\node[unit node] (mt3) [below=0.2cm of mt2] {MT3};
+  	\node[unit node] (mt4) [below=0.2cm of mt3] {MT4};
   	
 	% SACE
 	\node[font=\Large\bfseries] (sace) [left=2.4cm of ms] {SACE};
