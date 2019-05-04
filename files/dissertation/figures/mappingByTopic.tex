@@ -17,8 +17,7 @@
 	% MathsStart and MathsTrack
 	\node[font=\Large\bfseries, text width = 3.6cm, align=center] (ms) {MathsStart MathsTrack};
 	% Functions and Graphs
-  	\node[unit node] (ms1) [below=0.2cm of ms] {MS1};
-  	\node[unit node] (ms2) [below=0.2cm of ms1] {MS2};
+  	\node[unit node] (ms2) [below=0.2cm of ms] {MS2};
   	\node[unit node] (ms3) [below=0.2cm of ms2] {MS3};
   	\node[unit node] (ms4) [below=0.2cm of ms3] {MS4};
   	\node[unit node] (mt1) [below=0.2cm of ms4] {MT1};
@@ -35,6 +34,8 @@
   	\node[unit node] (mt2) [below=0.7cm of mt9] {MT2};
   	\node[unit node] (mt3) [below=0.2cm of mt2] {MT3};
   	\node[unit node] (mt4) [below=0.2cm of mt3] {MT4};
+	% Complex Numbers
+  	\node[unit node] (ms1) [below=0.7cm of mt4] {MS1};
   	
 	% SACE
 	\node[font=\Large\bfseries] (sace) [left=2.4cm of ms] {SACE};
@@ -108,6 +109,7 @@
 	\draw (ss1m4.west) -- (acmmmu1t3.east);
 	\draw (ss1m4.west) -- (acmsmu1t1.east);
 	\draw (ss1m5.west) -- (acmmmu2t1.east);
+	\draw (ss1m5.west) -- (acmmmu4t1.east);
 	\draw (ss1m6.west) -- (acmmmu2t3.east);
 	\draw (ss1m7.west) -- (acmmmu2t2.east);
 	\draw (ss1m8.west) -- (acmsmu1t3.east);
@@ -146,14 +148,17 @@
 	\draw (mt8.west) -- (ss2mm4.east);
 	\draw (mt9.west) -- (ss2mm3.east);
 
-	% MathsTrack to SACE links
+	% MathsStart to SACE links
+	\draw (ms1.west) -- (ss1m12.east);
 	\draw (ms2.west) -- (ss1m1.east);
 	\draw (ms3.west) -- (ss1m2.east);
+	\draw (ms4.west) -- (ss1m1.east);
 	\draw (ms5.west) -- (ss1m3.east);
 	\draw (ms6.west) -- (ss1m3.east);
 	\draw (ms6.west) -- (ss1m10.east);
 	\draw (ms7.west) -- (ss1m5.east);
 	\draw (ms8.west) -- (ss1m5.east);
+	\draw (ms8.west) -- (ss2mm4.east);
 
 
   	
