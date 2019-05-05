@@ -30,11 +30,11 @@
 % Hyperlinks
 \usepackage{hyperref}
 \hypersetup{
-    colorlinks=true,       % false: boxed links; true: colored links
-    linkcolor=black,          % color of internal links (change box color with linkbordercolor)
-    citecolor=black,        % color of links to bibliography
-    filecolor=blue,      % color of file links
-    urlcolor=blue           % color of external links
+    colorlinks=true,       	% false: boxed links; true: colored links
+    linkcolor=black,          	% color of internal links (change box color with linkbordercolor)
+    citecolor=black,        	% color of links to bibliography
+    filecolor=blue,      		% color of file links
+    urlcolor=blue           	% color of external links
 }
 
 % APA 6 citation and bibliography style % Note: Must be loaded after hyperref
@@ -75,9 +75,6 @@
   \if@twocolumn\hbox{}\newpage\fi\fi\fi}
 \makeatother
 
-% Lorem Ipsum Text
-\usepackage{lipsum}
-
 % Table of Contents
 %\usepackage[nottoc]{tocbibind}
 
@@ -97,6 +94,8 @@
 
 
 \begin{document}
+
+
 
 %-----beginning of title page -----------------------------
 \begin{titlepage}
@@ -142,7 +141,9 @@
 %---------- end of title page -------------------------------
 
 
+
 \pagenumbering{roman}
+
 
 
 %---------------- table of contents -------------------------
@@ -152,6 +153,9 @@
 \intentionallyblankpage
 \cleardoublepage
 \tableofcontents
+%---------------- end of TOC -------------------------
+
+
 
 %---------------- Glossary ----------------------------------
 % \setglossarystyle{mcolindex}
@@ -162,13 +166,15 @@
 \addcontentsline{toc}{chapter}{Glossary}
 %---------------- end of Glossary ---------------------------
 
+
+
 % --------------- Abstract ----------------------------------
 \glsresetall
 \cleardoublepage
 \chapter*{Abstract}
 \addcontentsline{toc}{chapter}{Abstract}
 
-\lipsum[1]
+In this thesis the University of Adelaide's mathematics bridging courses: MathsStart and MathsTrack are discussed in detail. Their context and purpose is reviewed, their content is aligned to national and state highschool curriculums, as well as appropriate entry-level university courses. The pedagogy and excellence in educational practice demonstrated through the University of Adelaide's maths learning center, which offers these bridging courses, is examined with an eye to learning from their exemplary approach to supporting what can be one of the most vunerable cohorts of students attempting to enter into tertiary education. Ultimately, reccomendations are made both in terms of exemplary practice that can be generalised to other such courses accross Australia, and also in terms of restructuring of the courses to better align them with national and state curriculums, while also tailoring their content to better suit the cohort of students enrolling in these courses.
 
 % --------------- end of abstract ---------------------------
 
@@ -189,34 +195,27 @@
 \chapter*{Declaration}
 \addcontentsline{toc}{chapter}{Declaration}
 
-I certify that this work contains no material which has 
-been accepted for the award of any other degree or 
-diploma in my name in any university or other tertiary 
-institution and, to the best of my knowledge and 
-belief, contains no material previously published or 
-written by another person, except where due reference 
-has been made in the text. 
-In addition, I certify that no part of this work will, 
-in the future, be used in a submission in my name for 
-any other degree or diploma in any university or other 
-tertiary institution without the prior approval of the 
-University of Adelaide and where applicable, any 
-partner institution responsible for the joint award of 
-this degree.
+I certify that this work contains no material which has been accepted 
+for the award of any other degree or diploma in my name, in any
+university or other tertiary institution and, to the best of my knowledge 
+and belief, contains no material previously published or written
+by another person, except where due reference has been made in the 
+text. In addition, I certify that no part of this work will, in the
+future, be used in a submission in my name, for any other degree or 
+diploma in any university or other tertiary institution without the
+prior approval of the University of Adelaide and where applicable, any 
+partner institution responsible for the joint-award of this degree.
 
-I give consent to this copy of my thesis, when 
-deposited in the University Library, being made 
-available for loan and photocopying, subject to the 
-provisions of the Copyright Act 1968.
+I give permission for the digital version of my thesis to be made 
+available on the web, via the University’s digital research repository,
+the Library Search and also through web search engines, unless 
+permission has been granted by the University to restrict access for a
+period of time.
 
-I also give permission for the digital version of my 
-thesis to be made available on the web, via the 
-University's digital research repository, the Library 
-Search and also through web search engines, unless 
-permission has been granted by the University to 
-restrict access for a period of time.
+I acknowledge the support I have received for my research through 
+the provision of an Australian Government Research Training
+Program Scholarship.
 
-% Except where stated this thesis is, to  the best of my knowledge,  my own work and my supervisor has approved its submission.
 
 \vspace{2cm}
 
@@ -230,6 +229,7 @@ Date:
 % Signed  by supervisor:\\[15 pt]
 % Date:
 % \end{flushleft}
+
 %---------- end of declaration page -------------------------
 
 
@@ -239,19 +239,36 @@ Date:
 \chapter*{Acknowledgements}
 \addcontentsline{toc}{chapter}{Acknowledgements}
 
-\lipsum[2-4]
+First, my thanks go to David Butler and Nicholas Crouch from the maths learning center at the University of Adelaide.
+Not only did their exemplary educatational expertise inspire me to try my hand at education in the first place, but they 
+continue to inspire me on a daily basis with the way the help and support students. Even while dealing with a university review Nicholas still found time (somehow) to sit with me and discuss improvements that could be made to their bridging courses. 
+
+My thanks also extend to Igusti Darmawan, my supervisor from inside the school of education, for his guidance but mostly support and his willingness to allow me to pursue a somewhat unorthodox project of my own construction, despite it being quite outside of his speciality area of educational research, none-the-less supporting me in my project.
+
+\begin{itemize}
+	\item Lynda 
+	\item Linda
+	\item Brendan, for doing his best,
+	\item Ed 
+	\item Saman?
+	\item Jason?
+	\item Amanda?
+	\item Trev?
+	\item Students?
+	\item ...
+\end{itemize}
 
 %---------- end of acknowledgments page ---------------------
 
 
 
 
-\glsresetall
 \cleardoublepage
 \chapter{Introduction}
 \label{chap:intro}
 
 % Main Body LaTeX settings
+\glsresetall
 % \setlength{\parindent}{0pt}
 % \setlength{\parskip}{2ex plus 0.5ex minus 0.5ex}
 \pagenumbering{arabic}
@@ -902,12 +919,18 @@ Note the missing topic 5 in MathsTrack, this used to be part of the course some 
 
 Although key concept level alignment between topics connected with lines in \reffig{mapping} is not always perfect, it is fairly strong in most cases. Individual cases with any misalignment will be discussed in the remainder of this chapter.
 
+\clearpage
+
+\pagestyle{empty}
+
 \begin{figure}[p]
 \begin{center}
 \input{./figures/mapping}
 \caption{Curriculum Mapping\label{fig:mapping}}
 \end{center}
 \end{figure}
+
+\clearpage
 
 \subsection{\gls{ac} to \gls{sace}}
 
@@ -959,6 +982,10 @@ TODO: Review above dot points, trim/edit down, condense, and write a paragraph h
 
 If we rearrange the topics in \reffig{mapping} into their five broad topic areas: Functions and Graphs, Calculus, Geometry and Linear Algebra, Complex Numbers, and Probability and Statistics, we get a much clearer picture, as shown in \reffig{mappingByTopic}.
 
+\clearpage
+
+\pagestyle{empty}
+
 \begin{figure}[p]
 \begin{center}
 \input{./figures/mappingByTopic}
@@ -966,7 +993,7 @@ If we rearrange the topics in \reffig{mapping} into their five broad topic areas
 \end{center}
 \end{figure}
 
-
+\clearpage
 
 \subsection{\gls{ac} and \gls{sace} to MathsStart and MathsTrack}
 
@@ -1059,8 +1086,6 @@ Other reccomendations:
 \chapter{Moving Forward: Improvements} 
 \label{chap:recommendations}
 
-\lipsum[1]
-
 \section{Current Strengths of MathsStart and MathsTrack}
 
 Moving foward is a two-part process:
@@ -1071,9 +1096,43 @@ Moving foward is a two-part process:
 
 \subsection{SQWIGLES}
 
-See \href{https://blogs.adelaide.edu.au/maths-learning/2016/09/20/sqwigles/}{David Butler's blog post about it}
+SQWIGLES is an abbreviation (see \reffig{squigles}) developed at the University of Adelaide maths learning centre with several purposes in mind:
+\begin{itemize}
+	\item As a way to guide tutors working at the maths learning center on how to best help the students.
+	\item To scaffold self-reflection in teaching and education when working one-on-one with students by providing specific actions one can focus on paying attention to and reflecting on.
+	\item As a tool to focus efforts on self-improvement, by choosing one action to improve on at a time it can provide an avenue towards improvement that feels acheivable, and can provide concrete progression.
+\end{itemize}
+SQWIGLES also had some ancillary and unintended benefits, as once an educator is engaged actively in self-reflection, even if it is prompted by paying attention to one specific action, they notice other things perhaps even things unrelated to SQWIGLES itself. David Butler, the current maths learning center coordinator at the University of Adelaide, wrote \href{https://blogs.adelaide.edu.au/maths-learning/2016/09/20/sqwigles/}{a blog post about SQWIGLES} which is quite informative and has more detail, but here I will provide a breif overview as it is a very beneficial tool that generalises well beyond mathematics education.
 
+\begin{figure}[ht]
+\centering
 \includegraphics{./files/sqwigles.png}
+\caption{SQWIGLES \label{fig:sqwigles}}
+\end{figure}
+
+As teachers we are constantly encouraged to reflect on our practice and continually aim to improve and develop our skills, and rightfully so. Teaching is a process of continual improvement. Often however, we can reflect on our practice and either be overwhelmed by the amount of observations we make and not know where to start, or be unsure what to reflect on, exactly --- what aspects of our practice to spend the time to critically analyse. Teaching is an incredibly broad and diverse profession with many aspects, and improvement is always possible in every aspect of it. However pursuing improvement takes time (a resource we as teachers are very low on), and attention and energy, and so it is completely untenable to pursue improvement in all aspects of teaching simultaneously. In the face of this, we often suffer from either decision paralysis, or choosing relatively insignificant aspects of our teaching to focus on. SQWIGLES can serve as a guide for both where to focus our self-reflective attention, and as a list of suggestions for individual aspects of our teaching practice to focus on improving one at a time.
+
+\subsubsection{Speak Your Thinking}
+
+\begin{itemize}
+	\item Mathematics as language, speaking to translate.
+	\item Mathematics as the process of reasoning, speaking to illustrate that process.
+\end{itemize}
+
+\subsubsection{Ask Open-Ended Questions}
+
+\subsubsection{Encourage Them to Write}
+
+\subsubsection{Help Them Find Information}
+
+\subsubsection{Guide Their Problem-Solving}
+
+\subsubsection{Listen to Their Thoughts and Feelings}
+
+\subsubsection{Explain Another Way}
+
+\subsubsection{Help to Sum Up the Learning}
+
 
 
 
