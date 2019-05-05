@@ -55,8 +55,7 @@
 \newacronym{ac}{AC}{Australian Curriculum}
 \newacronym{sace}{SACE}{South Australian Certificate of Education}
 \newacronym{amsi}{AMSI}{Australian Mathematical Sciences Institute}
-
-
+\newacronym{ecms}{ECMS}{Faculty of Engineering, Computer and Mathematical Sciences}
 
 % Date by Month for Title Page
 \usepackage{datetime}
@@ -275,7 +274,7 @@ This thesis will be structured as follows:
 
 
 
-\section{The Role of University Mathematics Bridging Courses}
+\section{The Role of University Mathematics Bridging Courses in General}
 
 Students will usually enroll in university mathematics bridging courses because they are required to demonstrate a certain level of mathematical knowledge/ competence before commencing study at university, but either do not meet those requirements, or do but feel a lack of confidence in their abilites and feel like they need to refresh/ revise/ learn some mathematics prior to commencing their studies.
 
@@ -300,6 +299,47 @@ What content should be taught in a university bridging course is actually a ques
 	\item If you take the perspective that the role of such a course is to prepare students for entry into the particular courses they are about to commence studying, the content relevant to them will be dramatically differnet. The senior mathematics australian curriculum is extremely generalist and contains many topics that would be completely irrelevant to any particular field of study. 
 \end{itemize}
 In terms of choosing what content to teach in a university bridging course, the above two competing perspectives will often create tension between each other, making finding a happy compromise a difficult endevour. 
+
+\section{Context for the University of Adelaide Bridging Courses}
+
+The Univesity of Adelaide offers two mathematics bridging courses, MathsStart and MathsTrack, through their maths learning center. According to the staff at the maths learning center, the vast majority of students enrolling in their bridging courses are aiming to end up in one of three places:
+\begin{itemize}
+	\item Studying a tertiary degree at The University of Adelaide (approximately $60$--$70$\% of bridging courses at any one time),
+	\item Studying a tertirary degree at James Cook University, or
+	\item In the defence forces.
+\end{itemize}
+Only about a single student will not fit into any of the three categories above at any one time, so thinking of this as being the complete cohort of students is fairly close to being accurate. The distribution within these categories can also be broken down and the most common trends considered:
+\begin{itemize}
+	\item Of the students aiming to enroll in a tertiary degree at the University of Adelaide, about $50$\% are aiming to study something in the \gls{ecms} (i.e. Engineering, Mathematics, Computer Science, etc.), and about $10$\% are aiming to study something in the sciences, often vetenary science or oral health.
+	\item Of the students aiming to enroll at James Cook University, most are aiming to enroll in medical degrees, with some interested in marine biology or vetenary science --- broadly biological science in large.
+	\item Of the studets aiming to enlist in the defence forces, the majority of those enrolled in the briding courses are doing so to meet their pre-requisite mathematics knowledge criteria for airforce pilot training.
+\end{itemize}
+
+To meet the needs of these cohort of students, it is clear there are two broad areas of content knowledge that different students will need:
+\begin{itemize}
+	\item Calculus focused maths, differentiation, integration, and understanding of functions and graphs are fundamental to the students aiming to study in \gls{ecms} at the University of Adelaide, as most entry level mathematics and engineering subjects are very calculus-focused, and this calculus-emphasis is carried through both engineering and mathematics degrees. 
+	\item Probability/ Statistics are an important focus of the science, with particularly biological science students having been found to struggle with the mathematical (largely statistical) requirements of their degrees (ADD REFERENCE HERE?). 
+\end{itemize}
+Both of these focus-areas require a base of content knowledge of fundamentals, things like re-arranging equations, fractions, log-laws, etc. So it makes sense to structure the content of the bridging courses in a way aligned with this thinking, in order to best meet the needs of the students enrolled in the programs.
+
+\begin{figure}
+\begin{center}
+\begin{tikzpicture}[->,>=stealth',auto,thick,main node/.style={ellipse,draw,font=\sffamily\Large\bfseries}]
+\node[main node] (a) {Fundamentals};
+\node[main node] (b) [above right = 2cm and 0cm of a] {Advanced Calculus};
+\node[main node] (c) [below right = 2cm and -1cm of a] {Probability and Statistics};
+
+\draw[->] (a) -- (b);
+\draw[->] (a) -- (c);
+\end{tikzpicture}
+\end{center}
+\caption{Ideal High-Level Content Structure for the University of Adelaide Bridging Courses \label{fig:contentStructure}}
+\end{figure}
+
+
+
+
+
 
 
 \cleardoublepage
@@ -943,8 +983,19 @@ In the broad sense of areas of mathematics the topcs can be grouped into natural
 			\item Exponentials and Logarithms. Both the \gls{ac} and \gls{sace} introduce the concept of exponential functions via recurrance relations describing geometric sequences. Although this is certainly not the only (or even neccessarily the best) way to introduce and understand exponential functions, it is the way prescribed by the \gls{ac} and \gls{sace} curriculums, so it might be valuable.  On the other hand, the way the number $e$ is introduced is actually identical accross \gls{ac}, \gls{sace}, and the bridging course --- which is remarkable given how many different ways this could be done. Interestingly, exponent laws and logarithm laws (as well as basic properties of exponential and logarithmic functions) are introduced in S1M5 of \gls{sace}, and are split into the two topics MS7 and MS8, it seems that the granularity of the MathsStart program is roughly a factor of two more granular than the \gls{sace} curriculum, which is pretty interesting. Could be a direction for future research on some measure of ``degree of granularity'' of a course/ program. It is also interesting to note the location of S2MM4 in \reffig{mappingByTopic} in the Functions and Graphs section, rather than the differentiation section. This is a choice because of how concepts of exponents and logarithms are very distinctly seperated in the \gls{ac} into MMu2t1 and MMu4t1, while in \gls{sace} introductory concepts for both are introduced in S1M5 and S1M7, but while advanced concepts around logarithms (including calculus) have their own topic in \gls{sace} --- S2MM4, advanced concepts (such as calculus) around exponential functions do not, and are instead lumped into more general calculus topics (S2MM1 in \gls{sace} and MMu3t1 in \gls{ac}). I'll include a more indepth discussion of this under calculus, as this section ought to focus on the function and graph properties, but there is significant overlap between the two in the way the content is arranged (perhaps rightfully so).
 			\item Trigonometry There is actually fairly good alignment in the trigonometry sections, although they are organised differently (S1M5 and S1M10 in \gls{sace} and MS5 and MS6 in MathsStart), the content is fairly well aligned. \gls{sace} covers some graphing slightly more comprehensively, talking about translations and dilations for example (a concept from MS3 that could be ``translated'' here effectively, linking the concepts and chaining them from topic to topic a little more strongly. 
 		\end{itemize}
-	\item Calculus
-	\item Geometry and Linear Algebra
+	\item Calculus, it makes sense to organise this under the MathsTrack topics (maybe I should do that for functions and graphs above as well actually).
+		\begin{itemize}
+			\item MT6: Differential calculus is introduced very similarly, through first principles etc. in both MT6 and S1M6, MT6 actually goes beyond the content of S1M6, introducing also the product, chain and quotient rules (which are covered in S2MM1) and implicit differentiation (which is covered in S2SM6). On the other hand, MT6 does not cover increasing and decreasing (which is in S1M6), which is instead covered in MT7. Also, the concept of a normal to a curve is introduced in MT6, but it is not really covered anywhere in \gls{sace} (apart from sort of in S2SM4 using cross products).
+			\item MT7: Covers a few concepts from S1M6 that where skimmed over in MT6, as well as some of the more advanced function and graph concepts such as sketching rational functions which is only covered in S2CM3.
+			\item MT8: Similarly, taking the more advanced concepts from the functions and graphs topics of \gls{sace}, and combining them with the introductory calculus concepts MT8 introduced differentiation of exponents  (from S2MM1) and logarithms (S2MM4), at the same time as re-hashing concepts from MS7 and MS8 and revising them (such as introducing exponential and logarithm functions/ sketching them, etc.).  Notably, surge models and logistic models are introduced as well. Surge models are not covered anywhere in the \gls{ac} or \gls{sace} as far as I cna tell, and logistic models are only introduced in S2SM6.
+			\item MT9: All the integration is fit into this single topic in MathsTrack, which students inevitably find challenging. This covers essentially all of S2MM3, and then goes a little further with the notable addition being integration by substitution, which in \gls{sace} is only covered in S2SM5. Notably summation notation is also introudced (in an appendix) in MT9, an important bit of notation that students often struggle with in first year university, but that isn't anywhere in the \gls{sace} curriculum as far as I can tell.
+		\end{itemize}
+	\item Geometry and Linear Algebra is where \gls{sace} and the briding courses begin to really diverge in earnest.
+		\begin{itemize}
+			\item MT2 aligns well to S1M11, although it goes a little further and also introduced row operations, a concept not introduced in S1M11 although it is introduced in S2SM4 in a quite different context, not so much to do with matrices in the pure sense, but instead focussing on the connection to solving $3 \times 3$ systems of linear equations. This aspect, of solving systems of equations, in introduced in MT4 and actually gone into in great depth, while the concept seems tacked on and is not gone into in detail at all in S2SM4.
+			\item MT3 Introduces vectors and vector concepts in both $\mathbb{R}^2$ (concepts covered in S1M9) and $\mathbb{R}^3$ (concepts covered in S2SM4). The overlap between S1M9 and MT3 is substantial, with MT3 covering most of the concepts in S1M9, although S1M9 goes into a little more detail on scalar dot products (a concept covered in both), and also introduces the concept of orthogonal projection, and even throws in a dash of geometric styled proof. S2SM4 also goes significantly further, most notably introducing the concept of the vector cross product which is not covered in MT3, although both introduce equations for planes in $\mathbb{R}^3$.
+			\item MT4 focuses on systems of linear equations, and although this concept is introduced in S2SM4, it is covered in MT4 in a much more detailed, granular way. Also, MT4 introduces Gauss-Jordan Elimination, an algorithm not explicitly introduced in \gls{sace} as far as I can tell (although it is implied).
+		\end{itemize}
 \end{itemize}
 
 
@@ -952,11 +1003,27 @@ MS4: Note the link to S2SM3
 
 \begin{itemize}
 	\item MS1: Maybe Introduce Interval Notation along with Intervals?
-	\item MT2: Gauss-Jordan is used to introduce the concept of a Matrix Inverse, altough very relevant to first year maths, not in the AC/ SACE at all.
-	\item MT6: Note that the concept of the normal to a curve is introduced, but is not in any curriculum (or first year maths course that I know of?)
-	\item MT8: Surge Models are introduced which are not used anywhere else.
-	\item MT8: Logistic Models are introduced, but not as a DE just as a model.
 \end{itemize}
+
+
+\section{Notes on interpreting }
+
+\reffig{mappingByTopic}, the dashed lines represent tenous connections, usually a single concept shared:
+\begin{itemize}
+	\item the one between and \gls{ac} and \gls{sace} essentially represents the concept of anti-differentition,
+	\item the one between S2SM3 and MT7, as well as the one between S2SM3 and MS4 essentially represents sketching rational functions, although in MS4 only recipricol functions and transformations thereof are considered, this concept of sketching these graphs and the properties of these graphs is heavily emphasised as a way to explore the concepts connected to these functions.
+	\item the one between S2SM5 and MT9 essentially represents integration by substitution.
+	\item the one between S2SM4 and MT2 essentially represents row operations, in MT2 introduced on matrices, but in S2SM4 it is introduced explicitly in the context of solving $3 \times 3$ systems of linear equations. Similarly the dashed line between S2SM4 and MT4 represents essentially the same concept in S2SM4, but in MT4 the system of equations perspective is explored, which is not really done as much in MT2.
+\end{itemize}
+
+
+
+
+\section{Conclusions/ Summary}
+
+Broadly the content for functions and graphs, as well as calculus is well aligned between the bridging courses and the \gls{ac}/ \gls{sace}, although the bridging courses tend to mix the two more, merging the more advanced concepts from functions and graphs into the calculus topics. This makes perfect sense to do, especially considering how inter-connected the areas are in the first place. Bigger differences between the content of the bridging courses and the \gls{ac} and \gls{sace} exist in the other area though, with big differences in linear algebra and geometry, complex numbers almost not being covered in the bridging courses (although they used to be covered more, see the discussion relating to MT5), and the biggest difference being that statistics and probability are not covered in the bridging courses at all.
+
+Broadly, a big difference in emphasis between the bridging courses and \gls{sace} is the emphasis the bridging courses place on sketching graphs, and explicitly exploring the connection between transformation (translations and dilations primarily) of a graph relate to algebraic changes to functions. Although this is covered in \gls{sace} to some degree, it is largely implicit and left to reading between the lines, while it is quite explicit in the bridging courses. 
 
 My reccomendations for MathsStart would be to include some work on fractions, index laws, and more emphasise on re-arranging equations  as in my experience these are the topics and concepts that students need the most from middle school mathematics (up to year 10) and form foundations for building other concepts with in senior highschool. This is already the implicit purpose of MathsStart in a sense, and this is good. Aside from that, concepts that could be added to the bridging courses to bring them more in alignment with the \gls{ac} and \gls{sace} are:
 \begin{itemize}
@@ -965,14 +1032,27 @@ My reccomendations for MathsStart would be to include some work on fractions, in
 	\item I like the way quadratics are introduced in MS3, particularly as the concepts used to introduce them (dilations, translation) are very applicable in the \gls{ac} and \gls{sace} in many places. On the other hand there are a couple of concepts here that are missed in the gap betwen MS3 and MT1, specifically rearranging quadratics algebraically to get them in vertex form and factored form, although these forms are introduced implicitly in MS3 and interpreted, algebraic rearrangment of them could be emphasised more, especially given how this is one of the key concepts we want students to be picking up as they go through MathsStart. 
 	\item Both the \gls{ac} and \gls{sace} introduce the concept of exponential functions via recurrance relations describing geometric sequences. Although this is certainly not the only (or even neccessarily the best) way to introduce and understand exponential functions, it is the way prescribed by the \gls{ac} and \gls{sace} curriculums, so it might be valuable. 
 	\item Overall having the concepts link from topic to topic more, for example in MS3 dilations and translations of quadratic functions are considered. It would be useful if these concepts where re-visited in MS6 for example when looking at graphing/ sketching trigonometric functions, as this is covered in \gls{sace} explicitly but also because it connects the concept to multiple different topics and applications (different kinds of functions).
+	\item Scalar dot product of vectors is introduced in MT3, but \gls{sace} goes a little further, also introducing the concept of orthogonal projection in $\mathbb{R}^2$ in S1M9.
+	\item I think it would be a good idea to introduce interval notation along with the concept of intervals when that concept is introduced in MS1.
 \end{itemize}
 
 
 while concepts currently in the briding courses that could be removed as they are not part of the \gls{ac} or \gls{sace} include:
 \begin{itemize}
-	\item 
+	\item Implicit differentiation is technically only in Stage 2 Specialist Mathematics, so could potentially be removed from MT6.
+	\item Normal to a curve is a concept introduced in MT6 but not used anywhere in the \gls{sace} curriculum (as far as I can tell), apart from breifly in S2SM4 when it is used in the contect of vector cross products and equations for a plane --- a very different context.
+	\item Surge models are not anywhere in the \gls{ac} or \gls{sace}, so could potentially be removed from MT8 entirely.	
+	\item Logistic models are only included in Stage 2 Specialist Mathematics, so could potentially be removed from MT8. Alternatively if it was kept, it could be introduced with concepts around differential equations, which is how it is introduced in Stage 2 Specialist Mathematics. At the moment, it is introduced as a model (an equation), not a solution to a differential equation, so even as it is it is very different content.
+	\item Integration by Substitution is only covered in Stage 2 Specialist Mathematics, so could potentially be removed but is also very useful in first year university calculus-based courses (such as Maths IA etc.) so I'm not sure. Depends, as most of these do, on the mindset: it would be useful content for the students to be exposed too early, or you could look at it from the perspective of they are not expected to know it going into a course like Maths IM. 
+	\item Concepts covered in S2SM4 on geometry in $\mathbb{R}^3$ are technically only covered in Specialist Mathematics, so could be cut in principal if we are operating under the assumption bridging course students will be doing Maths IM. So concepts like vector cross product, and the equation for a plane, to be specific.
+	\item Technically, the Gauss-Jordan Elimination method introduced in MT4 is not anywhere in \gls{sace}, but that said it is somewhat implied a little in the topic that discusses the other concepts in MT4 (around systems of linear equations) --- S2SM4. That said, this entire topic and broad concept of systems of linear equations is entirely contained in Stage 2 Specialist Mathematics, so it could be argued to not be included for that reasoning.
 \end{itemize}
 
+
+Other reccomendations:
+\begin{itemize}
+	\item Maybe spread out the introduction of integration? Potentially introduce both differentiation and integration, and then introduce them together on each individual type of function? Not sure.
+\end{itemize}
 
 
 \cleardoublepage
