@@ -17,6 +17,9 @@
 \usetikzlibrary{arrows}
 \usetikzlibrary{shapes}
 
+% Appendices
+\usepackage[toc,page]{appendix}
+
 % SidewaysFigure
 \usepackage{rotating}
 
@@ -836,10 +839,6 @@ Producing this curriculum mapping was a delicate balance between being broad and
 	\item At a key concept level, this is what will be presented for the remainder of this section, and intended to be the grandular level at which content is presented specifically enough that reccomended actions can be understood explicitly and implemented easily. Note that although the key concept level is much more granular than the topic level discussion, it is still intended as a summary and does not include every single detail of the content, as discussed above.
 \end{itemize}
 
-Note: This is a huge table. I could maybe put it in an apprendix?
-
-% Giant Table of Key Concepts
-\input{./figures/concepts}
 
 
 \subsection{\gls{ac} Mathematical Methods and Specialist Mathematics}
@@ -1148,8 +1147,25 @@ With respect to the bridging courses run through the university of adelaide's ma
 	\item The smallest but perhaps easiest to implement improvement could be to better align the course content with curriculum, both the highschool curriculum (\gls{ac}/ \gls{sace}) in the case of students doing the bridging course to then comence study interstate or overseas, or with specific first year entry level courses, to better match the potential gaps in knowledge students may encounter.
 \end{itemize}
 
+
+% APPENDICES
+\cleardoublepage
+\begin{appendices}
+
+\cleardoublepage
+\chapter{Key-Concept Level Description of Topics in the \gls{ac}, \gls{sace}, MathsStart and MathsTrack}
+\label{app:concepts}
+
+Note, topics are identified using the code notation introduced in \reftab{notation}. The full \textbf{topic name is given in bold where applicable}, and then key concepts covered in that topic are listed.
+
+% Giant Table of Key Concepts
+\input{./figures/concepts}
+
+\end{appendices}
+
 % Bibliography/ References
 \glsresetall
+\cleardoublepage
 \bibliographystyle{apacite}
 \bibliography{citations} 
 
