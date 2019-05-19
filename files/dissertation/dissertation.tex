@@ -16,6 +16,7 @@
 \usetikzlibrary{positioning}
 \usetikzlibrary{arrows}
 \usetikzlibrary{shapes}
+\usetikzlibrary{calc}
 
 % Appendices
 \usepackage[toc,page]{appendix}
@@ -922,6 +923,7 @@ These restrictions in the key concept summaries are neccessary in order to be ab
 
 
 \subsection{Curriculum Structure}
+\label{sec:structure}
 
 \subsubsection{The \gls{ac}}
 
@@ -961,7 +963,7 @@ The two areas (``Functions and Graphs'' and ``Calculus'') are also often taught 
 \end{itemize}
 Broadly speaking they stand comparatively apart from each other, particularly Probabilty and Statistics. 
 
-This broad content area grouping of topics covers almost all of the content in all the curriculums considered here, but it should be noted that there is usually around one or maybe two topics in each curriculum that althoug it is connected to one of these content areas, contains a substantial amount of content outside of them. For example MMu2t2 from the \gls{ac}, or S1M7 and S2SM1 from the \gls{sace} curriculum.
+This broad content area grouping of topics covers almost all of the content in all the curriculums considered here. The only notable exceptions being MMu2t2 from the \gls{ac} and S1M7 from \gls{sace} both covering primarily sequences (geometric and arithmetic) as recurrance relations, and S2SM1 from the \gls{sace} covering inductive proof, neither of which fit neatly into any of the content areas above. With that having been clarified, these content areas will be used to help structure the discussion for the remainder of this chapter.
 
 %\subsection{\gls{ac} Mathematical Methods and Specialist Mathematics}
 %
@@ -1029,9 +1031,7 @@ This broad content area grouping of topics covers almost all of the content in a
 \section{Curriculum Mapping}
 \label{sec:mapping}
 
-\reffig{mapping} shows the topic-level alignment between the \gls{ac} (senior mathematical methods and specialist mathematics), \gls{sace} (stage 1 mathematics, stage 2 mathematical methods and stage 2 specialist mathematics), MathsStart and MathsTrack. This is the broad, eagle-eye, view of the alignment between the content in these topics.
-
-Although key concept level alignment between topics connected with lines in \reffig{mapping} is not always perfect, it is fairly strong in most cases. Individual cases with any misalignment will be discussed in the remainder of this chapter.
+\reffig{mapping} shows the topic-level alignment between the \gls{ac}, \gls{sace}, and bridging courses, organised by subject/ course. Each node (ellipse) in \reffig{mapping} corresponds to a topic, and is identified by the abbreviated code as per \reftab{notation}. What ``organised by subject/ course'' means in this context is that while the curriculla (the \gls{ac}, \gls{sace}, and the \gls{uofa} bridging courses) are arranged as columns in \reffig{mapping}, within each of these columns topics are grouped by subject. So for example in the \gls{ac} column topics are grouped into Mathematical Methods topics, and then Specialist Mathematics topics.
 
 \clearpage
 
@@ -1040,13 +1040,43 @@ Although key concept level alignment between topics connected with lines in \ref
 \begin{figure}[p]
 \begin{center}
 \input{./figures/mapping}
-\caption{Curriculum Mapping\label{fig:mapping}}
+\caption{Curriculum Mapping by Subject/ Course\label{fig:mapping}}
+\end{center}
+\end{figure}
+
+\begin{figure}[p]
+\begin{center}
+\input{./figures/mappingByTopic}
+\caption{Curriculum Mapping by Content Area\label{fig:mappingByTopic}}
 \end{center}
 \end{figure}
 
 \clearpage
 
 \pagestyle{plain}
+
+
+The topic-level alignment organised by subject/ course shown in \reffig{mapping} is the broad, eagle-eye, view of the alignment between the content in these topics, but even from this wide-view the way in which the curriculum structures of the \gls{ac} and \gls{sace} discussed in \refsec{structure} align to each other is reasonably clear. It can be seen for example, that roughly speaking the first 6 topics of senior secondary \gls{ac} Mathematical Methods and Specialist Mathematics map to the 12 topics of stage 1 \gls{sace} Mathematics, while the last 6 topics in each of these \gls{ac} subjects map to the 6 topics of the corresponding stage 2 \gls{sace} subject. At a key concept level this alignment is imperfect (and this is discussed in more detail below) to varying degrees of imperfection, and some of these imperfections are visible in the imperfect alignment shown in \reffig{mapping}, but broadly speaking the \gls{ac} and \gls{sace} are actually very closely aligned (and this makes sense given \gls{sace} was recently modified with the explicit purpose of aligning it more closely to the \gls{ac}). In contrast, it is much less obvious how to interpret the alignment between \gls{sace} and the bridging courses shown in \reffig{mapping}.
+
+However, rearranging the topics shown in \reffig{mapping} (permuting the columns) and grouping them into the five broad content areas discussed above in \refsec{structure}: 
+\begin{itemize}
+	\item Functions and Graphs, 
+	\item Calculus, 
+	\item Geometry and Linear Algebra, 
+	\item (Complex) Numbers, and 
+	\item Probability and Statistics	
+\end{itemize}
+gives us a much clearer picture, which is shown in \reffig{mappingByTopic}. Even though the allocation of some topics into these content areas can be somewhat arguable particularly in a few edge cases (as mentioned above in \refsec{structure}), \reffig{mappingByTopic} shows a very clear picture in terms of the \gls{sace}-bridging course alignment: the bridging courses do not contain any probability or statistics what-so-ever, and very very little on complex numbers. 
+
+Before moving on to discuss the details of the key concept level alignment within each of these topic alignments shown, a quick note on interpreting the visualisations of Figures~\ref{fig:mapping} and \ref{fig:mappingByTopic}. While solid lines connecting topic-nodes represent almost complete or substantial key-concept level alignment, dashed lines are used to represent tenuous connects with only a small overlap in key concept terms, usually just a single key concept. To briefly cover which concepts these correspond too:
+\begin{itemize}
+	\item The one dashed line between the \gls{ac} and \gls{sace} essentially represents the concept of anti-differentition,
+	\item The dahsed line between S2SM3 and MT7, as well as the one between S2SM3 and MS4 essentially represents sketching rational functions, although in MS4 only reciprocal functions and transformations thereof are considered. The ideas surrounding the sketching of these graphs and the properties of these graphs (asymptotes, etc.) are heavily emphasised as a way to explore them in both cases.
+	\item The dahsed line between S2SM5 and MT9 essentially represents integration by substitution.
+	\item The dashed line between S2SM4 and MT2 essentially represents row operations, in MT2 introduced on matrices, but in S2SM4 it is introduced explicitly in the context of solving $3 \times 3$ systems of linear equations. Similarly the dashed line between S2SM4 and MT4 represents essentially the same concept in S2SM4, but in MT4 the system of equations perspective/ application is explored, which is not really done as much in MT2.
+\end{itemize}
+
+
 
 \subsection{\gls{ac} to \gls{sace}}
 
@@ -1096,22 +1126,6 @@ The only substantial difference in content is the concept of proof by induction,
 TODO: Review above dot points, trim/edit down, condense, and write a paragraph here begginng "In summary, ..." or "To summarise, ..." 
 
 
-If we rearrange the topics in \reffig{mapping} into their five broad topic areas: Functions and Graphs, Calculus, Geometry and Linear Algebra, Complex Numbers, and Probability and Statistics, we get a much clearer picture, as shown in \reffig{mappingByTopic}.
-
-\clearpage
-
-\pagestyle{empty}
-
-\begin{figure}[p]
-\begin{center}
-\input{./figures/mappingByTopic}
-\caption{Curriculum Mapping\label{fig:mappingByTopic}}
-\end{center}
-\end{figure}
-
-\clearpage
-
-\pagestyle{plain}
 
 \subsection{\gls{ac} and \gls{sace} to MathsStart and MathsTrack}
 
@@ -1151,15 +1165,6 @@ MS4: Note the link to S2SM3
 \end{itemize}
 
 
-\section{Notes on interpreting }
-
-\reffig{mappingByTopic}, the dashed lines represent tenous connections, usually a single concept shared:
-\begin{itemize}
-	\item the one between and \gls{ac} and \gls{sace} essentially represents the concept of anti-differentition,
-	\item the one between S2SM3 and MT7, as well as the one between S2SM3 and MS4 essentially represents sketching rational functions, although in MS4 only recipricol functions and transformations thereof are considered, this concept of sketching these graphs and the properties of these graphs is heavily emphasised as a way to explore the concepts connected to these functions.
-	\item the one between S2SM5 and MT9 essentially represents integration by substitution.
-	\item the one between S2SM4 and MT2 essentially represents row operations, in MT2 introduced on matrices, but in S2SM4 it is introduced explicitly in the context of solving $3 \times 3$ systems of linear equations. Similarly the dashed line between S2SM4 and MT4 represents essentially the same concept in S2SM4, but in MT4 the system of equations perspective is explored, which is not really done as much in MT2.
-\end{itemize}
 
 
 

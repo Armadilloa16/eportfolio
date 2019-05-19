@@ -2,6 +2,7 @@
 \documentclass[tikz, 12pt]{standalone}
 \usetikzlibrary{positioning}
 \usetikzlibrary{shapes}
+\usetikzlibrary{calc}
 
 % Math
 \usepackage{amsfonts}
@@ -165,6 +166,17 @@
 	\draw (ms8.west) -- (ss1m5.east);
 	\draw (ms8.west) -- (ss2mm4.east);
 
+	% Annotations
+	\node[gray, rotate=90, yshift=42pt] (ac1) at (acmmmu2t2) {Functions and Graphs};
+	\node[gray, rotate=90, yshift=42pt] (ac2) at (acmsmu4t2) {Calculus};
+	\node[gray, rotate=90, yshift=42pt] (ac3) at ($(acmsmu1t2)!0.5!(acmsmu3t3)$) {Linear Algebra};
+	\node[gray, rotate=90, yshift=42pt] (ac4) at ($(acmsmu2t3)!0.5!(acmsmu3t1)$) {Numbers};
+	\node[gray, rotate=90, yshift=42pt] (ac5) at ($(acmmmu3t3)!0.5!(acmmmu4t2)$) {Probability and Statistics};
+
+
+	% Annotations
+
+%	\node[gray, rotate=90, yshift=42pt] (acmm) at ($(acmmmu2t3)!0.5!(acmmmu3t1)$) {Mathematical Methods};
 
   	
 \end{tikzpicture}

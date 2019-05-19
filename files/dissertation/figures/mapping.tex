@@ -2,6 +2,7 @@
 \documentclass[tikz, 12pt]{standalone}
 \usetikzlibrary{positioning}
 \usetikzlibrary{shapes}
+\usetikzlibrary{calc}
 
 % Math
 \usepackage{amsfonts}
@@ -195,6 +196,16 @@
 	\draw (ms8.west) -- (ss1m5.east);
 	\draw (ms8.west) -- (ss2mm4.east);
 	
+	% Annotations
+	\node[gray, rotate=90, yshift=42pt] (acmm) at ($(acmmmu2t3)!0.5!(acmmmu3t1)$) {Mathematical Methods};
+	\node[gray, rotate=90, yshift=42pt] (acsm) at ($(acmsmu2t3)!0.5!(acmsmu3t1)$) {Specialist Mathematics};
+	\node[gray, rotate=90, yshift=42pt] (s1m) at ($(ss1m6)!0.5!(ss1m7)$) {Stage 1 Mathematics};
+	\node[gray, rotate=90, yshift=42pt] (s2mm) at ($(ss2mm3)!0.5!(ss2mm4)$) {Mathematical Methods};
+	\node[gray, rotate=90, yshift=60pt] (s2mms2) at ($(ss2mm3)!0.5!(ss2mm4)$) {Stage 2};
+	\node[gray, rotate=90, yshift=42pt] (s2sm) at ($(ss2sm3)!0.5!(ss2sm4)$) {Specialist Mathematics};
+	\node[gray, rotate=90, yshift=60pt] (s2sms2) at ($(ss2sm3)!0.5!(ss2sm4)$) {Stage 2};
+	\node[gray, rotate=90, yshift=-36pt] (l) at ($(ms4)!0.5!(ms5)$) {MathsStart};
+	\node[gray, rotate=90, yshift=-36pt] (l) at ($(mt4)!0.5!(mt6)$) {MathsTrack};
 
   	
 \end{tikzpicture}
