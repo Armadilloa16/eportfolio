@@ -85,6 +85,7 @@
 
 % Table of Contents
 %\usepackage[nottoc]{tocbibind}
+\setcounter{tocdepth}{1}
 
 % Section and Figure Numbering
 %\renewcommand\thesection{\arabic{section}}
@@ -161,6 +162,7 @@
 \newpage
 \intentionallyblankpage
 \tableofcontents
+\addcontentsline{toc}{chapter}{Contents}
 %---------------- end of TOC -------------------------
 
 
@@ -168,9 +170,9 @@
 %%---------------- Glossary ----------------------------------
 %% \setglossarystyle{mcolindex}
 \glsaddall
-\newpage
+%\newpage
 %\cleardoublepage
-\intentionallyblankpage
+%\intentionallyblankpage
 \printglossaries
 \addcontentsline{toc}{chapter}{Acronyms}
 %%---------------- end of Glossary ---------------------------
@@ -275,25 +277,25 @@ My thanks also extend to Igusti Darmawan, my supervisor from inside the school o
 % \setlength{\parskip}{2ex plus 0.5ex minus 0.5ex}
 \pagenumbering{arabic}
 
-This thesis is concerned with the mathematics bridging courses offered at the \gls{uofa} through the \gls{mlc}: MathsStart and MathsTrack. These courses are intended to take students with very little mathematics background and help them transition into tertiary education (which will generally have some mathematics pre-requisites or assumed knowledge) and be successful. MathsStart and MathsTrack are structured to be student-paced, with no deadlines having been set \textit{apriori}, in a deliberate attempt to both alleiviate test-anxiety, and to aclimitise students to a learning environment in which the primary onus for motivation is on the students. Although the bridging courses are offered through the \gls{mlc} at the \gls{uofa}, the cohort of students come from a very diverse set of backgrounds and have a variety of needs. The majority of students enrolling in these courses are planning to continue into tertiary education at the \gls{uofa}, but many students do not intend to continue into tertiary education at all, but instead enroll in the bridging courses to meet the requisite assumed knowledge for other pathways --- pilot training in the defence forces, for example. 
+This thesis is concerned with the mathematics bridging courses offered at the \gls{uofa} through the \gls{mlc}: MathsStart and MathsTrack. These courses are intended to take students with very little mathematics background and help them transition into tertiary education (which will generally have some mathematics pre-requisites or assumed knowledge) and be successful. MathsStart and MathsTrack are structured to be student-paced, with no deadlines having been set \textit{apriori}, in a deliberate attempt to both alleiviate test-anxiety, and to aclimitise students to a learning environment in which the primary onus for motivation is on the students. Although the bridging courses are offered through the \gls{mlc} at the \gls{uofa}, the cohort of students come from a very diverse set of backgrounds and have a variety of needs. The majority of students enrolling in these courses are planning to continue into tertiary education at the \gls{uofa}, but many students do not intend to continue into tertiary education at all, and instead enroll in the bridging courses to meet the requisite assumed knowledge for other pathways --- pilot training in the defence forces, for example. 
 
-The continuing decline of interest in mathematics along with the sustained trend of increased demand for mathematically skilled graduates by several major leading industries in Australia and globally (enginneering, science, technology, ...) means that bridging courses playing an increasingly important role in our education system (see \refchap{literature} for a more detailed discussion NOTE: or maybe reference \refsec{generalcontext} here instead?). Although MathsStart and MathsTrack have been very successful so far, as educators we are continually engaging in reflective practice and looking for ways to improve our teaching practice. It is in this frame of mind, and with the knowledge that comprehensive review of the purpose, structure, and content of MathsStart and MathsTrack has not been done before, the purpose of this thesis is to examine the ``guiding question'':
+The continuing decline of interest in mathematics along with the sustained trend of increased demand for mathematically skilled graduates by several major leading industries in Australia and globally (enginneering, science, technology, ...) means that bridging courses playing an increasingly important role in our education system (see \refchap{literature} for a more detailed discussion). Although MathsStart and MathsTrack have been very successful so far, as educators we are continually engaging in reflective practice and looking for ways to improve our teaching practice. It is in this frame of mind, and with the knowledge that comprehensive review of the purpose, structure, and content of MathsStart and MathsTrack has not been done before, the coordinators of the \gls{mlc} directed this work to examine the ``guiding question'':
 
 \begin{quote}
 	How can MathsStart and MathsTrack be improved?
 \end{quote}
 
-Naturally, this vague statement invites the question ``how is improvement measured?'', or ``improvment in what outcome?''. The question is left deliberately vague in this way because part of this work will be dedicated to teasing apart the different possible interpretations, the importance of taking care when interpreting improvement in an educational context, and the consequences of different interpretations. A solution is not proposed, only alternatives and their consequences, with comments on the stakeholders in each case. One important perspective of this question that will be represented heavily in this thesis can be shown by a re-phrasing of the question: 
+Naturally, this vague statement invites questions such as ``how is improvement measured?'', and ``improvement in what outcome?''. The question is left deliberately vague in this way because part of this work will be dedicated to teasing apart the different possible interpretations, the importance of taking care when interpreting improvement in an educational context, and the consequences of different interpretations. A solution is not proposed, only alternatives and their consequences, with comments on the stakeholders in each case. One important perspective of this question that will be represented heavily in this thesis can be shown by a re-phrasing of the question: 
 
 \begin{quote}
 	How can MathsStart and MathsTrack best help the students enrolling in them to be successful going forward?
 \end{quote}
 
-Of course this does not neccessarily make the question any less vague --- determining what is in the best interests of our students, is not always clear or straightforward. But nonetheless, this question will be the primary focus of this thesis and despite not being able to give any definitive answers, some suggestions will be made, and at the very least, some context will be given for better understanding the question. Also important to note that although the focus of this work is the courses MathsStart and MathsTrack, much of the contextual background presented herein is relevant to bridging courses accross Australia and internationally. Although it is not the primary goal of this work, giving some broad structure and perhaps a framework for understanding the needs of students going into mathematics bridging programs globally could be thought of as a secondary (perhaps ancillary) objective of this work.
+Of course this does not neccessarily make the question any less vague --- determining what is in the best interests of our students, is not always clear or straightforward. Nonetheless, this question will be the primary focus of this thesis and despite not being able to give any definitive answers, some suggestions will be made, and at the very least, some context will be given for better understanding the question. Also important to note that although the focus of this work is the courses MathsStart and MathsTrack, much of the contextual background presented herein is relevant to bridging courses accross Australia and internationally. Although it is not the primary goal of this work, giving some broad structure and perhaps a framework for understanding the needs of students going into mathematics bridging programs globally could be thought of as a secondary (perhaps ancillary) objective of this work.
 
 In order to address this guiding question, this thesis will be structured as follows:
 \begin{itemize}
-	\item The remainder of this introductory chapter (\refchap{intro}) is broken into two broad topics. First, in \refsec{framework}, a broad educational framework is introduced which can be used to give large-scale context for the work that will be done in this thesis, motivating the structure of the work and outlining the key areas of importance. Second, the remainder of this introductory chapter will be spent exploring in more detail the purpose, structure, and context of mathematics bridging courses in general (\refsec{generalcontext}) and specifically at the \gls{uofa} (\refsec{specificcontext})
+	\item The remainder of this introductory chapter (\refchap{intro}) is broken into two sections. First, the purpose, structure, and context of mathematics bridging courses is explored in more detail both in general, and in the specific context of the \gls{uofa} (\refsec{context}). Second, a broad educational framework is introduced in \refsec{framework} which can be used to give large-scale context for the work that will be done in this thesis, motivating the structure of the work and outlining the key areas of importance.
 	\item \refchap{methodology} provides a brief description of the methodology employed in the research that will be presented in Chapters~\ref{chap:literature} and \ref{chap:curriculum}.
 	\item An indepth discussion of the existing literature is presented in \refchap{literature}: what is known, approaches attempted in the past both in Australia and internationally, frameworks proposed for understanding the secondary-tertiary transition and the maths anxiety-performance link, and some deeper discussion on some of the particularly relevant related concepts.
 	\item One of the major contributions of this thesis is the detailed curriculum mapping which is the focus on \refchap{curriculum} in which the top two levels of senior highschool mathematics in the \gls{ac} and \gls{sace} are mapped to each other, and to the content currently in MathsStart and MathsTrack. Detailed discussion of this mapping also includes commentary on how the content relates to typical entry-level university mathematics courses, and other relevant curriculums. 
@@ -301,10 +303,121 @@ In order to address this guiding question, this thesis will be structured as fol
 \end{itemize}
 
 
-\section{The Curriculum-Assessment Diamond Framework}
+
+\section{Context}
+\label{sec:context}
+
+\subsection{Bridging Courses in General}
+
+Students will usually enroll in university mathematics bridging courses because they are required to demonstrate a certain level of mathematical knowledge/ competence before commencing study at university, but either do not meet those requirements, or do but feel a lack of confidence in their abilites and feel like they need to refresh/ revise/ learn some mathematics prior to commencing their studies.
+
+Reasons why these students do not either meet the entry requirements, or feel a lack of confidence in their abilities can be quite varied:
+\begin{itemize}
+	\item A long period of time may have passed since they last studied mathematics (or studied at all). The number and proportion of so-called ``adult learners'' has been steadily increasing for well over three decades now \cite{Johnson2016, Hardin2008,Murtaugh1999}.
+	\item They may have performed poorly in mathematics in highschool.
+	\item They may have chosen not to study mathematics at a higher level in highschool.
+	\item They may suffer from maths anxiety (which would make them likely to fit into the above two categories as well).
+\end{itemize}
+	
+The role of mathematics bridging courses is to take these students, and:
+\begin{itemize}
+	\item Bridge their content knowledge so they are prepared for entry level university courses, or other tertiary programs required/ assumed knowledge.
+	\item Support the growth of their confidence and self-efficacy surrounding mathematics.
+	\item Ultimately prepare them to be successful in their continued tertiary study.
+\end{itemize}
+
+The question ``what content should be taught in a university bridging course?'' has dramatically different answers depending on the perspective one takes on what the role of such a bridging course is. Even restricting the question to purely knowledge-based content (excluding critical affective aspects such as self-efficacy):
+\begin{itemize}
+	\item If you take the perspective that the role of such a course is to fill in the gaps in student's knowledge left from an incomplete or maths-light highschool education, then the content that should be taught would include the final year of highschool curriculum. This approach can be particularly appropriate if you do not know the direction of the students, or if they are potentially planning on continuing study at an interstate university, for example.
+	\item If you take the perspective that the role of such a course is to prepare students for the further study they plan on engaging in however, this is quite different. The content relevant to any one student will be dramatically differnet depending on their planned direction. The senior highschool mathematics curriculum is quite general and would certainly contain many topics that would be completely irrelevant to any particular student. 
+\end{itemize}
+In terms of choosing what content to teach in a university bridging course, the above two competing perspectives will often create tension between each other. There are advantages, disadvantages, and important stakeholders of both perspectives and this unfortunately means that this tension cannot be resolved, but rather that must be balanced --- a compromise found.
+
+As though that wasn't difficult enough, the question of ``what content should be taught in a university bridging course?'' is only one part of the issue. As mentioned above, affective aspects such as self-efficacy are crucially important, and it has been shown that, particularly in maths-heavy subject areas such as \gls{stem} diciplines significant numbers of students dropout within the first two years \cite{House2000, Tsui2007}, and that engagement with mathematics support services such as the \gls{mlc} drop-in centre and bridging courses is an approach proven to be effective in addressing this issue \cite{Lee2008}. Consideration of impacts on these affective aspects of perspectives of mathematics is critical for preparing students to be successful. Content cannot be considered in isolation of these factors, and vice versa, they are fundamentally entwined such that both must be considered in order to acheive the desired outcomes.
+
+
+
+
+
+\subsection{The Maths Learning Centre}
+
+The \gls{mlc} in it's current form is part of the ``Student Engagement and Success team'' within the ``Division of the Deputy Vice-Chancellor \& Vice-President (Academic)'' of the \gls{uofa}, but it has been through many iterations since it's initial opening in 1992 with the incredible support of Liz Cousins and Alison Wolff. Geoff Coates was the heart and soul of the \gls{mlc} for many years, notably hosting the Australasian Bridging Mathematics Network conference in 1996. From the mid 2000s to present, the \gls{mlc} has been in the capable hands of David Butler and Nicholas Crouch, who have helped the \gls{mlc} become what it is today, which is ...
+
+It's won awards and stuff.
+
+It has consistently represented expertise and a commitment to mathematics education, to the process of learning mathematics, learning to learn mathematics, and learning to teach mathematics. 
+
+It is a drop in centre primarily, and ``exists to help all students at the \gls{uofa} succeed in learning and using maths relating to their coursework''.
+
+Amongst other things, the \gls{mlc} is an example of ongoing improvement in teaching practice, and this is exemplified in many areas, one good example is the development of SQWIGLES (discussed further below). It is this commitment to continual improvement that prompted this work investigating imporvements that could be made to the bridging courses.
+
+
+\subsubsection{SQWIGLES}
+
+
+SQWIGLES is an abbreviation (see \reffig{sqwigles}) developed at the University of Adelaide maths learning centre with several purposes in mind:
+\begin{itemize}
+	\item As a way to guide tutors working at the maths learning center on how to best help the students.
+	\item To scaffold self-reflection in teaching and education when working one-on-one with students by providing specific actions one can focus on paying attention to and reflecting on.
+	\item As a tool to focus efforts on self-improvement, by choosing one action to improve on at a time it can provide an avenue towards improvement that feels acheivable, and can provide concrete progression.
+\end{itemize}
+SQWIGLES also had some ancillary and unintended benefits, as once an educator is engaged actively in self-reflection, even if it is prompted by paying attention to one specific action, they notice other things perhaps even things unrelated to SQWIGLES itself. David Butler, the current maths learning center coordinator at the University of Adelaide, wrote \href{https://blogs.adelaide.edu.au/maths-learning/2016/09/20/sqwigles/}{a blog post about SQWIGLES} which is quite informative and has more detail, but here I will provide a breif overview as it is a very beneficial tool that generalises well beyond mathematics education.
+
+\begin{figure}[ht]
+\centering
+\includegraphics{./files/sqwigles.png}
+\caption{SQWIGLES \label{fig:sqwigles}}
+\end{figure}
+
+As teachers we are constantly encouraged to reflect on our practice and continually aim to improve and develop our skills, and rightfully so. Teaching is a process of continual improvement. Often however, we can reflect on our practice and either be overwhelmed by the amount of observations we make and not know where to start, or be unsure what to reflect on, exactly --- what aspects of our practice to spend the time to critically analyse. Teaching is an incredibly broad and diverse profession with many aspects, and improvement is always possible in every aspect of it. However pursuing improvement takes time (a resource we as teachers are very low on), and attention and energy, and so it is completely untenable to pursue improvement in all aspects of teaching simultaneously. In the face of this, we often suffer from either decision paralysis, or choosing relatively insignificant aspects of our teaching to focus on. SQWIGLES can serve as a guide for both where to focus our self-reflective attention, and as a list of suggestions for individual aspects of our teaching practice to focus on improving one at a time.
+
+\begin{itemize}
+	\item \textbf{Speak Your Thinking}: Mathematics as language, speaking to translate. Mathematics as the process of reasoning, speaking to illustrate that process.
+	\item \textbf{Ask Open-Ended Questions}
+	\item \textbf{Encourage Them to Write}
+	\item \textbf{Help Them Find Information}
+	\item \textbf{Guide Their Problem-Solving}
+	\item \textbf{Listen to Their Thoughts and Feelings}
+	\item \textbf{Explain Another Way}
+	\item \textbf{Help to Sum Up the Learning}
+\end{itemize}
+
+
+
+
+
+\subsection{MathsStart and MathsTrack}
+
+The \gls{uofa} offers a mathematics bridging course through the \gls{mlc} called MathsTrack, which can be used as a prerequisite at the University of Adelaide in place of \gls{sace} Stage 2 Mathematical Methods. MathsStart is another mathematics bridging course that was previously also offered through the \gls{mlc} at the \gls{uofa}, covering various topics from high school mathematics up to the end of Year 11 (\gls{sace} Stage 1 Mathematics). Although MathsStart is no longer offered, the resources are still available for personal study/ revision, and is useful for the purposes of reconsidering the content taught in MathsTrack as it gives a broader context for the content, and the required knowledge.
+
+\subsubsection{Student Cohort}
+
+According to the staff at the maths learning center, the vast majority of students enrolling in their bridging courses are aiming to end up in one of three places:
+\begin{itemize}
+	\item Studying a tertiary degree at The University of Adelaide (approximately $60$--$70$\% of bridging courses at any one time),
+	\item Studying a tertirary degree at James Cook University, or
+	\item In the defence forces.
+\end{itemize}
+Only about a single student will not fit into any of the three categories above at any one time, so thinking of this as being the complete cohort of students is fairly close to being accurate. The distribution within these categories can also be broken down and the most common trends considered:
+\begin{itemize}
+	\item Of the students aiming to enroll in a tertiary degree at the University of Adelaide, about $50$\% are aiming to study something in the \gls{ecms} (i.e. Engineering, Mathematics, Computer Science, etc.), and about $10$\% are aiming to study something in the sciences, often vetenary science or oral health.
+	\item Of the students aiming to enroll at James Cook University, most are aiming to enroll in medical degrees, with some interested in marine biology or vetenary science --- broadly biological science in large.
+	\item Of the studets aiming to enlist in the defence forces, the majority of those enrolled in the briding courses are doing so to meet their pre-requisite mathematics knowledge criteria for airforce pilot training.
+\end{itemize}
+
+The diversity of goals amongst the student cohort of the bridging courses makes it challenging to tailor the content of the bridging courses to the students particular needs without substantial resources unavailable to the \gls{mlc} at this time. With this in mind, the focus of the bulk of the work in this thesis will be focussed on aligning the content to the senior highschool mathematics curriculum, as this is an acheivable goal. That said, being aware of this diversity and taking it into account when making decisions and structuring the content is still critical, and will be revisited in \refchap{recommendations}.
+
+
+\subsubsection{Assessment}
+
+The assessment in the bridging courses is self-paced, meaning that studnts access the resources themselves when they are ready, there are no classes or timetables, students can start at any time and can take as long as they need. This should not be understated, as it's impact on reducing test-anxiety and making mathematics education more accessible to people to whom it might feel inaccessible is absolutely crucial in this context.
+
+
+
+\section{The Curriculum-Assessment Framework}
 \label{sec:framework}
 
-When considering improvements to the bridging courses, one of the key concepts that comes immediately to mind is content --- curriculum. The content of the courses is one of the things that can be most readily modified, and niavely one might think that in this way, improvements to the course could be easily implemneted. However, as discussed by \cite{Mohandas2003} and will be explored in much more depth in \refchap{literature}, content does not live alone, and cannot be considered independantly of the broader environment. Specifically, there are bidirectional relationships between curriculum (content), learning experiences (the experiences students have while learning), and evaluation (an umbrella term containing several meaningfully different concepts that will be discussed below), as shown in the curriculum triangle of \citeA{Tyler1949} in \reffig{triangle}. To give some simplified examples: 
+When considering improvements to the bridging courses, one of the key factors is curriculum --- content. The content of the courses is one of the things that can be most readily modified, and niavely one might think that in this way, improvements to the course could be easily implemneted. However, as discussed by \cite{Mohandas2003} and will be explored in much more depth in \refchap{literature}, content does not live alone, and cannot be considered independantly of the broader environment. Specifically, there are bidirectional relationships between curriculum (content), learning experiences (the experiences students have while learning), and evaluation (an umbrella term containing several meaningfully different concepts that will be discussed below), as shown in the curriculum triangle of \citeA{Tyler1949} in \reffig{triangle}. To give some simplified examples: 
 \begin{itemize}
 	\item A test is informed by the content as it must not contain content not taught in the course, and might aim to cover all of (or most of) the content taught in the course. But the results of the test, or even the fact that there is a test at all, can (and should) also influence decisions about what content to include in the course in the first place.
 	\item The learning exeriences students have depends on the content, obviously. But in the other direction, student's experiences should also inform decisions about curriculum. 
@@ -346,6 +459,15 @@ This thesis can be thought of as consisting of two broad avenues of research, fo
 	\item \refchap{literature} explores the existing literature in order to make reccomendations around what learning experiences and assessment methodologies are needed in order to facilitate the learning prescribed my the curriculum discussion. 
 \end{itemize}
 Naturally, and as supported by the `diamond' framework of \citeA{Mohandas2003}, neither of these two approaches to improvement of the bridging courses would be successful in isolation, but rather by taking into account both in unison real improvements could be acheived.
+
+
+
+
+
+
+
+
+
 
 
 
@@ -650,200 +772,43 @@ Finally, there are some other important discussion points to be aware of, althou
 
 
 
-
-\newpage
-
-\section{Temporary Section: TODO List}
-
-TODO List (Papers to read in more detail, and incorporate into discussion):
-\begin{itemize}
-	\item 
-	\item \cite{Irwin2018} Talks about the importance of alternate avenues to access education. --- read and summarise again.
-	\item Some of the books I found would be good to read more thoroughly too, \cite{Volmink1994} for example, and/or \cite{McGivney1996} for example.
-	\item Quote from \cite{Galligan2008} covering some concepts that would be nice to incorporate into the discussion somewhere:
-		\begin{quote}
-		\citeA{Miller2006}, in a significant long term analysis of two large bridging
-		courses and one individual bridging program in New Zealand, used quantitative
-		and qualitative measures to compare students' reactions. These multiple strands of
-		evidence provided a complex overall picture of three largely successful teaching
-		approaches. A one-to-one supervised course focused on understanding fear of
-		mathematics and early mathematics experiences. The course empowered the
-		student who came to believe that mathematics was a creative and enjoyable
-		process. A second course (100 students) focused on the mathematization of
-		realistic situations. Here, students came to regard mathematics as useful,
-		interesting, and relevant to real life. The third course (100 students) was a carefully
-		structured re-introduction of mathematics. The students appreciated the course and
-		were pleased that they could now do mathematics that they could not do in schqol.
-		Students in all programs were highly motivated, mature, and had not seen formal
-		mathematics for some years. One surprising result from the study was that if
-		students were unsuccessful they were, in fact, worse otT than before, and often
-		confused. A significant component of the study was the focus placed on dealing
-		with students' mathematics anxiety or fear. Quantitative measures and qualitative
-		descriptors indicated a decrease in mathematics anxiety throughout the duration of
-		the three programs, and in the larger courses this correlated with achievement.
-		Beliefs about mathematics in general, however, did not necessarily change,
-		although students in the larger courses did see the practical nature of mathematics.
-		\end{quote}
-
-	\item Student wellbeing is a research interest, with high strain in the first semester at uni \cite{Bewick2010}
-\end{itemize}
-
-
-
-
-
-
-\cleardoublepage
-\chapter{Context}
-
-
-\section{Bridging Courses}
-\label{sec:generalcontext}
-
-Students will usually enroll in university mathematics bridging courses because they are required to demonstrate a certain level of mathematical knowledge/ competence before commencing study at university, but either do not meet those requirements, or do but feel a lack of confidence in their abilites and feel like they need to refresh/ revise/ learn some mathematics prior to commencing their studies.
-
-Reasons why these students do not either meet the entry requirements, or feel a lack of confidence in their abilities can be quite varied:
-\begin{itemize}
-	\item A long period of time may have passed since they last studied mathematics (or studied at all). Adult-entry students are over-represented in bridging courses (REFERENCE?).
-	\item They may have performed poorly in mathematics in highschool.
-	\item They may have chosen not to study mathematics at a higher level in highschool.
-	\item They may suffer from maths anxiety (which would make them likely to fit into the above two categories as well).
-\end{itemize}
-	
-The role of mathematics bridging courses is to take these students, and:
-\begin{itemize}
-	\item Bridge their content knowledge so they are prepared for university entry.
-	\item Support the growth of their confidence and self-efficacy surrounding mathematics.
-	\item Ultimately prepare them to be successful in a university context.
-\end{itemize}
-
-What content should be taught in a university bridging course is actually a question that has dramatically different answers from different perspectives on the role of such a course, even when restricting the question to purely knowledge-based content (and excluding the teaching of self-efficacy etc.):
-\begin{itemize}
-	\item If you take the perspective that the role of such a course is to fill in the gaps in student's knowledge left from an incomplete or maths-light highschool education, then the content that should be taught should be up to and including the advanced year 12 australian curriculum. This is particularly appropriate if you do not know the direction of the students, or if they are potentially just doing the bridging course with you and they are planning on studying a degree at a different university say, interstate.
-	\item If you take the perspective that the role of such a course is to prepare students for entry into the particular courses they are about to commence studying, the content relevant to them will be dramatically differnet. The senior mathematics australian curriculum is extremely generalist and contains many topics that would be completely irrelevant to any particular field of study. 
-\end{itemize}
-In terms of choosing what content to teach in a university bridging course, the above two competing perspectives will often create tension between each other, making finding a happy compromise a difficult endevour. 
-
-
-Quote from \cite{Johnson2016}:
-\begin{quote}
-	\cite{Hardin2008} highlights that in recent years, the ‘face
-of higher education’ has changed, with a more diverse range of leaners now entering
-third-level education. \cite{Hardin2008} notes that in 1987, the number of adult learners 2
-in College or University in the U.S. had increased to 4.9 million and the 2010 projections
-were set at 6.8 million. In the Irish context, the National Adult Learning Organisation
-(Aontas) identified that in 2012, adult learners accounted for 15\% of all third-level
-full-time students and 96\% of all part-time students. According to Aontas (2012), these
-percentages equate to circa 6000 full-time and 1500 part-time adult learners each year.
-\cite{Murtaugh1999} point out that increases in the number of adult
-learners can cause additional retention worries for university policy-makers, as research
-shows that attrition rates have been found to increase with age. Further to this statistic,
-studies such as those conducted by \cite{House2000} and \cite{Tsui2007} indicate that significant
-numbers of students dropout of STEM degree programmes within the first two years,
-which highlights the importance of addressing this retention issue as early as possible
-in a student’s career. One approach that has proven effective in addressing this issue is
-to encourage students to engage with mathematics learner support provisions. \cite{Lee2008}
- advocate that appropriate engagement with mathematics learner support
-can have a positive impact on student retention and progression.
-\end{quote}
-
-
-
-\section{MathsStart and MathsTrack}
-\label{sec:specificcontext}
-
-The Univesity of Adelaide offers two mathematics bridging courses, MathsStart and MathsTrack, through their maths learning center. According to the staff at the maths learning center, the vast majority of students enrolling in their bridging courses are aiming to end up in one of three places:
-\begin{itemize}
-	\item Studying a tertiary degree at The University of Adelaide (approximately $60$--$70$\% of bridging courses at any one time),
-	\item Studying a tertirary degree at James Cook University, or
-	\item In the defence forces.
-\end{itemize}
-Only about a single student will not fit into any of the three categories above at any one time, so thinking of this as being the complete cohort of students is fairly close to being accurate. The distribution within these categories can also be broken down and the most common trends considered:
-\begin{itemize}
-	\item Of the students aiming to enroll in a tertiary degree at the University of Adelaide, about $50$\% are aiming to study something in the \gls{ecms} (i.e. Engineering, Mathematics, Computer Science, etc.), and about $10$\% are aiming to study something in the sciences, often vetenary science or oral health.
-	\item Of the students aiming to enroll at James Cook University, most are aiming to enroll in medical degrees, with some interested in marine biology or vetenary science --- broadly biological science in large.
-	\item Of the studets aiming to enlist in the defence forces, the majority of those enrolled in the briding courses are doing so to meet their pre-requisite mathematics knowledge criteria for airforce pilot training.
-\end{itemize}
-
-To meet the needs of these cohort of students, it is clear there are two broad areas of content knowledge that different students will need:
-\begin{itemize}
-	\item Calculus focused maths, differentiation, integration, and understanding of functions and graphs are fundamental to the students aiming to study in \gls{ecms} at the University of Adelaide, as most entry level mathematics and engineering subjects are very calculus-focused, and this calculus-emphasis is carried through both engineering and mathematics degrees. 
-	\item Probability/ Statistics are an important focus of the science, with particularly biological science students having been found to struggle with the mathematical (largely statistical) requirements of their degrees (ADD REFERENCE HERE?). 
-\end{itemize}
-Both of these focus-areas require a base of content knowledge of fundamentals, things like re-arranging equations, fractions, log-laws, etc. So it makes sense to structure the content of the bridging courses in a way aligned with this thinking, in order to best meet the needs of the students enrolled in the programs.
-
-\begin{figure}
-\begin{center}
-\begin{tikzpicture}[->,>=stealth',auto,thick,main node/.style={ellipse,draw,font=\sffamily\Large\bfseries}]
-\node[main node] (a) {Fundamentals};
-\node[main node] (b) [above right = 2cm and 0cm of a] {Advanced Calculus};
-\node[main node] (c) [below right = 2cm and -1cm of a] {Probability and Statistics};
-
-\draw[->] (a) -- (b);
-\draw[->] (a) -- (c);
-\end{tikzpicture}
-\end{center}
-\caption{Ideal High-Level Content Structure for the University of Adelaide Bridging Courses \label{fig:contentStructure}}
-\end{figure}
-
-
-\section{Current Strengths of MathsStart and MathsTrack}
-
-Moving foward is a two-part process:
-\begin{itemize}
-	\item Recognise what is being done well, encourage and recognise it, and continue to support its ongoing excellence.
-	\item Recognise what can be improved on, gaps that may exist, and address them with specific actionable changes.
-\end{itemize}
-
-\subsection{SQWIGLES}
-
-SQWIGLES is an abbreviation (see \reffig{sqwigles}) developed at the University of Adelaide maths learning centre with several purposes in mind:
-\begin{itemize}
-	\item As a way to guide tutors working at the maths learning center on how to best help the students.
-	\item To scaffold self-reflection in teaching and education when working one-on-one with students by providing specific actions one can focus on paying attention to and reflecting on.
-	\item As a tool to focus efforts on self-improvement, by choosing one action to improve on at a time it can provide an avenue towards improvement that feels acheivable, and can provide concrete progression.
-\end{itemize}
-SQWIGLES also had some ancillary and unintended benefits, as once an educator is engaged actively in self-reflection, even if it is prompted by paying attention to one specific action, they notice other things perhaps even things unrelated to SQWIGLES itself. David Butler, the current maths learning center coordinator at the University of Adelaide, wrote \href{https://blogs.adelaide.edu.au/maths-learning/2016/09/20/sqwigles/}{a blog post about SQWIGLES} which is quite informative and has more detail, but here I will provide a breif overview as it is a very beneficial tool that generalises well beyond mathematics education.
-
-\begin{figure}[ht]
-\centering
-\includegraphics{./files/sqwigles.png}
-\caption{SQWIGLES \label{fig:sqwigles}}
-\end{figure}
-
-As teachers we are constantly encouraged to reflect on our practice and continually aim to improve and develop our skills, and rightfully so. Teaching is a process of continual improvement. Often however, we can reflect on our practice and either be overwhelmed by the amount of observations we make and not know where to start, or be unsure what to reflect on, exactly --- what aspects of our practice to spend the time to critically analyse. Teaching is an incredibly broad and diverse profession with many aspects, and improvement is always possible in every aspect of it. However pursuing improvement takes time (a resource we as teachers are very low on), and attention and energy, and so it is completely untenable to pursue improvement in all aspects of teaching simultaneously. In the face of this, we often suffer from either decision paralysis, or choosing relatively insignificant aspects of our teaching to focus on. SQWIGLES can serve as a guide for both where to focus our self-reflective attention, and as a list of suggestions for individual aspects of our teaching practice to focus on improving one at a time.
-
-\subsubsection{Speak Your Thinking}
-
-\begin{itemize}
-	\item Mathematics as language, speaking to translate.
-	\item Mathematics as the process of reasoning, speaking to illustrate that process.
-\end{itemize}
-
-\subsubsection{Ask Open-Ended Questions}
-
-\subsubsection{Encourage Them to Write}
-
-\subsubsection{Help Them Find Information}
-
-\subsubsection{Guide Their Problem-Solving}
-
-\subsubsection{Listen to Their Thoughts and Feelings}
-
-\subsubsection{Explain Another Way}
-
-\subsubsection{Help to Sum Up the Learning}
-
-
-
-
-\subsection{Staff Culture at the Maths Learning Center}
-
-\subsection{Self-Paced Assessment and Content Speed (!!!)}
-
-Link to Maths Anxiety literature review.
-
-
+%
+%\newpage
+%
+%\section{Temporary Section: TODO List}
+%
+%TODO List (Papers to read in more detail, and incorporate into discussion):
+%\begin{itemize}
+%	\item 
+%	\item \cite{Irwin2018} Talks about the importance of alternate avenues to access education. --- read and summarise again.
+%	\item Some of the books I found would be good to read more thoroughly too, \cite{Volmink1994} for example, and/or \cite{McGivney1996} for example.
+%	\item Quote from \cite{Galligan2008} covering some concepts that would be nice to incorporate into the discussion somewhere:
+%		\begin{quote}
+%		\citeA{Miller2006}, in a significant long term analysis of two large bridging
+%		courses and one individual bridging program in New Zealand, used quantitative
+%		and qualitative measures to compare students' reactions. These multiple strands of
+%		evidence provided a complex overall picture of three largely successful teaching
+%		approaches. A one-to-one supervised course focused on understanding fear of
+%		mathematics and early mathematics experiences. The course empowered the
+%		student who came to believe that mathematics was a creative and enjoyable
+%		process. A second course (100 students) focused on the mathematization of
+%		realistic situations. Here, students came to regard mathematics as useful,
+%		interesting, and relevant to real life. The third course (100 students) was a carefully
+%		structured re-introduction of mathematics. The students appreciated the course and
+%		were pleased that they could now do mathematics that they could not do in schqol.
+%		Students in all programs were highly motivated, mature, and had not seen formal
+%		mathematics for some years. One surprising result from the study was that if
+%		students were unsuccessful they were, in fact, worse otT than before, and often
+%		confused. A significant component of the study was the focus placed on dealing
+%		with students' mathematics anxiety or fear. Quantitative measures and qualitative
+%		descriptors indicated a decrease in mathematics anxiety throughout the duration of
+%		the three programs, and in the larger courses this correlated with achievement.
+%		Beliefs about mathematics in general, however, did not necessarily change,
+%		although students in the larger courses did see the practical nature of mathematics.
+%		\end{quote}
+%
+%	\item Student wellbeing is a research interest, with high strain in the first semester at uni \cite{Bewick2010}
+%\end{itemize}
 
 
 
@@ -851,7 +816,7 @@ Link to Maths Anxiety literature review.
 \chapter{Curriculum Mapping}
 \label{chap:curriculum}
 
-TODO: I should add a comment here somewhere about how initially I will be simply comparing content, but that by the end of this chapter I will also consider requirements/ expectations of the bridging course RE MathsStart aliging roughly to year 11 material and MathsTrack covering Maths Methods but not neccessarily Maths Specialist, etc.
+%TODO: I should add a comment here somewhere about how initially I will be simply comparing content, but that by the end of this chapter I will also consider requirements/ expectations of the bridging course RE MathsStart aliging roughly to year 11 material and MathsTrack covering Maths Methods but not neccessarily Maths Specialist, etc.
 
 One of the important roles of university mathematics bridging courses (such as MathsStart and MathsTrack) is to fill the content knowledge gap for students who  wish to commence study that has some required knowledge and skills in mathematics, but either did not complete mathematics to a sufficiently high level in highschool, or completed it long enough ago that they need to re-learn the skills. Ultimately, the content of such bridging courses needs to align with the ``Industry Standards'' or ``Standards of Performance'' and in particular the ``Curriculum Objective'' of the curriculum assessment diamond model (\reffig{diamond}). 
 
@@ -1078,7 +1043,7 @@ Before moving on to discuss the details of the key concept level alignment withi
 
 
 
-\subsection{The \gls{ac} and \gls{sace}}
+\subsection{The AC and SACE}
 
 At a glance, there appears to be a very good one-to-one alignment at the topic level between the \gls{ac} and \gls{sace}. Broadly speaking the biggest difference between these two curriculums is their structure, as discussed in \refsec{structure}. As usual however, the devil is in the details. In this section, a detailed discussion of the key concept level alignent between the \gls{ac} and \gls{sace} will be presented. This discussion will be structured by the broad content areas as introduced in 
 \refsec{structure}.
@@ -1140,6 +1105,7 @@ Overall the \gls{ac} and \gls{sace} are very closely aligned in terms of content
 
 
 \subsection{MathsStart and MathsTrack}
+\label{sec:MSMTmapping}
 
 In the broad sense of the five content areas discussed in \refsec{structure}, it can be seen from \reffig{mappingByTopic} that two of these content areas --- Complex Numbers and Probability and Statistics --- are essentially not covered by MathsStart or MathsTrack whatsoever. In \reffig{mappingByTopic} MS1 is grouped into the (Complex) Numbers content area, as it includes an introduction to rational/ irrational numbers, but it does not include any reference to complex numbers at all. On the topic of complex numbers, it is notable that the 'missing' MathsTrack Topic 5, which was part of MathsTrack in the past but is currently being ommitted from the course, covered complex numbers. So if including content on complex numbers was of interest, MT5 could be used as a starting point for better aligning the content of the bridging courses to the \gls{ac}/ \gls{sace} in the content area of complex numbers. That said, for the purposes of this curriculum alignment, we are more concerned with the content that is currently in the bridging courses and so this section will dicsuss the key concept level aligmnet on a topic-by-topic basis for the remaining three content areas that are currently covered in the bridging courses: Functions and Graphs, Calculus, and Linear Algebra.
 
@@ -1188,69 +1154,133 @@ The ``Functions and Graphs'' and ``Calculus'' content areas align fairly well be
 
 \section{Summary}
 
-Broadly the content for functions and graphs, as well as calculus is well aligned between the bridging courses and the \gls{ac}/ \gls{sace}. Although the \gls{ac} and \gls{sace} to mix these closely related content areas, particularly for logarithmic functions, the bridging courses tend to mix the two more, merging the more advanced concepts from functions and graphs into the calculus topics in a more systematic way. This makes perfect sense, especially considering how inter-connected the areas are in the first place, and might highlight the inappropriateness of the content area categorisation more than aything, but it does demontrate an interesting difference in systematic structuring of concepts between the two. 
+Broadly the content for both ``Functions and Graphs'' as well as ``Calculus'' content areas is well aligned between the bridging courses and the \gls{ac}/ \gls{sace}. Although the \gls{ac} and \gls{sace} to mix these closely related content areas, particularly for logarithmic functions, the bridging courses tend to mix the two more, merging the more advanced concepts from functions and graphs into the calculus topics in a more systematic way. This makes perfect sense, especially considering how inter-connected the areas are in the first place, and might highlight the inappropriateness of the content area categorisation more than anything, but it does demontrate an interesting difference in systematic structuring of concepts between the two. 
 
 Broadly, a big difference in emphasis between the bridging courses and the \gls{ac}/ \gls{sace} is the emphasis the bridging courses place on sketching graphs, and explicitly exploring the connection between how transformations (translations and dilations primarily) of a graph relate to algebraic changes to functions. Although this is covered in \gls{sace} to some degree, it is largely implicit and left to reading between the lines, while it is quite explicit and fairly systematically embedded in the bridging courses. Whether this is an advantagous emphasis or not is beyond the scope of this work, but would make for interesting future research.
 
-Another broad observation is that MathsStart has an implicit focus on practicing basic foundational skills such as rearranging equations, etc. This seems like a good approach, and implies another direction of future research going further backwards into the curriculum and looking at the year 10 and prior \gls{ac} to identify assumed knowledge and skills that are important foundational cornerstones for building the required knowledge in these courses. Offhand, this would likely include concepts such as fractions, index laws and rearranging equations. 
+Another broad observation is that MathsStart has an implicit focus on practicing foundational skills such as rearranging equations, etc. This seems like a good approach, and implies another direction of future research going further backwards into the curriculum and looking at the year 10 and prior \gls{ac} to identify assumed knowledge and skills that are important foundational cornerstones for building the required knowledge in these courses. Offhand, this would likely include concepts such as fractions, index laws and rearranging equations. 
 
-In tems of differnces in content rather than just structure, bigger differences between the content of the bridging courses and the \gls{ac} and \gls{sace} exist in the other content areas. With Probability and Statistics being completely ommitted from the bridging courses and Complex Numbers almost comletely ommited. Even in Linear Algebra and Geometry, which is covered in depth in the bridging courses however, there are substantial differences in content compared to the \gls{ac} and \gls{sace}. The remainder of this section will be split into the different categories of differences in content that could be useful in terms of re-designing the content of the bridging course moving forward:
+In terms of differnces in content rather than just structure, bigger differences between the content of the bridging courses and the \gls{ac} and \gls{sace} exist in the other content areas. With Probability and Statistics being completely ommitted from the bridging courses and Complex Numbers almost comletely ommited. As discussed in \refsec{MSMTmapping}, the MT5, not currently included in MathsTrack, covered complex numbers, and as such any attempt to re-incorporate content about complex numbers should begin with examining the content in the old MT5 topic. In addition, the ``Complex Numbers'' content area has the additional complication of where it fits into the \gls{sace} curriculum: It is not touched at all in \gls{sace} Stage 2 Mathematical Methods, only \gls{sace} Stage 2 Specialist Mathematics, and \gls{sace} Stage 1 Mathematics. As it is in the year 11 \gls{sace} Stage 1 Mathematics one might assume that is should be covered in MathsStart, but this is not entirely accurate. Although MathsStart includes concepts from highschool mathematics up to and including year 11, it is not intended to be comprehensive, and topics that build required knowledge for only \gls{sace} Stage 2 Specialist Mathematics in particular and not Mathematical Methods are particularly less important to cover in MathsStart. The decision of to include complex numbers in the bridging courses or not is obviously beyond the scope of this work, here it is simply clarified where in the curriculums it is touched on, so that that decision can be made with clarity.
+
+The remainder of this summary will be split into different categories of differences in content that could be useful in terms of re-designing the content of the bridging course moving forward:
 \begin{itemize}
-	\item Probability and Statistics,
-	\item Complex Numbers,
-	\item Other Minor Misalignments,
-	\item \gls{sace} Stage 2 Specialist Mathematics. 
+	\item First the content covered in ``Probability and Statistics'', and
+	\item ``Complex Numbers'' will be summarised, with notes on which \gls{sace} subjects contain which content.
+	\item All other key concepts covered in \gls{sace} Stage 2 Specialist Mathematics will be listed briefly, separated into concepts currently already covered in the bridging courses/ not covered in the bridging courses. 
+	\item Lastly, and perhaps most importantly, any remaining key concept misalignments between the \gls{sace} curriculum and the bridging courses that do not relate to \gls{sace} Stage 2 Specialist Mathematics will be listed.
 \end{itemize}
 
 \subsection{Probability and Statistics}
 
+The ``Probability and Statistics'' content area is almost entirely contained in \gls{sace} Stage 2 Mathematical Methods, and the key concepts can be summarised as follows:
+\begin{itemize}
+	\item The concept of a random variable is a critical foundational concept for probability and statistics, and often serves as the abstract object used to define the difference between ``Sample'' and ``Population'' thinking, a fundamentally important difference of perspective that can often be confusing. One approach to introducing the concept of a random variable is to describe it as a type of object distinct from a number, vector, set, or function. One way to do this is to frame a random variable as a measurement, that would result in a number if it were made, but that has not yet been made. Because the process of measurement involves some ``random'' process that we cannot perfectly predict, such as choosing a person from a crowd or rolling a dice, drawing a card from a deck, or observing if it rains tomorrow, we cannot determine the outcome beforehand but we can describe all the possible outcomes, and understand that they might not all be equally likely. This then leads nicely into the concept of a probability distribution: the probability or ``likelihood'' of different outcomes is ``distributed'' accross all the different potential outcomes.
+	\item Discrete Random Variables: 
+		\begin{itemize}
+			\item Uniform distributions,
+			\item Arbitrary distributions,
+			\item The Bernoulli and Binomial Distributions.
+		\end{itemize}
+	\item Continous Random Variables:
+		\begin{itemize}
+			\item Uniform distributions,
+			\item Arbitrary function (eg. restricted domain polynomial) distributions,
+			\item The normal distribution.
+		\end{itemize}
+	\item Calculating probabilities for all the above,
+	\item Expected Value ($\mathbb{E}[X] = \sum_i{x_ip_i}$ for discrete random variables for which $P(X = x_i) = p_i$ and $\mathbb{E}[X] = \int_{-\infty}^\infty{xf(x).dx}$ for a continuous random variable with probability density function $f(x)$), 
+	\item Variance ($\text{var}(X) = \mathbb{E}\left[(X - \mathbb{E}[X])^2\right]$) and Standard Deviation ($\sigma = \sqrt{\text{var}(X)}$), 
+	\item The Central Limit Theorem.
+	\item Confidence Intervals: 
+		\begin{itemize}
+			\item The standard normal (``z-score'') confidence interval,
+			\item The Wald confidence interval for a proportion (z-score normal approximation as per the central limit theorem).
+		\end{itemize}
+\end{itemize}
+
+Also important to note that there are some important foundational concepts covered in \gls{sace} Stage 1 Mathematics, specifically:
+\begin{itemize}
+	\item Calculating mean, median, mode, variance and standard deviation in the sample rather than the population.
+	\item Combinatorics (Combinations, the Factorial, and Permutations).
+\end{itemize}
+
+Also of note is that the \gls{ac} goes further than \gls{sace} in terms of explicitly introducing more foundational concepts here, including: 
+\begin{itemize}
+	\item Extending combinatorics to explictly discuss binomial coefficients, Pascals triangle, and the pidgeonhole principle.
+	\item Set-theoretic terminology and notation both in general and applied to probability calcations: Complement, Intersection and Union of sets, Conditional Probabilities, Independance of Random Variables, and Disjoint sets.
+\end{itemize}
+
 \subsection{Complex Numbers}
 
-\subsection{Other Minor Misalignments}
-
-\subsection{\gls{sace} Stage 2 Specialist Mathematics}
-
-\subsection{TMP SEC: TODO: Sort and Organise into above subsections}
-
-My reccomendations for MathsStart would be to include some work on fractions, index laws, and more emphasise on re-arranging equations  as in my experience these are the topics and concepts that students need the most from middle school mathematics (up to year 10) and form foundations for building other concepts with in senior highschool. This is already the implicit purpose of MathsStart in a sense, and this is good. Aside from that, concepts that could be added to the bridging courses to bring them more in alignment with the \gls{ac} and \gls{sace} are:
+While complex numbers are introduced in two topics in \gls{sace}, an introductory topic in Stage 1 Mathematics and an advanced topic in Stage 2 Specialist Mathematics, it is interesting to note that in schools in South Australia year 11 students are often streamed into those planning on taking Stage 2 Specialist Mathematics and those planning on only taking Stage 2 Mathematical Methods, and often the year 11 students not planning on taking Stage 2 Specialist Mathematics will skip topics such as Complex Numbers as they do not appear in Stage 2 Mathematical Methods and instead use the time to focus on the other topics. That said, the key concepts convered in \gls{sace} Stage 1 Mathematics are:
 \begin{itemize}
-	\item I'm not sure if I missed it somewhere, but a formal introduction of the definition of a function (and hence the alternative --- a relation) would be good as the concept of a relation is in the \gls{ac} and \gls{sace}, although it is not used much. It is a little useful later when doing implicit differentiation, for example.
-	\item S2SM3 introduces advanced general concepts on functions: domain and range, function composition, one-to-one, inverse functions, and the absolute value function. This concepts are not covered in the bridging courses, and could be useful, but on the other hand, are part of the specialist mathematics curriculum, so aren't the highest priority to include.
-	\item I like the way quadratics are introduced in MS3, particularly as the concepts used to introduce them (dilations, translation) are very applicable in the \gls{ac} and \gls{sace} in many places. On the other hand there are a couple of concepts here that are missed in the gap betwen MS3 and MT1, specifically rearranging quadratics algebraically to get them in vertex form and factored form, although these forms are introduced implicitly in MS3 and interpreted, algebraic rearrangment of them could be emphasised more, especially given how this is one of the key concepts we want students to be picking up as they go through MathsStart. 
-	\item Both the \gls{ac} and \gls{sace} introduce the concept of exponential functions via recurrance relations describing geometric sequences. Although this is certainly not the only (or even neccessarily the best) way to introduce and understand exponential functions, it is the way prescribed by the \gls{ac} and \gls{sace} curriculums, so it might be valuable. 
-	\item Overall having the concepts link from topic to topic more, for example in MS3 dilations and translations of quadratic functions are considered. It would be useful if these concepts where re-visited in MS6 for example when looking at graphing/ sketching trigonometric functions, as this is covered in \gls{sace} explicitly but also because it connects the concept to multiple different topics and applications (different kinds of functions).
-	\item Scalar dot product of vectors is introduced in MT3, but \gls{sace} goes a little further, also introducing the concept of orthogonal projection in $\mathbb{R}^2$ in S1M9.
-	\item I think it would be a good idea to introduce interval notation along with the concept of intervals when that concept is introduced in MS1.
+	\item Rational and Irrational Numbers (covered in MS1), 
+	\item Introducing the concept of $i = \sqrt{-1}$, complex numbers as $a + ib$.
+	\item Arithmetic ($+$, $-$, $\times$, $\div$) using Conjugates for division.
+	\item Argand Diagram (Complex Plane $\mathbb{C}$).
+	\item Modulus of a complex number.
+	\item Conjugate Roots of Polynomials.
+\end{itemize}
+Then these are expended in \gls{sace} Stage 2 Specialist Mathematics to also cover:
+\begin{itemize}
+	\item Argument and Polar Form, $r\text{cis}(\theta) = r\cos(\theta) + ri\sin(\theta)$ notation.
+	\item de Moivre's Theorem, including negative and fractional indices.
+	\item Geometric properties of the Argand Plane (what happens to complex numbers when you do arithmetic to them --- rotations, translations, dilations).
+	\item Using deMoivre's Theorem to find complex roots and factorising polynomials with complex roots.
 \end{itemize}
 
 
-while concepts currently in the briding courses that could be removed as they are not part of the \gls{ac} or \gls{sace} include:
+\subsection{\gls{sace} Stage 2 Specialist Mathematics Concepts}
+
+\subsubsection{Key Concepts that are in the Bridging Courses, but are only in \gls{sace} Stage 2 Specialist Mathematics and not any other \gls{sace} Subject}
+
+These are concepts that could in principle be removed from the bridging courses because technically, the bridging courses do not need to cover \gls{sace} Stage 2 Specialist Mathematics, only Stage 2 Mathematical Methods as there is a usually an entry level university course whose purpose is to bridge students who did not complete Stage 2 Specialist Mathematics (at the \gls{uofa} this course is called ``Maths IM''). Important to note that although technically these could be removed for the reasons discussed above, often they serve important roles in building understanding and in the purpose, design, and intent of a unit of work and this should be taken into account when making decisions. This list is intended to provide a starting point for that consideration, and in some cases a short note on the imortance of a concept to understanding or developing foundational skills will be included. That said, the key concepts covered only in Stage 2 Specialist Mathematics that could potentially be cut from the bridging courses on the technicality discussed above are:
 \begin{itemize}
-	\item Implicit differentiation is technically only in Stage 2 Specialist Mathematics, so could potentially be removed from MT6.
-	\item Normal to a curve is a concept introduced in MT6 but not used anywhere in the \gls{sace} curriculum (as far as I can tell), apart from breifly in S2SM4 when it is used in the contect of vector cross products and equations for a plane --- a very different context.
-	\item Surge models are not anywhere in the \gls{ac} or \gls{sace}, so could potentially be removed from MT8 entirely.	
-	\item Logistic models are only included in Stage 2 Specialist Mathematics, so could potentially be removed from MT8. Alternatively if it was kept, it could be introduced with concepts around differential equations, which is how it is introduced in Stage 2 Specialist Mathematics. At the moment, it is introduced as a model (an equation), not a solution to a differential equation, so even as it is it is very different content.
-	\item Integration by Substitution is only covered in Stage 2 Specialist Mathematics, so could potentially be removed but is also very useful in first year university calculus-based courses (such as Maths IA etc.) so I'm not sure. Depends, as most of these do, on the mindset: it would be useful content for the students to be exposed too early, or you could look at it from the perspective of they are not expected to know it going into a course like Maths IM. 
-	\item Concepts covered in S2SM4 on geometry in $\mathbb{R}^3$ are technically only covered in Specialist Mathematics, so could be cut in principal if we are operating under the assumption bridging course students will be doing Maths IM. So concepts like vector cross product, and the equation for a plane, to be specific.
-	\item Technically, the Gauss-Jordan Elimination method introduced in MT4 is not anywhere in \gls{sace}, but that said it is somewhat implied a little in the topic that discusses the other concepts in MT4 (around systems of linear equations) --- S2SM4. That said, this entire topic and broad concept of systems of linear equations is entirely contained in Stage 2 Specialist Mathematics, so it could be argued to not be included for that reasoning.
-	\item Advanced Function and Graph concepts in S2SM3 such as sketching rational functions (covered in MT7) are only covered in Stage 2 Specialist Mathematics, and so potentially could be reduced in emphasis.
+	\item \textbf{Implicit Differentiation}, which is currently covered in MT6 and is only touched on in S2SM6.
+	\item \textbf{Normal to a Curve}, introduced in MT6 and is only briefly mentioned in S2SM4 when it is used in the contect of vector cross products and equations for a plane --- a very different context. It is not covered explicitly in the way it is in MT6 anywhere in \gls{sace}, but can be a useful tool for understanding slopes and gradients in the way it is used in MT6.
+	\item \textbf{Logistic Models} from MT8. Note that in S2SM6 logistic models are introduced from the perspective of differential equations, quite different to how they are used in MT8, where it is introduced as a model (an equation), not a solution to a differential equation.
+	\item \textbf{Integration by Substitution} is covered in MT9 and S2SM5. Note that the calculus focus of many entry level university mathematics courses means it might be beneficial to students to have seen this before when it is covered in those courses, as it often is a difficult concept for them when encountering it for the first time.
+	\item \textbf{Vectors in $\mathbb{R}^3$}: MT3 covers vector concepts in both $\mathbb{R}^2$ and $\mathbb{R}^3$, but in \gls{sace} the $\mathbb{R}^2$ concepts are covered in Stage 1 Mathematics (S1M9) and the $\mathbb{R}^3$ concepts in Stage 2 Specialist Mathamtics (S2SM4). To be specific, the key differentiating $\mathbb{R}^3$ concepts are: vector cross product, and the equation for a plane.
+	\item \textbf{Gauss-Jordan Elimination} is introduced in MT4 is not anywhere in \gls{sace}. That said, it is implied in S2SM4 in the context of solving $3 \times 3$ systems of linear equations ``using row operations''. Note however that basic matrix concepts (matirx multplication, the $2\times2$ determinant and inverse) are introduced in Stage 1 Mathematics (S1M11) however, so some matrix concepts do exist beyond Stage 2 Specialist Mathematics --- the concept that is restricted to Stage 2 Specialist is the idea of using matrices to solve systems of equations, specifically. 
+	\item \textbf{Sketching Rational Functions} (covered in MT7), and some similar advanced ``Function and Graph'' concepts in S2SM3 are only covered in Stage 2 Specialist Mathematics, but could also serve as useful ways to build understanding of function behaviour and graphical implications of algebraic manipulation.
+\end{itemize}
+
+\subsubsection{Key Concepts that are in \gls{sace} Stage 2 Specialist Mathematics but not in the Bridging Courses}
+
+Perhaps less relevant, but for the sake of completeness in this section key concepts that are covered in \gls{sace} Stage 2 Specialist Mathematics that are missing from the bridging courses are listed. These are likely less relevant because at the present time the bridging courses are not required to cover the Specialist Mathematics curriculum, but in the future that may change, and in that eventuality this list may be of use:
+
+\begin{itemize}
+	\item \textbf{Formal Definition of a Function}, and hence the comlement --- what is not a function? Relations. The concept of a relation is in the \gls{ac} and \gls{sace}, although it is not used much. The only spots where it would be relevant are restricted to \gls{sace} Stage 2 Specialist Mathematics: implicit differentiation (discussed above), parameterised curves, and some advanced function concepts such as one-to-one discussed below. 
+	\item \textbf{Advanced Function Concepts}: domain and range, function composition, one-to-one, inverse functions, and the absolute value function (covered in S2SM3) are not covered in the bridging courses, and could be useful.
 \end{itemize}
 
 
-Other reccomendations:
+\subsection{Other Key Concept Misalignments Between the Bridging Courses and SACE}
+
+In this section, all key concept misalignments between the bridging courses and \gls{sace} that are not already covered in one of the sections above will be listed. So that means all concepts that do not align between the Bridging Courses and Stage 1 Mathematics and Stage 2 Mathematical Methods, except those that relate to the content areas of ``Probability and Statistics'' or ``Complex Numbers''. 
+
+\subsubsection{Concepts Covered in \gls{sace} but not in the Bridging Courses}
+
+These are concepts that are missing from the bridging courses (listed roughly in decreasing order of importance/ ease of incorporation), and adding them to the bridging courses should probably be considered:
 \begin{itemize}
-	\item Maybe spread out the introduction of integration? Potentially introduce both differentiation and integration, and then introduce them together on each individual type of function? Not sure.
+	\item \textbf{Interval Notation} (covered in S1M12): MS1 already introduces the concept of intervals, it would be fairly straightforward to go the one extra step and also introduce interval notation, and MS1 would be the perfect place.
+	\item \textbf{Algebraic Rearrangment of Quadratics}:  The introduction to quadratics in MS3 is excellent, particularly as the concepts used to introduce them (dilations, translation) are very applicable in the \gls{ac} and \gls{sace} and in introducing many concepts in later topics. However because of how concepts around Polynomials are split between MS3 and MT1, the specific key concept relating to rearranging quadratics algebraically to get them in vertex form and factored form is missed almost halfway between MS3 and MT1. Although these forms are introduced implicitly in MS3 and interpreted, algebraic rearrangment of them could be emphasised more (to better align with S1M2, for example). Adding this to MS3 would also re-enforce the emphasise early in MathsStart on building the foundational skill of rearanging equations, which would serve students well in later topics as well. 
+	\item \textbf{Orthogonal Projection}: Scalar dot product of vectors is introduced in MT3, but \gls{sace} goes a little further, also introducing the concept of orthogonal projection in $\mathbb{R}^2$ in S1M9.
+	\item \textbf{Translations and Dilations of Trigonometric Functions}: In MS3 dilations and translations of quadratic functions are considered. It would be useful if these concepts where re-visited in MS6 when looking at graphing/ sketching trigonometric functions, as this is covered in \gls{sace} explicitly and also because it connects the concept through multiple different topics and applications (different kinds of functions). This is a concept that is emphasised early in MathsStart and that could be leveraged more by bringing it into each new type of function as they are introduced, with the added benefit that this would also improve the content-alignment to \gls{sace} and the \gls{ac}.
+	\item \textbf{Geometric Sequences and Recurrance Relations}: Both the \gls{ac} and \gls{sace} introduce the concept of exponential functions via recurrance relations describing them with geometric sequences. Although this is certainly not the only (or even neccessarily the best) way to introduce and understand exponential functions, it is the way prescribed by the \gls{ac} and \gls{sace} curriculums, so it might be valuable particularly in avoiding a difference in thinking between students coming out of the bridging courses and those coming straight out of highschool, if that is of concern. 
 \end{itemize}
 
-\begin{itemize}
-	\item MS1: Maybe Introduce Interval Notation along with Intervals?
-\end{itemize}
+\subsubsection{Concepts Covered in the Bridging Courses but not in \gls{sace}}
+
+There is only one key concept that is left: \textbf{Surge Models} are not included in either the \gls{ac} or \gls{sace}, and could potentially be removed from MT8 entirely without impacting on the content alignment of the bridging courses to the highschool curricula.	
+
+
 
 
 
 
 \cleardoublepage
-\chapter{Conclusions and Reccomendations}
+\chapter{Reccomendations}
 \label{chap:recommendations}
 
 With respect to the bridging courses run through the university of adelaide's maths learning centre: MathsStart and MathsTrack,
@@ -1259,6 +1289,40 @@ With respect to the bridging courses run through the university of adelaide's ma
 	\item The role of bridging courses as what is often student's first experience at university implies that potentially students wellbeing and retention could be improved by structuring the programs to provide more opportunities for students to meet each other and work together: either in the maths learning center drop-in area, or a seperate area, but potentially assigning a certain time on a certain day perhaps weekly or fortnightly during which students are encouraged to come and work together, could allow them to make freinds, build social networks, and better aclimitise them to the university environment in order to better prepare them for success in their studies.
 	\item The smallest but perhaps easiest to implement improvement could be to better align the course content with curriculum, both the highschool curriculum (\gls{ac}/ \gls{sace}) in the case of students doing the bridging course to then comence study interstate or overseas, or with specific first year entry level courses, to better match the potential gaps in knowledge students may encounter.
 \end{itemize}
+
+
+
+
+
+
+
+\section{Hmm}
+
+Following from the discussion of \refsec{specificcontext}
+
+To meet the needs of these cohort of students, it is clear there are two broad areas of content knowledge that different students will need:
+\begin{itemize}
+	\item Calculus focused maths, differentiation, integration, and understanding of functions and graphs are fundamental to the students aiming to study in \gls{ecms} at the University of Adelaide, as most entry level mathematics and engineering subjects are very calculus-focused, and this calculus-emphasis is carried through both engineering and mathematics degrees. 
+	\item Probability/ Statistics are an important focus of the science, with particularly biological science students having been found to struggle with the mathematical (largely statistical) requirements of their degrees. 
+\end{itemize}
+Both of these focus-areas require a base of content knowledge of fundamentals, things like re-arranging equations, fractions, log-laws, etc. So it makes sense to structure the content of the bridging courses in a way aligned with this thinking, in order to best meet the needs of the students enrolled in the programs.
+
+\begin{figure}
+\begin{center}
+\begin{tikzpicture}[->,>=stealth',auto,thick,main node/.style={ellipse,draw,font=\sffamily\Large\bfseries}]
+\node[main node] (a) {Fundamentals};
+\node[main node] (b) [above right = 2cm and 0cm of a] {Advanced Calculus};
+\node[main node] (c) [below right = 2cm and -1cm of a] {Probability and Statistics};
+
+\draw[->] (a) -- (b);
+\draw[->] (a) -- (c);
+\end{tikzpicture}
+\end{center}
+\caption{Ideal High-Level Content Structure for the University of Adelaide Bridging Courses \label{fig:contentStructure}}
+\end{figure}
+
+
+
 
 
 
@@ -1285,13 +1349,17 @@ With respect to the bridging courses run through the university of adelaide's ma
 	\item Broadly, a big difference in emphasis between the bridging courses and the \gls{ac}/ \gls{sace} is the emphasis the bridging courses place on sketching graphs, and explicitly exploring the connection between how transformations (translations and dilations primarily) of a graph relate to algebraic changes to functions. Although this is covered in \gls{sace} to some degree, it is largely implicit and left to reading between the lines, while it is quite explicit and fairly systematically embedded in the bridging courses. Whether this is an advantagous emphasis or not is beyond the scope of this work, but would make for interesting future research.
 \end{itemize}
 
+\begin{itemize}
+	\item Review the old MT5, and map complex number concepts to the \gls{ac} and \gls{sace}.
+\end{itemize}	
+
 
 % APPENDICES
 \cleardoublepage
 \begin{appendices}
 
 \cleardoublepage
-\chapter{Key-Concept Level Description of Topics in the \gls{ac}, \gls{sace}, MathsStart and MathsTrack}
+\chapter{Key-Concept Level Description of Topics}
 \label{app:concepts}
 
 Note, topics are identified using the code notation introduced in \reftab{notation}. The full \textbf{topic name is given in bold where applicable}, and then key concepts covered in that topic are listed.
