@@ -9,7 +9,7 @@ tags: [1-1, 1-2, 2-1, 2-2, 2-3, 3-6, 4-1, 6-3]
 As the final component of the Master of Teaching program, I wrote a research thesis. The topic of my thesis was mathematics bridging, and specificaly the focus was on mapping the Australian senior high school curricula to the content of MathsTrack, and suggesting improvements that could be made. 
 
  - Both the [compiled pdf]({{ site.baseurl }}/files/dissertation/dissertation.pdf) and [source .tex]({{ site.baseurl }}/files/dissertation/dissertation.tex) of my thesis are available.
- - Additionally, I then gave a presentations communicating the results of my research and [the slides for my presentation]({{ site.baseurl }}/files/dissertation/presentation/presentation.pdf) are also available.
+ - Additionally, I then gave a presentations communicating the results of my research and [the slides for my presentation]({{ site.baseurl }}/files/dissertation/presentation/presentation.pdf) are also available. I was also given a [certificate of acknowledgement]({{ site.baseurl }}/files/dissertation/presentation/certificate.pdf) for presenting at the Master of Teaching research conference.
  - See below for a short (not as short as I would like) abstract, as it was submitted for the conference booklet.
  
 <blockquote markdown="1">
