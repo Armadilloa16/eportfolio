@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Teaching Excellence Conference"
+title:  "UWA Teaching Excellence Conference"
 date:   2019-11-06 12:00:00 +0800
 categories: PD
 tags: 
